@@ -2,13 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="133a377c-0ac9-46a0-a4fa-535af17f98fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/hzqing/simple/AudiCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hzqing/simple/BenzCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hzqing/simple/BmwCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hzqing/simple/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hzqing/simple/CarFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hzqing/simple/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../jredis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jredis/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -22,158 +15,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/hzqing/simple/Car.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="10" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/hzqing/simple/CarFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-end-line="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/hzqing/simple/Customer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/hzqing/simple/BenzCar.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="13" />
-              <folding>
-                <element signature="e#164#165#0" expanded="true" />
-                <element signature="e#212#213#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/hzqing/simple/AudiCar.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding>
-                <element signature="e#154#155#0" expanded="true" />
-                <element signature="e#190#191#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="uml://JAVA/com.hzqing.simple.AudiCar">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement>com.hzqing.simple.AudiCar</OriginalElement>
-              <nodes>
-                <node x="115.00000000000001" y="76.0">com.hzqing.simple.BenzCar</node>
-                <node x="161.7888888888889" y="152.0">com.hzqing.simple.CarFactory</node>
-                <node x="208.7888888888889" y="228.0">com.hzqing.simple.Customer</node>
-                <node x="235.76666666666668" y="0.0">com.hzqing.simple.Car</node>
-                <node x="0.0" y="76.0">com.hzqing.simple.AudiCar</node>
-                <node x="230.0" y="76.0">com.hzqing.simple.BmwCar</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="com.hzqing.simple.CarFactory" target="com.hzqing.simple.BmwCar">
-                  <point x="14.5" y="-13.0" />
-                  <point x="234.2888888888889" y="122.0" />
-                  <point x="274.0" y="122.0" />
-                  <point x="0.0" y="13.0" />
-                </edge>
-                <edge source="com.hzqing.simple.AudiCar" target="com.hzqing.simple.Car">
-                  <point x="0.0" y="-13.0" />
-                  <point x="47.5" y="46.0" />
-                  <point x="242.46666666666667" y="46.0" />
-                  <point x="-26.80000000000001" y="13.0" />
-                </edge>
-                <edge source="com.hzqing.simple.CarFactory" target="com.hzqing.simple.AudiCar">
-                  <point x="-43.5" y="-13.0" />
-                  <point x="176.2888888888889" y="132.0" />
-                  <point x="47.5" y="132.0" />
-                  <point x="0.0" y="13.0" />
-                </edge>
-                <edge source="com.hzqing.simple.Customer" target="com.hzqing.simple.CarFactory">
-                  <point x="-25.5" y="-13.0" />
-                  <point x="234.2888888888889" y="203.0" />
-                  <point x="219.7888888888889" y="203.0" />
-                  <point x="0.0" y="13.0" />
-                </edge>
-                <edge source="com.hzqing.simple.CarFactory" target="com.hzqing.simple.Car">
-                  <point x="43.5" y="-13.0" />
-                  <point x="263.2888888888889" y="132.0" />
-                  <point x="328.5" y="132.0" />
-                  <point x="328.5" y="56.0" />
-                  <point x="282.66666666666663" y="56.0" />
-                  <point x="13.399999999999974" y="13.0" />
-                </edge>
-                <edge source="com.hzqing.simple.Customer" target="com.hzqing.simple.Car">
-                  <point x="25.5" y="-13.0" />
-                  <point x="285.2888888888889" y="203.0" />
-                  <point x="344.90000000000003" y="203.0" />
-                  <point x="344.90000000000003" y="46.0" />
-                  <point x="296.0666666666667" y="46.0" />
-                  <point x="26.800000000000008" y="13.0" />
-                </edge>
-                <edge source="com.hzqing.simple.BenzCar" target="com.hzqing.simple.Car">
-                  <point x="0.0" y="-13.0" />
-                  <point x="162.5" y="56.0" />
-                  <point x="255.86666666666667" y="56.0" />
-                  <point x="-13.400000000000006" y="13.0" />
-                </edge>
-                <edge source="com.hzqing.simple.BmwCar" target="com.hzqing.simple.Car">
-                  <point x="0.0" y="-13.0" />
-                  <point x="274.0" y="56.0" />
-                  <point x="269.2666666666667" y="56.0" />
-                  <point x="0.0" y="13.0" />
-                </edge>
-                <edge source="com.hzqing.simple.CarFactory" target="com.hzqing.simple.BenzCar">
-                  <point x="-14.5" y="-13.0" />
-                  <point x="205.2888888888889" y="122.0" />
-                  <point x="162.5" y="122.0" />
-                  <point x="0.0" y="13.0" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="1.4000000000000004" x="159.0000000000001" y="138.57142857142853" />
-              <SelectedNodes />
-              <Categories />
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/hzqing/simple/BmwCar.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="13" />
-              <folding>
-                <element signature="e#153#154#0" expanded="true" />
-                <element signature="e#189#190#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -306,16 +148,15 @@
       <option name="presentableId" value="Default" />
       <updated>1561704980101</updated>
       <workItem from="1561705475575" duration="2126000" />
-      <workItem from="1561769315998" duration="3319000" />
+      <workItem from="1561769315998" duration="3646000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5445000" />
+    <option name="totallyTimeSpent" value="5772000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="0" width="1920" height="1080" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22044729" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -327,13 +168,13 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32970297" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32970297" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.37326732" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.37326732" />
       <window_info anchor="bottom" id="Docker" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="SonarLint" order="11" />
@@ -523,75 +364,16 @@
           <ID>JAVA</ID>
           <OriginalElement>com.hzqing.simple.AudiCar</OriginalElement>
           <nodes>
-            <node x="115.00000000000001" y="76.0">com.hzqing.simple.BenzCar</node>
-            <node x="161.7888888888889" y="152.0">com.hzqing.simple.CarFactory</node>
-            <node x="208.7888888888889" y="228.0">com.hzqing.simple.Customer</node>
-            <node x="235.76666666666668" y="0.0">com.hzqing.simple.Car</node>
-            <node x="0.0" y="76.0">com.hzqing.simple.AudiCar</node>
-            <node x="230.0" y="76.0">com.hzqing.simple.BmwCar</node>
+            <node x="" y="">com.hzqing.simple.BenzCar</node>
+            <node x="" y="">com.hzqing.simple.CarFactory</node>
+            <node x="" y="">com.hzqing.simple.Customer</node>
+            <node x="" y="">com.hzqing.simple.Car</node>
+            <node x="" y="">com.hzqing.simple.AudiCar</node>
+            <node x="" y="">com.hzqing.simple.BmwCar</node>
           </nodes>
           <notes />
-          <edges>
-            <edge source="com.hzqing.simple.CarFactory" target="com.hzqing.simple.BmwCar">
-              <point x="14.5" y="-13.0" />
-              <point x="234.2888888888889" y="122.0" />
-              <point x="274.0" y="122.0" />
-              <point x="0.0" y="13.0" />
-            </edge>
-            <edge source="com.hzqing.simple.AudiCar" target="com.hzqing.simple.Car">
-              <point x="0.0" y="-13.0" />
-              <point x="47.5" y="46.0" />
-              <point x="242.46666666666667" y="46.0" />
-              <point x="-26.80000000000001" y="13.0" />
-            </edge>
-            <edge source="com.hzqing.simple.CarFactory" target="com.hzqing.simple.AudiCar">
-              <point x="-43.5" y="-13.0" />
-              <point x="176.2888888888889" y="132.0" />
-              <point x="47.5" y="132.0" />
-              <point x="0.0" y="13.0" />
-            </edge>
-            <edge source="com.hzqing.simple.Customer" target="com.hzqing.simple.CarFactory">
-              <point x="-25.5" y="-13.0" />
-              <point x="234.2888888888889" y="203.0" />
-              <point x="219.7888888888889" y="203.0" />
-              <point x="0.0" y="13.0" />
-            </edge>
-            <edge source="com.hzqing.simple.CarFactory" target="com.hzqing.simple.Car">
-              <point x="43.5" y="-13.0" />
-              <point x="263.2888888888889" y="132.0" />
-              <point x="328.5" y="132.0" />
-              <point x="328.5" y="56.0" />
-              <point x="282.66666666666663" y="56.0" />
-              <point x="13.399999999999974" y="13.0" />
-            </edge>
-            <edge source="com.hzqing.simple.Customer" target="com.hzqing.simple.Car">
-              <point x="25.5" y="-13.0" />
-              <point x="285.2888888888889" y="203.0" />
-              <point x="344.90000000000003" y="203.0" />
-              <point x="344.90000000000003" y="46.0" />
-              <point x="296.0666666666667" y="46.0" />
-              <point x="26.800000000000008" y="13.0" />
-            </edge>
-            <edge source="com.hzqing.simple.BenzCar" target="com.hzqing.simple.Car">
-              <point x="0.0" y="-13.0" />
-              <point x="162.5" y="56.0" />
-              <point x="255.86666666666667" y="56.0" />
-              <point x="-13.400000000000006" y="13.0" />
-            </edge>
-            <edge source="com.hzqing.simple.BmwCar" target="com.hzqing.simple.Car">
-              <point x="0.0" y="-13.0" />
-              <point x="274.0" y="56.0" />
-              <point x="269.2666666666667" y="56.0" />
-              <point x="0.0" y="13.0" />
-            </edge>
-            <edge source="com.hzqing.simple.CarFactory" target="com.hzqing.simple.BenzCar">
-              <point x="-14.5" y="-13.0" />
-              <point x="205.2888888888889" y="122.0" />
-              <point x="162.5" y="122.0" />
-              <point x="0.0" y="13.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.4000000000000004" x="159.0000000000001" y="138.57142857142853" />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.4000000000000004" x="-192.42857142857127" y="86.42857142857139" />
           <SelectedNodes />
           <Categories />
           <SCOPE>All</SCOPE>
