@@ -2,29 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="133a377c-0ac9-46a0-a4fa-535af17f98fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/log4j_to_slf4j_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hzqing/factorymethod/AudiCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hzqing/factorymethod/AudiCarFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hzqing/factorymethod/BenzCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hzqing/factorymethod/BenzCarFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hzqing/factorymethod/BmwCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hzqing/factorymethod/BmwCarFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hzqing/factorymethod/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hzqing/factorymethod/CarFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hzqing/factorymethod/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hzqing/abastractfactory/AppleFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hzqing/abastractfactory/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hzqing/abastractfactory/DesktopComputer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hzqing/abastractfactory/ElFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hzqing/abastractfactory/IMac.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hzqing/abastractfactory/Iphone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hzqing/abastractfactory/Mac.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hzqing/abastractfactory/NoteBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hzqing/abastractfactory/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hzqing/abastractfactory/ThinkCentre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hzqing/abastractfactory/ThinkFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hzqing/abastractfactory/ThinkPad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hzqing/abastractfactory/Vivo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hzqing/abastractfactory/VivoFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-patterns.iml" beforeDir="false" afterPath="$PROJECT_DIR$/design-patterns.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/simple/AudiCar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/simple/BmwCar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/simple/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/simple/CarFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/simple/Customer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hzqing/simple/AudiCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/simplefactory/AudiCar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hzqing/simple/BenzCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/simplefactory/BenzCar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hzqing/simple/BmwCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/simplefactory/BmwCar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hzqing/simple/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/simplefactory/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hzqing/simple/CarFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/simplefactory/CarFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hzqing/simple/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/simplefactory/Customer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,249 +31,131 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/hzqing/factorymethod/Car.java">
+        <entry file="file://$PROJECT_DIR$/src/com/hzqing/abastractfactory/IMac.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="11" selection-end-column="1" />
+              <folding>
+                <element signature="e#150#151#0" expanded="true" />
+                <element signature="e#197#198#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/hzqing/abastractfactory/NoteBook.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/hzqing/abastractfactory/ThinkPad.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="15" />
+              <folding>
+                <element signature="e#196#197#0" expanded="true" />
+                <element signature="e#248#249#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/hzqing/abastractfactory/Mac.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="15" />
+              <folding>
+                <element signature="e#191#192#0" expanded="true" />
+                <element signature="e#241#242#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/hzqing/abastractfactory/ThinkCentre.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="15" />
+              <folding>
+                <element signature="e#209#210#0" expanded="true" />
+                <element signature="e#263#264#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/hzqing/abastractfactory/ElFactory.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="13" />
+              <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/hzqing/abastractfactory/ThinkFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+              <folding>
+                <element signature="e#230#231#0" expanded="true" />
+                <element signature="e#267#268#0" expanded="true" />
+                <element signature="e#388#389#0" expanded="true" />
+                <element signature="e#429#430#0" expanded="true" />
+                <element signature="e#522#523#0" expanded="true" />
+                <element signature="e#573#574#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/hzqing/abastractfactory/VivoFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="35" />
+              <folding>
+                <element signature="e#241#242#0" expanded="true" />
+                <element signature="e#293#294#0" expanded="true" />
+                <element signature="e#400#401#0" expanded="true" />
+                <element signature="e#452#453#0" expanded="true" />
+                <element signature="e#546#547#0" expanded="true" />
+                <element signature="e#579#580#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/hzqing/abastractfactory/AppleFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="36" />
+              <folding>
+                <element signature="e#240#241#0" expanded="true" />
+                <element signature="e#272#273#0" expanded="true" />
+                <element signature="e#378#379#0" expanded="true" />
+                <element signature="e#411#412#0" expanded="true" />
+                <element signature="e#460#461#0" expanded="true" />
+                <element signature="e#495#496#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/hzqing/factorymethod/BmwCar.java">
+        <entry file="file://$PROJECT_DIR$/src/com/hzqing/abastractfactory/Customer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-              <folding>
-                <element signature="e#159#160#0" expanded="true" />
-                <element signature="e#195#196#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/hzqing/factorymethod/AudiCar.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="12" />
-              <folding>
-                <element signature="e#161#162#0" expanded="true" />
-                <element signature="e#197#198#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="uml://JAVA/com.hzqing.factorymethod.AudiCar">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement>com.hzqing.factorymethod.AudiCar</OriginalElement>
-              <nodes>
-                <node x="25.583333333333258" y="172.0">com.hzqing.factorymethod.BmwCarFactory</node>
-                <node x="291.35138888888883" y="248.0">com.hzqing.factorymethod.Customer</node>
-                <node x="260.33333333333326" y="0.0">com.hzqing.factorymethod.Car</node>
-                <node x="0.0" y="96.0">com.hzqing.factorymethod.BmwCar</node>
-                <node x="137.61138888888883" y="96.0">com.hzqing.factorymethod.AudiCar</node>
-                <node x="270.0613888888888" y="96.0">com.hzqing.factorymethod.CarFactory</node>
-                <node x="386.5613888888888" y="172.0">com.hzqing.factorymethod.BenzCarFactory</node>
-                <node x="406.0613888888888" y="96.0">com.hzqing.factorymethod.BenzCar</node>
-                <node x="182.58333333333326" y="172.0">com.hzqing.factorymethod.AudiCarFactory</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="com.hzqing.factorymethod.Customer" target="com.hzqing.factorymethod.BenzCarFactory">
-                  <point x="20.399999999999977" y="-13.0" />
-                  <point x="362.7513888888888" y="218.0" />
-                  <point x="458.5613888888888" y="218.0" />
-                  <point x="0.0" y="13.0" />
-                </edge>
-                <edge source="com.hzqing.factorymethod.AudiCarFactory" target="com.hzqing.factorymethod.AudiCar">
-                  <point x="-48.0" y="-13.0" />
-                  <point x="206.58333333333326" y="142.0" />
-                  <point x="185.11138888888883" y="142.0" />
-                  <point x="0.0" y="13.0" />
-                </edge>
-                <edge source="com.hzqing.factorymethod.BenzCarFactory" target="com.hzqing.factorymethod.Car">
-                  <point x="48.0" y="-13.0" />
-                  <point x="506.5613888888888" y="152.0" />
-                  <point x="519.4138888888888" y="152.0" />
-                  <point x="519.4138888888888" y="56.0" />
-                  <point x="314.77083333333326" y="56.0" />
-                  <point x="20.9375" y="13.0" />
-                </edge>
-                <edge source="com.hzqing.factorymethod.BmwCarFactory" target="com.hzqing.factorymethod.Car">
-                  <point x="5.6843418860808015E-14" y="-13.0" />
-                  <point x="94.08333333333331" y="152.0" />
-                  <point x="98.5" y="152.0" />
-                  <point x="98.5" y="56.0" />
-                  <point x="272.89583333333326" y="56.0" />
-                  <point x="-20.9375" y="13.0" />
-                </edge>
-                <edge source="com.hzqing.factorymethod.BmwCarFactory" target="com.hzqing.factorymethod.BmwCar">
-                  <point x="-45.66666666666657" y="-13.0" />
-                  <point x="48.416666666666686" y="152.0" />
-                  <point x="44.0" y="152.0" />
-                  <point x="0.0" y="13.0" />
-                </edge>
-                <edge source="com.hzqing.factorymethod.AudiCarFactory" target="com.hzqing.factorymethod.CarFactory">
-                  <point x="48.0" y="-13.0" />
-                  <point x="302.58333333333326" y="152.0" />
-                  <point x="313.5613888888888" y="152.0" />
-                  <point x="-14.5" y="13.0" />
-                </edge>
-                <edge source="com.hzqing.factorymethod.Customer" target="com.hzqing.factorymethod.AudiCarFactory">
-                  <point x="-20.399999999999977" y="-13.0" />
-                  <point x="321.95138888888886" y="218.0" />
-                  <point x="254.58333333333326" y="218.0" />
-                  <point x="0.0" y="13.0" />
-                </edge>
-                <edge source="com.hzqing.factorymethod.BenzCarFactory" target="com.hzqing.factorymethod.CarFactory">
-                  <point x="-48.0" y="-13.0" />
-                  <point x="410.5613888888888" y="152.0" />
-                  <point x="371.5613888888888" y="152.0" />
-                  <point x="43.5" y="13.0" />
-                </edge>
-                <edge source="com.hzqing.factorymethod.BenzCar" target="com.hzqing.factorymethod.Car">
-                  <point x="0.0" y="-13.0" />
-                  <point x="453.5613888888888" y="66.0" />
-                  <point x="306.39583333333326" y="66.0" />
-                  <point x="12.5625" y="13.0" />
-                </edge>
-                <edge source="com.hzqing.factorymethod.BmwCar" target="com.hzqing.factorymethod.Car">
-                  <point x="0.0" y="-13.0" />
-                  <point x="44.0" y="46.0" />
-                  <point x="264.52083333333326" y="46.0" />
-                  <point x="-29.3125" y="13.0" />
-                </edge>
-                <edge source="com.hzqing.factorymethod.Customer" target="com.hzqing.factorymethod.Car">
-                  <point x="40.80000000000001" y="-13.0" />
-                  <point x="383.15138888888885" y="228.0" />
-                  <point x="541.0613888888888" y="228.0" />
-                  <point x="541.0613888888888" y="46.0" />
-                  <point x="323.14583333333326" y="46.0" />
-                  <point x="29.3125" y="13.0" />
-                </edge>
-                <edge source="com.hzqing.factorymethod.CarFactory" target="com.hzqing.factorymethod.Car">
-                  <point x="0.0" y="-13.0" />
-                  <point x="328.0613888888888" y="76.0" />
-                  <point x="298.02083333333326" y="76.0" />
-                  <point x="4.1875" y="13.0" />
-                </edge>
-                <edge source="com.hzqing.factorymethod.Customer" target="com.hzqing.factorymethod.CarFactory">
-                  <point x="0.0" y="-13.0" />
-                  <point x="14.5" y="13.0" />
-                </edge>
-                <edge source="com.hzqing.factorymethod.BmwCarFactory" target="com.hzqing.factorymethod.CarFactory">
-                  <point x="45.66666666666674" y="-13.0" />
-                  <point x="139.75" y="152.0" />
-                  <point x="284.5613888888888" y="152.0" />
-                  <point x="-43.5" y="13.0" />
-                </edge>
-                <edge source="com.hzqing.factorymethod.Customer" target="com.hzqing.factorymethod.BmwCarFactory">
-                  <point x="-40.80000000000001" y="-13.0" />
-                  <point x="301.5513888888888" y="228.0" />
-                  <point x="94.08333333333326" y="228.0" />
-                  <point x="0.0" y="13.0" />
-                </edge>
-                <edge source="com.hzqing.factorymethod.AudiCarFactory" target="com.hzqing.factorymethod.Car">
-                  <point x="0.0" y="-13.0" />
-                  <point x="254.58333333333326" y="142.0" />
-                  <point x="259.5613888888888" y="142.0" />
-                  <point x="259.5613888888888" y="76.0" />
-                  <point x="289.64583333333326" y="76.0" />
-                  <point x="-4.1875" y="13.0" />
-                </edge>
-                <edge source="com.hzqing.factorymethod.AudiCar" target="com.hzqing.factorymethod.Car">
-                  <point x="0.0" y="-13.0" />
-                  <point x="185.11138888888883" y="66.0" />
-                  <point x="281.27083333333326" y="66.0" />
-                  <point x="-12.5625" y="13.0" />
-                </edge>
-                <edge source="com.hzqing.factorymethod.BenzCarFactory" target="com.hzqing.factorymethod.BenzCar">
-                  <point x="0.0" y="-13.0" />
-                  <point x="458.5613888888888" y="152.0" />
-                  <point x="453.5613888888888" y="152.0" />
-                  <point x="0.0" y="13.0" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="1.0" x="-257.5" y="51.5" />
-              <SelectedNodes />
-              <Categories />
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/hzqing/factorymethod/CarFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/hzqing/factorymethod/AudiCarFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="17" />
-              <folding>
-                <element signature="e#231#232#0" expanded="true" />
-                <element signature="e#267#268#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/hzqing/factorymethod/BmwCarFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="16" selection-end-column="1" />
-              <folding>
-                <element signature="e#231#232#0" expanded="true" />
-                <element signature="e#266#267#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/hzqing/factorymethod/Customer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/hzqing/factorymethod/BenzCar.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="13" />
-              <folding>
-                <element signature="e#161#162#0" expanded="true" />
-                <element signature="e#197#198#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/hzqing/factorymethod/BenzCarFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="17" />
-              <folding>
-                <element signature="e#221#222#0" expanded="true" />
-                <element signature="e#257#258#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="270">
+              <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -329,6 +203,20 @@
         <option value="$PROJECT_DIR$/src/com/hzqing/factorymethod/BenzCar.java" />
         <option value="$PROJECT_DIR$/src/com/hzqing/factorymethod/BenzCarFactory.java" />
         <option value="$PROJECT_DIR$/src/com/hzqing/factorymethod/Customer.java" />
+        <option value="$PROJECT_DIR$/src/com/hzqing/abastractfactory/Phone.java" />
+        <option value="$PROJECT_DIR$/src/com/hzqing/abastractfactory/Iphone.java" />
+        <option value="$PROJECT_DIR$/src/com/hzqing/abastractfactory/Vivo.java" />
+        <option value="$PROJECT_DIR$/src/com/hzqing/abastractfactory/DesktopComputer.java" />
+        <option value="$PROJECT_DIR$/src/com/hzqing/abastractfactory/ThinkCentre.java" />
+        <option value="$PROJECT_DIR$/src/com/hzqing/abastractfactory/IMac.java" />
+        <option value="$PROJECT_DIR$/src/com/hzqing/abastractfactory/NoteBook.java" />
+        <option value="$PROJECT_DIR$/src/com/hzqing/abastractfactory/ThinkPad.java" />
+        <option value="$PROJECT_DIR$/src/com/hzqing/abastractfactory/Mac.java" />
+        <option value="$PROJECT_DIR$/src/com/hzqing/abastractfactory/ElFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/hzqing/abastractfactory/ThinkFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/hzqing/abastractfactory/VivoFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/hzqing/abastractfactory/AppleFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/hzqing/abastractfactory/Customer.java" />
       </list>
     </option>
   </component>
@@ -368,14 +256,14 @@
               <item name="design-patterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="hzqing" type="462c0819:PsiDirectoryNode" />
-              <item name="factorymethod" type="462c0819:PsiDirectoryNode" />
+              <item name="abastractfactory" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="design-patterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="design-patterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="hzqing" type="462c0819:PsiDirectoryNode" />
-              <item name="simplefactory" type="462c0819:PsiDirectoryNode" />
+              <item name="factorymethod" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="design-patterns" type="b2602c69:ProjectViewProjectNode" />
@@ -424,13 +312,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Customer (1)">
+  <component name="RunManager" selected="Application.Customer (2)">
     <configuration name="Customer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hzqing.factorymethod.Customer" />
       <module name="design-patterns" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.hzqing.factorymethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Customer (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hzqing.abastractfactory.Customer" />
+      <module name="design-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hzqing.abastractfactory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -463,6 +364,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Customer (2)" />
         <item itemvalue="Application.Customer (1)" />
         <item itemvalue="Application.Customer" />
       </list>
@@ -480,18 +382,18 @@
       <updated>1561704980101</updated>
       <workItem from="1561705475575" duration="2126000" />
       <workItem from="1561769315998" duration="3646000" />
-      <workItem from="1561852593676" duration="5046000" />
+      <workItem from="1561852593676" duration="7788000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10818000" />
+    <option name="totallyTimeSpent" value="13560000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22257721" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22257721" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -500,7 +402,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32970297" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32970297" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -515,7 +417,7 @@
       <window_info anchor="bottom" id="Messages" order="14" weight="0.32970297" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24973376" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24973376" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.24973376" />
       <window_info anchor="right" id="Maven" order="3" />
       <window_info anchor="right" id="PlantUML" order="4" weight="0.32960597" />
       <window_info anchor="right" id="Palette" order="5" />
@@ -547,31 +449,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/singleton/Singleton3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/singleton/Singleton4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-          <folding>
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#442#443#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/singleton/Singleton2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/hzqing/singleton/Singleton1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1177,7 +1054,9 @@
             </edge>
           </edges>
           <settings layout="Hierarchic Group" zoom="1.0" x="-257.5" y="51.5" />
-          <SelectedNodes />
+          <SelectedNodes>
+            <node>com.hzqing.factorymethod.AudiCar</node>
+          </SelectedNodes>
           <Categories />
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
@@ -1186,12 +1065,365 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/hzqing/factorymethod/BmwCar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="e#159#160#0" expanded="true" />
             <element signature="e#195#196#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.hzqing.abastractfactory.AppleFactory">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.hzqing.abastractfactory.AppleFactory</OriginalElement>
+          <nodes>
+            <node x="0.0" y="126.0">com.hzqing.abastractfactory.ThinkCentre</node>
+            <node x="710.0275974025975" y="126.0">com.hzqing.abastractfactory.Iphone</node>
+            <node x="238.9640692640693" y="302.0">com.hzqing.abastractfactory.ThinkFactory</node>
+            <node x="470.95930735930733" y="0.0">com.hzqing.abastractfactory.NoteBook</node>
+            <node x="283.7140692640693" y="126.0">com.hzqing.abastractfactory.ThinkPad</node>
+            <node x="177.71406926406928" y="126.0">com.hzqing.abastractfactory.IMac</node>
+            <node x="405.7140692640693" y="126.0">com.hzqing.abastractfactory.ElFactory</node>
+            <node x="610.2140692640693" y="302.0">com.hzqing.abastractfactory.VivoFactory</node>
+            <node x="694.2331168831168" y="0.0">com.hzqing.abastractfactory.Phone</node>
+            <node x="818.0275974025975" y="126.0">com.hzqing.abastractfactory.Vivo</node>
+            <node x="115.08333333333337" y="0.0">com.hzqing.abastractfactory.DesktopComputer</node>
+            <node x="564.9640692640693" y="126.0">com.hzqing.abastractfactory.Mac</node>
+            <node x="460.2140692640693" y="302.0">com.hzqing.abastractfactory.AppleFactory</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.hzqing.abastractfactory.ThinkCentre" target="com.hzqing.abastractfactory.DesktopComputer">
+              <point x="0.0" y="-13.0" />
+              <point x="61.5" y="106.0" />
+              <point x="127.66666666666669" y="106.0" />
+              <point x="-62.916666666666686" y="13.0" />
+            </edge>
+            <edge source="com.hzqing.abastractfactory.ThinkFactory" target="com.hzqing.abastractfactory.ThinkPad">
+              <point x="10.833333333333314" y="-13.0" />
+              <point x="314.79740259740265" y="222.0" />
+              <point x="334.7140692640693" y="222.0" />
+              <point x="0.0" y="13.0" />
+            </edge>
+            <edge source="com.hzqing.abastractfactory.ThinkFactory" target="com.hzqing.abastractfactory.NoteBook">
+              <point x="-10.833333333333314" y="-13.0" />
+              <point x="293.130735930736" y="262.0" />
+              <point x="273.2140692640693" y="262.0" />
+              <point x="273.2140692640693" y="56.0" />
+              <point x="479.45930735930733" y="56.0" />
+              <point x="-42.5" y="13.0" />
+            </edge>
+            <edge source="com.hzqing.abastractfactory.AppleFactory" target="com.hzqing.abastractfactory.NoteBook">
+              <point x="5.6843418860808015E-14" y="-13.0" />
+              <point x="525.2140692640693" y="76.0" />
+              <point x="530.4593073593073" y="76.0" />
+              <point x="8.5" y="13.0" />
+            </edge>
+            <edge source="com.hzqing.abastractfactory.ThinkFactory" target="com.hzqing.abastractfactory.ElFactory">
+              <point x="32.5" y="-13.0" />
+              <point x="336.4640692640693" y="232.0" />
+              <point x="423.880735930736" y="232.0" />
+              <point x="-36.333333333333314" y="13.0" />
+            </edge>
+            <edge source="com.hzqing.abastractfactory.VivoFactory" target="com.hzqing.abastractfactory.NoteBook">
+              <point x="0.0" y="-13.0" />
+              <point x="671.7140692640693" y="66.0" />
+              <point x="564.4593073593073" y="66.0" />
+              <point x="42.5" y="13.0" />
+            </edge>
+            <edge source="com.hzqing.abastractfactory.ElFactory" target="com.hzqing.abastractfactory.DesktopComputer">
+              <point x="-36.333333333333314" y="-13.0" />
+              <point x="423.880735930736" y="46.0" />
+              <point x="253.5000000000001" y="46.0" />
+              <point x="62.91666666666674" y="13.0" />
+            </edge>
+            <edge source="com.hzqing.abastractfactory.Vivo" target="com.hzqing.abastractfactory.Phone">
+              <point x="0.0" y="-13.0" />
+              <point x="855.0275974025975" y="96.0" />
+              <point x="754.9831168831168" y="96.0" />
+              <point x="20.25" y="13.0" />
+            </edge>
+            <edge source="com.hzqing.abastractfactory.ElFactory" target="com.hzqing.abastractfactory.Phone">
+              <point x="36.33333333333343" y="-13.0" />
+              <point x="496.54740259740277" y="86.0" />
+              <point x="700.9831168831168" y="86.0" />
+              <point x="-33.75" y="13.0" />
+            </edge>
+            <edge source="com.hzqing.abastractfactory.VivoFactory" target="com.hzqing.abastractfactory.Vivo">
+              <point x="24.600000000000023" y="-13.0" />
+              <point x="696.3140692640693" y="272.0" />
+              <point x="855.0275974025975" y="272.0" />
+              <point x="0.0" y="13.0" />
+            </edge>
+            <edge source="com.hzqing.abastractfactory.AppleFactory" target="com.hzqing.abastractfactory.IMac">
+              <point x="-37.14285714285705" y="-13.0" />
+              <point x="488.07121212121217" y="202.0" />
+              <point x="214.71406926406928" y="202.0" />
+              <point x="0.0" y="13.0" />
+            </edge>
+            <edge source="com.hzqing.abastractfactory.Iphone" target="com.hzqing.abastractfactory.Phone">
+              <point x="0.0" y="-13.0" />
+              <point x="754.0275974025975" y="106.0" />
+              <point x="741.4831168831168" y="106.0" />
+              <point x="6.75" y="13.0" />
+            </edge>
+            <edge source="com.hzqing.abastractfactory.ThinkFactory" target="com.hzqing.abastractfactory.ThinkCentre">
+              <point x="-54.166666666666686" y="-13.0" />
+              <point x="249.79740259740262" y="282.0" />
+              <point x="61.5" y="282.0" />
+              <point x="0.0" y="13.0" />
+            </edge>
+            <edge source="com.hzqing.abastractfactory.AppleFactory" target="com.hzqing.abastractfactory.Iphone">
+              <point x="55.714285714285836" y="-13.0" />
+              <point x="580.9283549783551" y="262.0" />
+              <point x="754.0275974025975" y="262.0" />
+              <point x="0.0" y="13.0" />
+            </edge>
+            <edge source="com.hzqing.abastractfactory.AppleFactory" target="com.hzqing.abastractfactory.Phone">
+              <point x="37.14285714285717" y="-13.0" />
+              <point x="562.3569264069264" y="252.0" />
+              <point x="699.5275974025975" y="252.0" />
+              <point x="699.5275974025975" y="106.0" />
+              <point x="727.9831168831168" y="106.0" />
+              <point x="-6.75" y="13.0" />
+            </edge>
+            <edge source="com.hzqing.abastractfactory.AppleFactory" target="com.hzqing.abastractfactory.DesktopComputer">
+              <point x="-55.714285714285666" y="-13.0" />
+              <point x="469.4997835497836" y="212.0" />
+              <point x="167.21406926406928" y="212.0" />
+              <point x="167.21406926406928" y="106.0" />
+              <point x="178.00000000000006" y="106.0" />
+              <point x="-12.583333333333314" y="13.0" />
+            </edge>
+            <edge source="com.hzqing.abastractfactory.AppleFactory" target="com.hzqing.abastractfactory.Mac">
+              <point x="18.571428571428612" y="-13.0" />
+              <point x="543.7854978354978" y="232.0" />
+              <point x="598.4640692640693" y="232.0" />
+              <point x="0.0" y="13.0" />
+            </edge>
+            <edge source="com.hzqing.abastractfactory.IMac" target="com.hzqing.abastractfactory.DesktopComputer">
+              <point x="0.0" y="-13.0" />
+              <point x="214.71406926406928" y="106.0" />
+              <point x="203.16666666666674" y="106.0" />
+              <point x="12.583333333333371" y="13.0" />
+            </edge>
+            <edge source="com.hzqing.abastractfactory.Mac" target="com.hzqing.abastractfactory.NoteBook">
+              <point x="0.0" y="-13.0" />
+              <point x="598.4640692640693" y="76.0" />
+              <point x="547.4593073593073" y="76.0" />
+              <point x="25.5" y="13.0" />
+            </edge>
+            <edge source="com.hzqing.abastractfactory.ElFactory" target="com.hzqing.abastractfactory.NoteBook">
+              <point x="5.6843418860808015E-14" y="-13.0" />
+              <point x="460.2140692640694" y="76.0" />
+              <point x="513.4593073593073" y="76.0" />
+              <point x="-8.5" y="13.0" />
+            </edge>
+            <edge source="com.hzqing.abastractfactory.VivoFactory" target="com.hzqing.abastractfactory.ElFactory">
+              <point x="-24.600000000000023" y="-13.0" />
+              <point x="647.1140692640693" y="172.0" />
+              <point x="496.54740259740265" y="172.0" />
+              <point x="36.333333333333314" y="13.0" />
+            </edge>
+            <edge source="com.hzqing.abastractfactory.ThinkFactory" target="com.hzqing.abastractfactory.Phone">
+              <point x="54.166666666666686" y="-13.0" />
+              <point x="358.130735930736" y="242.0" />
+              <point x="682.7140692640693" y="242.0" />
+              <point x="682.7140692640693" y="96.0" />
+              <point x="714.4831168831168" y="96.0" />
+              <point x="-20.25" y="13.0" />
+            </edge>
+            <edge source="com.hzqing.abastractfactory.AppleFactory" target="com.hzqing.abastractfactory.ElFactory">
+              <point x="-18.5714285714285" y="-13.0" />
+              <point x="506.6426406926407" y="192.0" />
+              <point x="460.2140692640693" y="192.0" />
+              <point x="0.0" y="13.0" />
+            </edge>
+            <edge source="com.hzqing.abastractfactory.ThinkFactory" target="com.hzqing.abastractfactory.DesktopComputer">
+              <point x="-32.5" y="-13.0" />
+              <point x="271.4640692640693" y="272.0" />
+              <point x="133.5" y="272.0" />
+              <point x="133.5" y="106.0" />
+              <point x="152.83333333333337" y="106.0" />
+              <point x="-37.75" y="13.0" />
+            </edge>
+            <edge source="com.hzqing.abastractfactory.VivoFactory" target="com.hzqing.abastractfactory.Phone">
+              <point x="49.200000000000045" y="-13.0" />
+              <point x="720.9140692640693" y="282.0" />
+              <point x="902.5275974025975" y="282.0" />
+              <point x="902.5275974025975" y="86.0" />
+              <point x="768.4831168831168" y="86.0" />
+              <point x="33.74999999999997" y="13.0" />
+            </edge>
+            <edge source="com.hzqing.abastractfactory.VivoFactory" target="com.hzqing.abastractfactory.DesktopComputer">
+              <point x="-49.200000000000045" y="-13.0" />
+              <point x="622.5140692640692" y="182.0" />
+              <point x="262.2140692640693" y="182.0" />
+              <point x="262.2140692640693" y="106.0" />
+              <point x="228.33333333333337" y="106.0" />
+              <point x="37.75" y="13.0" />
+            </edge>
+            <edge source="com.hzqing.abastractfactory.ThinkPad" target="com.hzqing.abastractfactory.NoteBook">
+              <point x="0.0" y="-13.0" />
+              <point x="334.7140692640693" y="66.0" />
+              <point x="496.45930735930733" y="66.0" />
+              <point x="-25.5" y="13.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-278.5" y="126.5" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/abastractfactory/Phone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/abastractfactory/Iphone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="16" />
+          <folding>
+            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/abastractfactory/Vivo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="15" />
+          <folding>
+            <element signature="e#195#196#0" expanded="true" />
+            <element signature="e#244#245#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/abastractfactory/DesktopComputer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/abastractfactory/ThinkCentre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="15" />
+          <folding>
+            <element signature="e#209#210#0" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/abastractfactory/IMac.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <element signature="e#150#151#0" expanded="true" />
+            <element signature="e#197#198#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/abastractfactory/NoteBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/abastractfactory/ThinkPad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="15" />
+          <folding>
+            <element signature="e#196#197#0" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/abastractfactory/Mac.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="15" />
+          <folding>
+            <element signature="e#191#192#0" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/abastractfactory/ElFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/abastractfactory/ThinkFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+          <folding>
+            <element signature="e#230#231#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#573#574#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/abastractfactory/VivoFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="35" />
+          <folding>
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#452#453#0" expanded="true" />
+            <element signature="e#546#547#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/abastractfactory/AppleFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="36" />
+          <folding>
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#495#496#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/abastractfactory/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
         </state>
       </provider>
     </entry>
