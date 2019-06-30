@@ -1,4 +1,4 @@
-package com.hzqing.simple;
+package com.hzqing.simplefactory;
 
 /**
  * 生产宝马车的类

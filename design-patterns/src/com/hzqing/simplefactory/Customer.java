@@ -1,4 +1,4 @@
-package com.hzqing.simple;
+package com.hzqing.simplefactory;
 
 /**
  * 客户类

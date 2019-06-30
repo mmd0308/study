@@ -1,4 +1,4 @@
-package com.hzqing.simple;
+package com.hzqing.simplefactory;
 
 /**
  * 生产汽车的工厂

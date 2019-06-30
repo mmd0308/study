@@ -1,4 +1,4 @@
-package com.hzqing.simple;
+package com.hzqing.simplefactory;
 
 /**
  * 奥迪汽车生产
