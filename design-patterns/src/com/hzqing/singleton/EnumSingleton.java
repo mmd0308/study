@@ -9,7 +9,6 @@ package com.hzqing.singleton;
  * @author hzqing
  * @date 2019-06-28 15:24
  */
-public enum  Singleton5 {
-
+public enum EnumSingleton {
     INSTANCT;
 }

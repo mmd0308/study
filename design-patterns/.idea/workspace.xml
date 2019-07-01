@@ -2,21 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="133a377c-0ac9-46a0-a4fa-535af17f98fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/hzqing/abastractfactory/AppleFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hzqing/abastractfactory/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hzqing/abastractfactory/DesktopComputer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hzqing/abastractfactory/ElFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hzqing/abastractfactory/IMac.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hzqing/abastractfactory/Iphone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hzqing/abastractfactory/Mac.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hzqing/abastractfactory/NoteBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hzqing/abastractfactory/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hzqing/abastractfactory/ThinkCentre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hzqing/abastractfactory/ThinkFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hzqing/abastractfactory/ThinkPad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hzqing/abastractfactory/Vivo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hzqing/abastractfactory/VivoFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hzqing/singleton/ContainerSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hzqing/singleton/ContainerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hzqing/singleton/DoubleCheckTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hzqing/singleton/EnumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hzqing/singleton/HungryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hzqing/singleton/LazyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hzqing/singleton/StaticInnerClassTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hzqing/singleton/ThreadLocalSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hzqing/singleton/ThreadLocalTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/abastractfactory/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/abastractfactory/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/singleton/Singleton1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/singleton/Singleton2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/singleton/Singleton3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/singleton/Singleton4$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/singleton/Singleton4$innerClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/singleton/Singleton4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/singleton/Singleton5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/singleton/Singleton1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/singleton/HungrySingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/singleton/Singleton2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/singleton/LazySingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/singleton/Singleton3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/singleton/DoubleCheckSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/singleton/Singleton4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/singleton/StaticInnerClassSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/singleton/Singleton5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/singleton/EnumSingleton.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,133 +38,64 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/hzqing/abastractfactory/IMac.java">
+        <entry file="file://$PROJECT_DIR$/src/com/hzqing/singleton/ThreadLocalSingleton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="11" selection-end-column="1" />
+            <state relative-caret-position="165">
+              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
               <folding>
-                <element signature="e#150#151#0" expanded="true" />
-                <element signature="e#197#198#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/hzqing/abastractfactory/NoteBook.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/hzqing/abastractfactory/ThinkPad.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="15" />
-              <folding>
-                <element signature="e#196#197#0" expanded="true" />
-                <element signature="e#248#249#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/hzqing/abastractfactory/Mac.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="15" />
-              <folding>
-                <element signature="e#191#192#0" expanded="true" />
-                <element signature="e#241#242#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/hzqing/abastractfactory/ThinkCentre.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="15" />
-              <folding>
-                <element signature="e#209#210#0" expanded="true" />
-                <element signature="e#263#264#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/hzqing/abastractfactory/ElFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/hzqing/abastractfactory/ThinkFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-              <folding>
-                <element signature="e#230#231#0" expanded="true" />
-                <element signature="e#267#268#0" expanded="true" />
-                <element signature="e#388#389#0" expanded="true" />
-                <element signature="e#429#430#0" expanded="true" />
-                <element signature="e#522#523#0" expanded="true" />
-                <element signature="e#573#574#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/hzqing/abastractfactory/VivoFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="35" />
-              <folding>
-                <element signature="e#241#242#0" expanded="true" />
-                <element signature="e#293#294#0" expanded="true" />
-                <element signature="e#400#401#0" expanded="true" />
-                <element signature="e#452#453#0" expanded="true" />
-                <element signature="e#546#547#0" expanded="true" />
-                <element signature="e#579#580#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/hzqing/abastractfactory/AppleFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="36" />
-              <folding>
-                <element signature="e#240#241#0" expanded="true" />
-                <element signature="e#272#273#0" expanded="true" />
-                <element signature="e#378#379#0" expanded="true" />
-                <element signature="e#411#412#0" expanded="true" />
-                <element signature="e#460#461#0" expanded="true" />
-                <element signature="e#495#496#0" expanded="true" />
+                <element signature="e#230#406#0" expanded="true" />
+                <element signature="e#405#406#0" expanded="true" />
+                <element signature="e#462#463#0" expanded="true" />
+                <element signature="e#501#502#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/hzqing/abastractfactory/Customer.java">
+        <entry file="file://$PROJECT_DIR$/src/com/hzqing/singleton/ThreadLocalTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+            <state relative-caret-position="165">
+              <caret line="11" column="106" selection-start-line="11" selection-start-column="106" selection-end-line="11" selection-end-column="106" />
+              <folding>
+                <element signature="e#360#629#0" expanded="true" />
+                <element signature="e#628#629#0" expanded="true" />
+                <element signature="e#647#916#0" expanded="true" />
+                <element signature="e#915#916#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Thread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="784" column="29" selection-start-line="784" selection-start-column="29" selection-end-line="784" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Runnable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/ThreadLocal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="205">
+              <caret line="75" column="29" lean-forward="true" selection-start-line="75" selection-start-column="29" selection-end-line="75" selection-end-column="29" />
+              <folding>
+                <element signature="e#4359#4360#0" expanded="true" />
+                <element signature="e#4386#4387#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -217,11 +157,25 @@
         <option value="$PROJECT_DIR$/src/com/hzqing/abastractfactory/VivoFactory.java" />
         <option value="$PROJECT_DIR$/src/com/hzqing/abastractfactory/AppleFactory.java" />
         <option value="$PROJECT_DIR$/src/com/hzqing/abastractfactory/Customer.java" />
+        <option value="$PROJECT_DIR$/src/com/hzqing/singleton/HungrySingleton.java" />
+        <option value="$PROJECT_DIR$/src/com/hzqing/singleton/HungryTest.java" />
+        <option value="$PROJECT_DIR$/src/com/hzqing/singleton/LazySingleton.java" />
+        <option value="$PROJECT_DIR$/src/com/hzqing/singleton/LazyTest.java" />
+        <option value="$PROJECT_DIR$/src/com/hzqing/singleton/DoubleCheckSingleton.java" />
+        <option value="$PROJECT_DIR$/src/com/hzqing/singleton/DoubleCheckTest.java" />
+        <option value="$PROJECT_DIR$/src/com/hzqing/singleton/StaticInnerClassTest.java" />
+        <option value="$PROJECT_DIR$/src/com/hzqing/singleton/StaticInnerClassSingleton.java" />
+        <option value="$PROJECT_DIR$/src/com/hzqing/singleton/EnumSingleton.java" />
+        <option value="$PROJECT_DIR$/src/com/hzqing/singleton/EnumTest.java" />
+        <option value="$PROJECT_DIR$/src/com/hzqing/singleton/ContainerSingleton.java" />
+        <option value="$PROJECT_DIR$/src/com/hzqing/singleton/ContainerTest.java" />
+        <option value="$PROJECT_DIR$/src/com/hzqing/singleton/ThreadLocalSingleton.java" />
+        <option value="$PROJECT_DIR$/src/com/hzqing/singleton/ThreadLocalTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="-1920" />
+    <option name="x" value="1680" />
     <option name="width" value="1920" />
     <option name="height" value="1080" />
   </component>
@@ -233,6 +187,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -256,14 +211,7 @@
               <item name="design-patterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="hzqing" type="462c0819:PsiDirectoryNode" />
-              <item name="abastractfactory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="design-patterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design-patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="hzqing" type="462c0819:PsiDirectoryNode" />
-              <item name="factorymethod" type="462c0819:PsiDirectoryNode" />
+              <item name="singleton" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="design-patterns" type="b2602c69:ProjectViewProjectNode" />
@@ -282,7 +230,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -312,13 +259,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Customer (2)">
-    <configuration name="Customer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hzqing.factorymethod.Customer" />
+  <component name="RunManager" selected="Application.ThreadLocalTest">
+    <configuration name="ContainerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hzqing.singleton.ContainerTest" />
       <module name="design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hzqing.factorymethod.*" />
+          <option name="PATTERN" value="com.hzqing.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -326,12 +273,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Customer (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hzqing.abastractfactory.Customer" />
+    <configuration name="DoubleCheckTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hzqing.singleton.DoubleCheckTest" />
       <module name="design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hzqing.abastractfactory.*" />
+          <option name="PATTERN" value="com.hzqing.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -339,12 +286,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Customer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hzqing.simplefactory.Customer" />
+    <configuration name="EnumTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hzqing.singleton.EnumTest" />
       <module name="design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hzqing.simplefactory.*" />
+          <option name="PATTERN" value="com.hzqing.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -352,21 +299,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="StaticInnerClassTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hzqing.singleton.StaticInnerClassTest" />
       <module name="design-patterns" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hzqing.singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadLocalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hzqing.singleton.ThreadLocalTest" />
+      <module name="design-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hzqing.singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Customer (2)" />
-        <item itemvalue="Application.Customer (1)" />
-        <item itemvalue="Application.Customer" />
+        <item itemvalue="Application.ThreadLocalTest" />
+        <item itemvalue="Application.ContainerTest" />
+        <item itemvalue="Application.EnumTest" />
+        <item itemvalue="Application.StaticInnerClassTest" />
+        <item itemvalue="Application.DoubleCheckTest" />
       </list>
     </recent_temporary>
   </component>
@@ -382,18 +347,20 @@
       <updated>1561704980101</updated>
       <workItem from="1561705475575" duration="2126000" />
       <workItem from="1561769315998" duration="3646000" />
-      <workItem from="1561852593676" duration="7788000" />
+      <workItem from="1561852593676" duration="8079000" />
+      <workItem from="1561939911818" duration="2377000" />
+      <workItem from="1561947758820" duration="2697000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13560000" />
+    <option name="totallyTimeSpent" value="18925000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1920" y="0" width="1920" height="1080" extended-state="0" />
+    <frame x="1680" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22257721" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17305644" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -402,13 +369,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32970297" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32970297" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.33267328" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32277226" />
       <window_info anchor="bottom" id="Docker" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="SonarLint" order="11" />
@@ -449,366 +416,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/singleton/Singleton1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="8" />
-          <folding>
-            <element signature="e#351#352#0" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/singleton/Singleton5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/singleton/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="195">
-            <caret line="13" column="10" lean-forward="true" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/simplefactory/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/simplefactory/BenzCar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="13" />
-          <folding>
-            <element signature="e#164#165#0" expanded="true" />
-            <element signature="e#212#213#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/com.hzqing.simple.Car">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.hzqing.simple.Car</OriginalElement>
-          <nodes>
-            <node x="10.5" y="0.0">com.hzqing.simple.Car</node>
-            <node x="0.0" y="76.0">com.hzqing.simple.BmwCar</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="com.hzqing.simple.BmwCar" target="com.hzqing.simple.Car">
-              <point x="0.0" y="-13.0" />
-              <point x="0.0" y="13.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-458.0" y="-60.0" />
-          <SelectedNodes>
-            <node>com.hzqing.simple.Car</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/simplefactory/BmwCar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="13" />
-          <folding>
-            <element signature="e#153#154#0" expanded="true" />
-            <element signature="e#189#190#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/simplefactory/AudiCar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="e#154#155#0" expanded="true" />
-            <element signature="e#190#191#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/com.hzqing.simple.AudiCar">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.hzqing.simple.AudiCar</OriginalElement>
-          <nodes>
-            <node x="" y="">com.hzqing.simple.BenzCar</node>
-            <node x="" y="">com.hzqing.simple.CarFactory</node>
-            <node x="" y="">com.hzqing.simple.Customer</node>
-            <node x="" y="">com.hzqing.simple.Car</node>
-            <node x="" y="">com.hzqing.simple.AudiCar</node>
-            <node x="" y="">com.hzqing.simple.BmwCar</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.4000000000000004" x="-192.0" y="86.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/java.util.SimpleTimeZone">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>java.util.SimpleTimeZone</OriginalElement>
-          <nodes>
-            <node x="150.0" y="0.0">java.lang.Cloneable</node>
-            <node x="83.75" y="76.0">java.util.TimeZone</node>
-            <node x="62.75" y="152.0">java.util.SimpleTimeZone</node>
-            <node x="0.0" y="0.0">java.io.Serializable</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="java.util.TimeZone" target="java.io.Serializable">
-              <point x="-25.5" y="-13.0" />
-              <point x="109.25" y="51.0" />
-              <point x="65.0" y="51.0" />
-              <point x="0.0" y="13.0" />
-            </edge>
-            <edge source="java.util.SimpleTimeZone" target="java.util.TimeZone">
-              <point x="0.0" y="-13.0" />
-              <point x="0.0" y="13.0" />
-            </edge>
-            <edge source="java.util.TimeZone" target="java.lang.Cloneable">
-              <point x="25.5" y="-13.0" />
-              <point x="160.25" y="51.0" />
-              <point x="204.5" y="51.0" />
-              <point x="0.0" y="13.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-335.0" y="-150.5" />
-          <SelectedNodes>
-            <node>java.util.SimpleTimeZone</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/sun.util.calendar.ZoneInfo">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>sun.util.calendar.ZoneInfo</OriginalElement>
-          <nodes>
-            <node x="150.0" y="0.0">java.lang.Cloneable</node>
-            <node x="83.75" y="152.0">sun.util.calendar.ZoneInfo</node>
-            <node x="83.75" y="76.0">java.util.TimeZone</node>
-            <node x="0.0" y="0.0">java.io.Serializable</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="java.util.TimeZone" target="java.io.Serializable">
-              <point x="-25.5" y="-13.0" />
-              <point x="109.25" y="51.0" />
-              <point x="65.0" y="51.0" />
-              <point x="0.0" y="13.0" />
-            </edge>
-            <edge source="sun.util.calendar.ZoneInfo" target="java.util.TimeZone">
-              <point x="0.0" y="-13.0" />
-              <point x="0.0" y="13.0" />
-            </edge>
-            <edge source="java.util.TimeZone" target="java.lang.Cloneable">
-              <point x="25.5" y="-13.0" />
-              <point x="160.25" y="51.0" />
-              <point x="204.5" y="51.0" />
-              <point x="0.0" y="13.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.1" x="152.6818181818182" y="89.0" />
-          <SelectedNodes>
-            <node>sun.util.calendar.ZoneInfo</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/java.util.TimeZone">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>java.util.TimeZone</OriginalElement>
-          <nodes>
-            <node x="150.0" y="0.0">java.lang.Cloneable</node>
-            <node x="83.75" y="76.0">java.util.TimeZone</node>
-            <node x="0.0" y="0.0">java.io.Serializable</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="java.util.TimeZone" target="java.io.Serializable">
-              <point x="-25.5" y="-13.0" />
-              <point x="109.25" y="51.0" />
-              <point x="65.0" y="51.0" />
-              <point x="0.0" y="13.0" />
-            </edge>
-            <edge source="java.util.TimeZone" target="java.lang.Cloneable">
-              <point x="25.5" y="-13.0" />
-              <point x="160.25" y="51.0" />
-              <point x="204.5" y="51.0" />
-              <point x="0.0" y="13.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-569.5" y="137.0" />
-          <SelectedNodes>
-            <node>java.util.TimeZone</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Locale.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="791" column="18" selection-start-line="791" selection-start-column="18" selection-end-line="791" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jrt:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home!/java.base/sun/util/locale/provider/HostLocaleProviderAdapterImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#34554#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/sun/util/spi/CalendarProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="39" column="70" lean-forward="true" selection-start-line="39" selection-start-column="70" selection-end-line="39" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/sun/util/locale/provider/CalendarProviderImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="738">
-          <caret line="83" column="27" selection-start-line="83" selection-start-column="27" selection-end-line="83" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/java.util.Calendar">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>java.util.Calendar</OriginalElement>
-          <nodes>
-            <node x="534.0" y="76.0">java.util.Calendar.CalendarAccessControlContext</node>
-            <node x="415.5" y="0.0">java.util.Calendar</node>
-            <node x="0.0" y="76.0">java.util.GregorianCalendar</node>
-            <node x="185.0" y="76.0">java.util.JapaneseImperialCalendar</node>
-            <node x="419.0" y="76.0">java.util.Calendar.Builder</node>
-            <node x="3.5" y="152.0">sun.util.BuddhistCalendar</node>
-            <node x="796.0" y="76.0">java.util.Calendar.AvailableCalendarTypes</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="java.util.Calendar.CalendarAccessControlContext" target="java.util.Calendar">
-              <point x="0.0" y="-13.0" />
-              <point x="655.0" y="56.0" />
-              <point x="486.9" y="56.0" />
-              <point x="20.399999999999977" y="13.0" />
-            </edge>
-            <edge source="java.util.GregorianCalendar" target="java.util.Calendar">
-              <point x="0.0" y="-13.0" />
-              <point x="82.5" y="46.0" />
-              <point x="425.7" y="46.0" />
-              <point x="-40.80000000000001" y="13.0" />
-            </edge>
-            <edge source="java.util.Calendar.Builder" target="java.util.Calendar">
-              <point x="0.0" y="-13.0" />
-              <point x="0.0" y="13.0" />
-            </edge>
-            <edge source="sun.util.BuddhistCalendar" target="java.util.GregorianCalendar">
-              <point x="0.0" y="-13.0" />
-              <point x="0.0" y="13.0" />
-            </edge>
-            <edge source="java.util.Calendar.AvailableCalendarTypes" target="java.util.Calendar">
-              <point x="0.0" y="-13.0" />
-              <point x="896.0" y="46.0" />
-              <point x="507.29999999999995" y="46.0" />
-              <point x="40.799999999999955" y="13.0" />
-            </edge>
-            <edge source="java.util.JapaneseImperialCalendar" target="java.util.Calendar">
-              <point x="0.0" y="-13.0" />
-              <point x="292.0" y="56.0" />
-              <point x="446.1" y="56.0" />
-              <point x="-20.399999999999977" y="13.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-58.0" y="220.0" />
-          <SelectedNodes>
-            <node>java.util.Calendar.Builder</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Inner Classes</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Calendar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="875">
-          <caret line="1551" column="9" lean-forward="true" selection-start-line="1471" selection-start-column="7" selection-end-line="1551" selection-end-column="9" />
-          <folding>
-            <element signature="e#67369#67370#0" expanded="true" />
-            <element signature="e#67441#67442#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.xml.crypto/com/sun/org/slf4j/internal/LoggerFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding>
-            <element signature="e#164#165#0" expanded="true" />
-            <element signature="e#204#205#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/Test.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/TimeZone.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="282">
@@ -816,13 +424,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/log4j-api-2.11.2.jar!/org/apache/logging/log4j/spi/LoggerContextFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/log4j-api-2.11.2.jar!/org/apache/logging/log4j/spi/LoggerContextFactory.class" />
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1053,7 +655,7 @@
               <point x="0.0" y="13.0" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-257.5" y="51.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-257.0" y="52.0" />
           <SelectedNodes>
             <node>com.hzqing.factorymethod.AudiCar</node>
           </SelectedNodes>
@@ -1273,7 +875,7 @@
               <point x="-25.5" y="13.0" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-278.5" y="126.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-278.0" y="127.0" />
           <SelectedNodes />
           <Categories />
           <SCOPE>All</SCOPE>
@@ -1317,25 +919,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/abastractfactory/ThinkCentre.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="15" />
-          <folding>
-            <element signature="e#209#210#0" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/hzqing/abastractfactory/IMac.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" selection-start-line="3" selection-end-line="11" selection-end-column="1" />
-          <folding>
-            <element signature="e#150#151#0" expanded="true" />
-            <element signature="e#197#198#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1350,10 +937,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" selection-start-line="6" selection-end-line="15" />
-          <folding>
-            <element signature="e#196#197#0" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1361,10 +944,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" selection-start-line="6" selection-end-line="15" />
-          <folding>
-            <element signature="e#191#192#0" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/abastractfactory/ThinkCentre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="15" />
         </state>
       </provider>
     </entry>
@@ -1377,16 +963,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/hzqing/abastractfactory/ThinkFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-          <folding>
-            <element signature="e#230#231#0" expanded="true" />
-            <element signature="e#267#268#0" expanded="true" />
-            <element signature="e#388#389#0" expanded="true" />
-            <element signature="e#429#430#0" expanded="true" />
-            <element signature="e#522#523#0" expanded="true" />
-            <element signature="e#573#574#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="240">
+          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -1394,14 +972,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" selection-start-line="2" selection-end-line="35" />
-          <folding>
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#293#294#0" expanded="true" />
-            <element signature="e#400#401#0" expanded="true" />
-            <element signature="e#452#453#0" expanded="true" />
-            <element signature="e#546#547#0" expanded="true" />
-            <element signature="e#579#580#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1409,21 +979,176 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" selection-start-line="2" selection-end-line="36" />
-          <folding>
-            <element signature="e#240#241#0" expanded="true" />
-            <element signature="e#272#273#0" expanded="true" />
-            <element signature="e#378#379#0" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
-            <element signature="e#460#461#0" expanded="true" />
-            <element signature="e#495#496#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/hzqing/abastractfactory/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+        <state relative-caret-position="210">
+          <caret line="14" column="49" lean-forward="true" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/singleton/HungrySingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/singleton/LazySingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/singleton/DoubleCheckTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/singleton/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="195">
+            <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/singleton/DoubleCheckSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/singleton/StaticInnerClassSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/singleton/StaticInnerClassTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/singleton/HungryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/singleton/LazyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/singleton/EnumSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/singleton/EnumTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="534" column="24" selection-start-line="534" selection-start-column="13" selection-end-line="534" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/singleton/ContainerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/singleton/ContainerSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#328#344#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/ThreadLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="75" column="29" lean-forward="true" selection-start-line="75" selection-start-column="29" selection-end-line="75" selection-end-column="29" />
+          <folding>
+            <element signature="e#4359#4360#0" expanded="true" />
+            <element signature="e#4386#4387#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/singleton/ThreadLocalSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding>
+            <element signature="e#230#406#0" expanded="true" />
+            <element signature="e#405#406#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="784" column="29" selection-start-line="784" selection-start-column="29" selection-end-line="784" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/singleton/ThreadLocalTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="106" selection-start-line="11" selection-start-column="106" selection-end-line="11" selection-end-column="106" />
+          <folding>
+            <element signature="e#360#629#0" expanded="true" />
+            <element signature="e#628#629#0" expanded="true" />
+            <element signature="e#647#916#0" expanded="true" />
+            <element signature="e#915#916#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -9,20 +9,20 @@ package com.hzqing.singleton;
  * @author hzqing
  * @date 2019-06-28 15:15
  */
-public class Singleton2 {
+public class LazySingleton {
 
     // 私有化构造方法
-    private  Singleton2(){}
+    private LazySingleton(){}
 
     // 声明一个变量
-    private static Singleton2 singleton2 = null;
+    private static LazySingleton INSTANCE = null;
 
     // 对外暴露公共访问点
-    public synchronized static Singleton2 getInstance(){
-        if (singleton2 == null){
-            singleton2 = new Singleton2();
+    public synchronized static LazySingleton getInstance(){
+        if (INSTANCE == null){
+            INSTANCE = new LazySingleton();
         }
-        return singleton2;
+        return INSTANCE;
     }
 
 }
