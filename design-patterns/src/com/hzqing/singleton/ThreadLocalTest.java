@@ -11,22 +11,18 @@ public class ThreadLocalTest {
         System.out.println(Thread.currentThread().getName() + " : " + ThreadLocalSingleton.getInstance());
         System.out.println(Thread.currentThread().getName() + " : " + ThreadLocalSingleton.getInstance());
 
-       new Thread() {
-            @Override
-            public void run() {
+        new Thread(() ->  {
                 for (int i=0 ;i<3;i++){
                     System.out.println(Thread.currentThread().getName() + " : " + ThreadLocalSingleton.getInstance());
                 }
             }
-        }.start();
+        ).run();
 
-        new Thread() {
-            @Override
-            public void run() {
+        new Thread(() -> {
                 for (int i=0 ;i<3;i++){
                     System.out.println(Thread.currentThread().getName() + " : " + ThreadLocalSingleton.getInstance());
                 }
             }
-        }.start();
+        ).start();
     }
 }

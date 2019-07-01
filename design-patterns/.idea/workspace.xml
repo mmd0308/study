@@ -2,30 +2,60 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="133a377c-0ac9-46a0-a4fa-535af17f98fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hzqing/singleton/ContainerSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hzqing/singleton/ContainerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hzqing/singleton/DoubleCheckTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hzqing/singleton/EnumTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hzqing/singleton/HungryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hzqing/singleton/LazyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hzqing/singleton/StaticInnerClassTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hzqing/singleton/ThreadLocalSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hzqing/singleton/ThreadLocalTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/abastractfactory/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/abastractfactory/Customer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/singleton/Singleton1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/singleton/Singleton2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/singleton/Singleton3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/singleton/Singleton4$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/singleton/Singleton4$innerClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/singleton/Singleton4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/singleton/Singleton5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hzqing/singleton/Singleton1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/singleton/HungrySingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hzqing/singleton/Singleton2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/singleton/LazySingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hzqing/singleton/Singleton3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/singleton/DoubleCheckSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hzqing/singleton/Singleton4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/singleton/StaticInnerClassSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hzqing/singleton/Singleton5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/singleton/EnumSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/META-INF/design-patterns.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/abastractfactory/AppleFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/abastractfactory/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/abastractfactory/DesktopComputer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/abastractfactory/ElFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/abastractfactory/IMac.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/abastractfactory/Iphone.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/abastractfactory/Mac.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/abastractfactory/NoteBook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/abastractfactory/Phone.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/abastractfactory/ThinkCentre.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/abastractfactory/ThinkFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/abastractfactory/ThinkPad.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/abastractfactory/Vivo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/abastractfactory/VivoFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/factorymethod/AudiCar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/factorymethod/AudiCarFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/factorymethod/BenzCar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/factorymethod/BenzCarFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/factorymethod/BmwCar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/factorymethod/BmwCarFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/factorymethod/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/factorymethod/CarFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/factorymethod/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/simplefactory/AudiCar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/simplefactory/BenzCar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/simplefactory/BmwCar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/simplefactory/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/simplefactory/CarFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/simplefactory/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/singleton/ContainerSingleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/singleton/ContainerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/singleton/DoubleCheckSingleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/singleton/DoubleCheckTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/singleton/EnumSingleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/singleton/EnumTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/singleton/HungrySingleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/singleton/HungryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/singleton/LazySingleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/singleton/LazyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/singleton/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/singleton/StaticInnerClassSingleton$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/singleton/StaticInnerClassSingleton$innerClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/singleton/StaticInnerClassSingleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/singleton/StaticInnerClassTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/singleton/ThreadLocalSingleton$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/singleton/ThreadLocalSingleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/singleton/ThreadLocalTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/singleton/ThreadLocalTest$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/singleton/ThreadLocalTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/singleton/ThreadLocalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/singleton/ThreadLocalTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,14 +72,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/hzqing/singleton/ThreadLocalSingleton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+            <state relative-caret-position="240">
+              <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
               <folding>
-                <element signature="e#230#406#0" expanded="true" />
-                <element signature="e#405#406#0" expanded="true" />
-                <element signature="e#462#463#0" expanded="true" />
-                <element signature="e#501#502#0" expanded="true" />
+                <element signature="e#231#408#0" expanded="true" />
+                <element signature="e#407#408#0" expanded="true" />
+                <element signature="e#463#464#0" expanded="true" />
+                <element signature="e#503#504#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/hzqing/singleton/StaticInnerClassTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/hzqing/singleton/LazySingleton.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" selection-start-line="11" selection-end-line="28" />
             </state>
           </provider>
         </entry>
@@ -57,14 +105,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/hzqing/singleton/ThreadLocalTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="106" selection-start-line="11" selection-start-column="106" selection-end-line="11" selection-end-column="106" />
-              <folding>
-                <element signature="e#360#629#0" expanded="true" />
-                <element signature="e#628#629#0" expanded="true" />
-                <element signature="e#647#916#0" expanded="true" />
-                <element signature="e#915#916#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="300">
+              <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -72,8 +114,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Thread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="784" column="29" selection-start-line="784" selection-start-column="29" selection-end-line="784" selection-end-column="29" />
+            <state relative-caret-position="301">
+              <caret line="142" column="28" selection-start-line="142" selection-start-column="28" selection-end-line="142" selection-end-column="28" />
+              <folding>
+                <element signature="e#16363#16364#0" expanded="true" />
+                <element signature="e#16427#16428#0" expanded="true" />
+                <element signature="e#17047#17048#0" expanded="true" />
+                <element signature="e#17113#17114#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -82,20 +130,28 @@
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Runnable.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="352">
-              <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+              <caret line="55" column="19" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/ThreadLocal.java">
+        <entry file="file://$PROJECT_DIR$/src/com/hzqing/singleton/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="195">
+                <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/hzqing/singleton/LazyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="75" column="29" lean-forward="true" selection-start-line="75" selection-start-column="29" selection-end-line="75" selection-end-column="29" />
-              <folding>
-                <element signature="e#4359#4360#0" expanded="true" />
-                <element signature="e#4386#4387#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -349,18 +405,18 @@
       <workItem from="1561769315998" duration="3646000" />
       <workItem from="1561852593676" duration="8079000" />
       <workItem from="1561939911818" duration="2377000" />
-      <workItem from="1561947758820" duration="2697000" />
+      <workItem from="1561947758820" duration="3666000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18925000" />
+    <option name="totallyTimeSpent" value="19894000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1680" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17305644" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17305644" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -369,13 +425,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32970297" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32970297" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32277226" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32277226" />
       <window_info anchor="bottom" id="Docker" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="SonarLint" order="11" />
@@ -996,27 +1052,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/singleton/LazySingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/hzqing/singleton/DoubleCheckTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" selection-start-line="6" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/singleton/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="195">
-            <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1034,24 +1073,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/singleton/StaticInnerClassTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/hzqing/singleton/HungryTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/singleton/LazyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="16" />
         </state>
       </provider>
     </entry>
@@ -1103,8 +1128,8 @@
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/ThreadLocal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="75" column="29" lean-forward="true" selection-start-line="75" selection-start-column="29" selection-end-line="75" selection-end-column="29" />
+        <state relative-caret-position="-5099">
+          <caret line="128" column="20" lean-forward="true" selection-start-line="126" selection-start-column="6" selection-end-line="128" selection-end-column="20" />
           <folding>
             <element signature="e#4359#4360#0" expanded="true" />
             <element signature="e#4386#4387#0" expanded="true" />
@@ -1112,15 +1137,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/singleton/ThreadLocalSingleton.java">
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/singleton/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="195">
+            <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/singleton/LazyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/singleton/LazySingleton.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <caret line="11" selection-start-line="11" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="142" column="28" selection-start-line="142" selection-start-column="28" selection-end-line="142" selection-end-column="28" />
           <folding>
-            <element signature="e#230#406#0" expanded="true" />
-            <element signature="e#405#406#0" expanded="true" />
-            <element signature="e#462#463#0" expanded="true" />
-            <element signature="e#501#502#0" expanded="true" />
+            <element signature="e#16363#16364#0" expanded="true" />
+            <element signature="e#16427#16428#0" expanded="true" />
+            <element signature="e#17047#17048#0" expanded="true" />
+            <element signature="e#17113#17114#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1128,27 +1177,34 @@
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Runnable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
-          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+          <caret line="55" column="19" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Thread.java">
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/singleton/StaticInnerClassTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="784" column="29" selection-start-line="784" selection-start-column="29" selection-end-line="784" selection-end-column="29" />
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/singleton/ThreadLocalSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+          <folding>
+            <element signature="e#231#408#0" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/hzqing/singleton/ThreadLocalTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="106" selection-start-line="11" selection-start-column="106" selection-end-line="11" selection-end-column="106" />
-          <folding>
-            <element signature="e#360#629#0" expanded="true" />
-            <element signature="e#628#629#0" expanded="true" />
-            <element signature="e#647#916#0" expanded="true" />
-            <element signature="e#915#916#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="300">
+          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
         </state>
       </provider>
     </entry>
