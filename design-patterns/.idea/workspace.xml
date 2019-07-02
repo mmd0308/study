@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="133a377c-0ac9-46a0-a4fa-535af17f98fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/hzqing/singletonenumdefense/EnumSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hzqing/singletonenumdefense/ReflexTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hzqing/singletonenumdefense/SerializableTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hzqing/prototype/ListClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hzqing/prototype/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hzqing/prototype/deep/Compony.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hzqing/prototype/deep/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hzqing/prototype/deep/PersonClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hzqing/prototype/shallow/Compony.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hzqing/prototype/shallow/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hzqing/prototype/shallow/PersonClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/singletonserializable/LazySingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/singletonserializable/LazySingleton.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,29 +24,126 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/hzqing/singletonenumdefense/EnumSingleton.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="28" selection-start-column="28" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/io/ObjectInputStream.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="426">
-              <caret line="2028" selection-start-line="2028" selection-end-line="2029" selection-end-column="28" />
+        <entry file="uml://JAVA/com.hzqing.prototype.deep.Compony">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>com.hzqing.prototype.deep.Compony</OriginalElement>
+              <nodes>
+                <node x="0.0" y="76.0">java.lang.Cloneable</node>
+                <node x="82.765625" y="152.0">com.hzqing.prototype.deep.Person</node>
+                <node x="130.0" y="76.0">com.hzqing.prototype.deep.Compony</node>
+                <node x="95.1875" y="228.0">com.hzqing.prototype.deep.PersonClient</node>
+                <node x="83.5" y="0.0">java.io.Serializable</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="com.hzqing.prototype.deep.PersonClient" target="com.hzqing.prototype.deep.Compony">
+                  <point x="48.75" y="-13.0" />
+                  <point x="208.9375" y="203.0" />
+                  <point x="204.5234375" y="203.0" />
+                  <point x="204.5234375" y="127.0" />
+                  <point x="213.125" y="127.0" />
+                  <point x="35.625" y="13.0" />
+                </edge>
+                <edge source="com.hzqing.prototype.deep.Person" target="java.lang.Cloneable">
+                  <point x="-33.0" y="-13.0" />
+                  <point x="93.765625" y="127.0" />
+                  <point x="54.5" y="127.0" />
+                  <point x="0.0" y="13.0" />
+                </edge>
+                <edge source="com.hzqing.prototype.deep.PersonClient" target="com.hzqing.prototype.deep.Person">
+                  <point x="-16.25" y="-13.0" />
+                  <point x="143.9375" y="203.0" />
+                  <point x="148.765625" y="203.0" />
+                  <point x="22.0" y="13.0" />
+                </edge>
+                <edge source="com.hzqing.prototype.deep.Person" target="java.io.Serializable">
+                  <point x="-11.0" y="-13.0" />
+                  <point x="115.765625" y="127.0" />
+                  <point x="119.5" y="127.0" />
+                  <point x="119.5" y="51.0" />
+                  <point x="116.0" y="51.0" />
+                  <point x="-32.5" y="13.0" />
+                </edge>
+                <edge source="com.hzqing.prototype.deep.Person" target="com.hzqing.prototype.deep.Compony">
+                  <point x="11.0" y="-13.0" />
+                  <point x="137.765625" y="127.0" />
+                  <point x="141.875" y="127.0" />
+                  <point x="-35.625" y="13.0" />
+                </edge>
+                <edge source="com.hzqing.prototype.deep.Compony" target="java.io.Serializable">
+                  <point x="0.0" y="-13.0" />
+                  <point x="177.5" y="51.0" />
+                  <point x="181.0" y="51.0" />
+                  <point x="32.5" y="13.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="137.0" y="90.0" />
+              <SelectedNodes />
+              <Categories />
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/hzqing/singletonenumdefense/SerializableTest.java">
+        <entry file="file://$PROJECT_DIR$/src/com/hzqing/prototype/shallow/Compony.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="59" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/com.hzqing.prototype.shallow.Compony">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>com.hzqing.prototype.shallow.Compony</OriginalElement>
+              <nodes>
+                <node x="0.0" y="0.0">java.lang.Cloneable</node>
+                <node x="71.6909722222222" y="76.0">com.hzqing.prototype.shallow.Person</node>
+                <node x="129.0" y="0.0">com.hzqing.prototype.shallow.Compony</node>
+                <node x="99.875" y="152.0">com.hzqing.prototype.shallow.PersonClient</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="com.hzqing.prototype.shallow.Person" target="java.lang.Cloneable">
+                  <point x="-29.333333333333314" y="-13.0" />
+                  <point x="86.35763888888889" y="56.0" />
+                  <point x="54.5" y="56.0" />
+                  <point x="0.0" y="13.0" />
+                </edge>
+                <edge source="com.hzqing.prototype.shallow.Person" target="com.hzqing.prototype.shallow.Compony">
+                  <point x="1.4210854715202004E-14" y="-13.0" />
+                  <point x="115.69097222222221" y="46.0" />
+                  <point x="140.875" y="46.0" />
+                  <point x="-35.625" y="13.0" />
+                </edge>
+                <edge source="com.hzqing.prototype.shallow.PersonClient" target="com.hzqing.prototype.shallow.Person">
+                  <point x="-16.25" y="-13.0" />
+                  <point x="148.625" y="127.0" />
+                  <point x="137.69097222222223" y="127.0" />
+                  <point x="22.000000000000014" y="13.0" />
+                </edge>
+                <edge source="com.hzqing.prototype.shallow.PersonClient" target="com.hzqing.prototype.shallow.Compony">
+                  <point x="48.75" y="-13.0" />
+                  <point x="213.625" y="127.0" />
+                  <point x="203.83333333333331" y="127.0" />
+                  <point x="203.83333333333331" y="56.0" />
+                  <point x="212.125" y="56.0" />
+                  <point x="35.625" y="13.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="-400.0" y="13.5" />
+              <SelectedNodes />
+              <Categories />
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
             </state>
           </provider>
         </entry>
@@ -71,16 +172,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/hzqing/simple/Customer.java" />
-        <option value="$PROJECT_DIR$/src/com/hzqing/simple/CarFactory.java" />
-        <option value="$PROJECT_DIR$/src/com/hzqing/simple/BenzCar.java" />
-        <option value="$PROJECT_DIR$/src/com/hzqing/Test.java" />
-        <option value="$PROJECT_DIR$/src/com/hzqing/factorymethod/BmwCar.java" />
-        <option value="$PROJECT_DIR$/src/com/hzqing/factorymethod/AudiCar.java" />
-        <option value="$PROJECT_DIR$/src/com/hzqing/factorymethod/CarFactory.java" />
-        <option value="$PROJECT_DIR$/src/com/hzqing/factorymethod/AudiCarFactory.java" />
-        <option value="$PROJECT_DIR$/src/com/hzqing/factorymethod/BmwCarFactory.java" />
-        <option value="$PROJECT_DIR$/src/com/hzqing/factorymethod/Car.java" />
         <option value="$PROJECT_DIR$/src/com/hzqing/factorymethod/BenzCar.java" />
         <option value="$PROJECT_DIR$/src/com/hzqing/factorymethod/BenzCarFactory.java" />
         <option value="$PROJECT_DIR$/src/com/hzqing/factorymethod/Customer.java" />
@@ -122,6 +213,16 @@
         <option value="$PROJECT_DIR$/src/com/hzqing/singletonenumdefense/EnumSingleton.java" />
         <option value="$PROJECT_DIR$/src/com/hzqing/singletonenumdefense/ReflexTest.java" />
         <option value="$PROJECT_DIR$/src/com/hzqing/singletonenumdefense/SerializableTest.java" />
+        <option value="$PROJECT_DIR$/src/com/hzqing/prototype/ListClient.java" />
+        <option value="$PROJECT_DIR$/src/com/hzqing/prototype/User.java" />
+        <option value="$PROJECT_DIR$/src/com/hzqing/prototype/Person.java" />
+        <option value="$PROJECT_DIR$/src/com/hzqing/prototype/shallow/Role.java" />
+        <option value="$PROJECT_DIR$/src/com/hzqing/prototype/shallow/Compony.java" />
+        <option value="$PROJECT_DIR$/src/com/hzqing/prototype/shallow/PersonClient.java" />
+        <option value="$PROJECT_DIR$/src/com/hzqing/prototype/shallow/Person.java" />
+        <option value="$PROJECT_DIR$/src/com/hzqing/prototype/deep/Compony.java" />
+        <option value="$PROJECT_DIR$/src/com/hzqing/prototype/deep/Person.java" />
+        <option value="$PROJECT_DIR$/src/com/hzqing/prototype/deep/PersonClient.java" />
       </list>
     </option>
   </component>
@@ -163,7 +264,15 @@
               <item name="design-patterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="hzqing" type="462c0819:PsiDirectoryNode" />
-              <item name="singletonenumdefense" type="462c0819:PsiDirectoryNode" />
+              <item name="prototype" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design-patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design-patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="hzqing" type="462c0819:PsiDirectoryNode" />
+              <item name="prototype" type="462c0819:PsiDirectoryNode" />
+              <item name="shallow" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="design-patterns" type="b2602c69:ProjectViewProjectNode" />
@@ -188,13 +297,14 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/hzqing/prototype/deep" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/hzqing/prototype/deep" />
       <recent name="$PROJECT_DIR$/lib" />
     </key>
   </component>
@@ -210,13 +320,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SerializableTest (1)">
-    <configuration name="ReflexTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hzqing.singletonenumdefense.ReflexTest" />
+  <component name="RunManager" selected="Application.PersonClient (1)">
+    <configuration name="ListClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hzqing.prototype.ListClient" />
       <module name="design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hzqing.singletonenumdefense.*" />
+          <option name="PATTERN" value="com.hzqing.prototype.shallow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -224,12 +334,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReflexTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hzqing.singletonreflex.ReflexTest" />
+    <configuration name="PersonClient (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hzqing.prototype.deep.PersonClient" />
       <module name="design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hzqing.singletonreflex.*" />
+          <option name="PATTERN" value="com.hzqing.prototype.deep.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hzqing.prototype.shallow.PersonClient" />
+      <module name="design-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hzqing.prototype.shallow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReflexTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hzqing.singletonenumdefense.ReflexTest" />
+      <module name="design-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hzqing.singletonenumdefense.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -250,39 +386,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SerializableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hzqing.singletonserializable.SerializableTest" />
-      <module name="design-patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hzqing.singletonserializable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadLocalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hzqing.singleton.ThreadLocalTest" />
-      <module name="design-patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hzqing.singleton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PersonClient (1)" />
+        <item itemvalue="Application.PersonClient" />
+        <item itemvalue="Application.ListClient" />
         <item itemvalue="Application.SerializableTest (1)" />
         <item itemvalue="Application.ReflexTest (1)" />
-        <item itemvalue="Application.SerializableTest" />
-        <item itemvalue="Application.ReflexTest" />
-        <item itemvalue="Application.ThreadLocalTest" />
       </list>
     </recent_temporary>
   </component>
@@ -301,16 +411,15 @@
       <workItem from="1561852593676" duration="8079000" />
       <workItem from="1561939911818" duration="2377000" />
       <workItem from="1561947758820" duration="8849000" />
-      <workItem from="1562025147015" duration="2834000" />
+      <workItem from="1562025147015" duration="7925000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27911000" />
+    <option name="totallyTimeSpent" value="33002000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1680" y="0" width="1920" height="1080" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17465389" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -322,7 +431,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32970297" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.47326732" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3792079" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -376,111 +485,71 @@
           </properties>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/hzqing/prototype/shallow/PersonClient.java</url>
+          <line>8</line>
+          <properties class="com.hzqing.prototype.shallow.PersonClient" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/io/ObjectInputStream.java</url>
           <line>2029</line>
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/hzqing/prototype/ListClient.java</url>
+          <line>8</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Object.java</url>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/ArrayList.java</url>
+          <line>374</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/hzqing/prototype/deep/Person.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="super" language="JAVA" />
+        <watch expression="super.clone()" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>super.clone()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>super</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/abastractfactory/IMac.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/abastractfactory/NoteBook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/abastractfactory/ThinkPad.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/abastractfactory/Mac.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/abastractfactory/ThinkCentre.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/abastractfactory/ElFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/abastractfactory/ThinkFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/abastractfactory/VivoFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/abastractfactory/AppleFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/abastractfactory/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="49" lean-forward="true" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/singleton/HungrySingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/singleton/DoubleCheckTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/singleton/DoubleCheckSingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="24" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/hzqing/singleton/StaticInnerClassSingleton.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -513,13 +582,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="496">
           <caret line="534" column="24" selection-start-line="534" selection-start-column="13" selection-end-line="534" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -772,8 +834,228 @@
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/io/ObjectInputStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="2028" selection-start-line="2028" selection-end-line="2029" selection-end-column="28" />
+        <state relative-caret-position="66">
+          <caret line="2004" column="16" selection-start-line="2004" selection-start-column="16" selection-end-line="2004" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="954">
+          <caret line="221" column="28" selection-start-line="221" selection-start-column="28" selection-end-line="221" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Cloneable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="52" column="28" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="469" column="11" selection-start-line="469" selection-start-column="11" selection-end-line="469" selection-end-column="11" />
+          <folding>
+            <element signature="e#19228#19229#0" expanded="true" />
+            <element signature="e#19311#19312#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/prototype/ListClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="51" selection-start-line="8" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/prototype/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/prototype/shallow/PersonClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/prototype/shallow/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#541#542#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="167" column="5" lean-forward="true" selection-start-line="167" selection-start-column="5" selection-end-line="167" selection-end-column="5" />
+          <folding>
+            <element signature="e#6336#6337#0" expanded="true" />
+            <element signature="e#6404#6405#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/prototype/deep/PersonClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/prototype/deep/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/prototype/deep/Compony.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
+          <folding>
+            <element signature="e#295#296#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+            <element signature="e#232#233#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/prototype/shallow/Compony.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.hzqing.prototype.shallow.Compony">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.hzqing.prototype.shallow.Compony</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">java.lang.Cloneable</node>
+            <node x="71.6909722222222" y="76.0">com.hzqing.prototype.shallow.Person</node>
+            <node x="129.0" y="0.0">com.hzqing.prototype.shallow.Compony</node>
+            <node x="99.875" y="152.0">com.hzqing.prototype.shallow.PersonClient</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.hzqing.prototype.shallow.Person" target="java.lang.Cloneable">
+              <point x="-29.333333333333314" y="-13.0" />
+              <point x="86.35763888888889" y="56.0" />
+              <point x="54.5" y="56.0" />
+              <point x="0.0" y="13.0" />
+            </edge>
+            <edge source="com.hzqing.prototype.shallow.Person" target="com.hzqing.prototype.shallow.Compony">
+              <point x="1.4210854715202004E-14" y="-13.0" />
+              <point x="115.69097222222221" y="46.0" />
+              <point x="140.875" y="46.0" />
+              <point x="-35.625" y="13.0" />
+            </edge>
+            <edge source="com.hzqing.prototype.shallow.PersonClient" target="com.hzqing.prototype.shallow.Person">
+              <point x="-16.25" y="-13.0" />
+              <point x="148.625" y="127.0" />
+              <point x="137.69097222222223" y="127.0" />
+              <point x="22.000000000000014" y="13.0" />
+            </edge>
+            <edge source="com.hzqing.prototype.shallow.PersonClient" target="com.hzqing.prototype.shallow.Compony">
+              <point x="48.75" y="-13.0" />
+              <point x="213.625" y="127.0" />
+              <point x="203.83333333333331" y="127.0" />
+              <point x="203.83333333333331" y="56.0" />
+              <point x="212.125" y="56.0" />
+              <point x="35.625" y="13.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-400.0" y="13.5" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.hzqing.prototype.deep.Compony">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.hzqing.prototype.deep.Compony</OriginalElement>
+          <nodes>
+            <node x="0.0" y="76.0">java.lang.Cloneable</node>
+            <node x="82.765625" y="152.0">com.hzqing.prototype.deep.Person</node>
+            <node x="130.0" y="76.0">com.hzqing.prototype.deep.Compony</node>
+            <node x="95.1875" y="228.0">com.hzqing.prototype.deep.PersonClient</node>
+            <node x="83.5" y="0.0">java.io.Serializable</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.hzqing.prototype.deep.PersonClient" target="com.hzqing.prototype.deep.Compony">
+              <point x="48.75" y="-13.0" />
+              <point x="208.9375" y="203.0" />
+              <point x="204.5234375" y="203.0" />
+              <point x="204.5234375" y="127.0" />
+              <point x="213.125" y="127.0" />
+              <point x="35.625" y="13.0" />
+            </edge>
+            <edge source="com.hzqing.prototype.deep.Person" target="java.lang.Cloneable">
+              <point x="-33.0" y="-13.0" />
+              <point x="93.765625" y="127.0" />
+              <point x="54.5" y="127.0" />
+              <point x="0.0" y="13.0" />
+            </edge>
+            <edge source="com.hzqing.prototype.deep.PersonClient" target="com.hzqing.prototype.deep.Person">
+              <point x="-16.25" y="-13.0" />
+              <point x="143.9375" y="203.0" />
+              <point x="148.765625" y="203.0" />
+              <point x="22.0" y="13.0" />
+            </edge>
+            <edge source="com.hzqing.prototype.deep.Person" target="java.io.Serializable">
+              <point x="-11.0" y="-13.0" />
+              <point x="115.765625" y="127.0" />
+              <point x="119.5" y="127.0" />
+              <point x="119.5" y="51.0" />
+              <point x="116.0" y="51.0" />
+              <point x="-32.5" y="13.0" />
+            </edge>
+            <edge source="com.hzqing.prototype.deep.Person" target="com.hzqing.prototype.deep.Compony">
+              <point x="11.0" y="-13.0" />
+              <point x="137.765625" y="127.0" />
+              <point x="141.875" y="127.0" />
+              <point x="-35.625" y="13.0" />
+            </edge>
+            <edge source="com.hzqing.prototype.deep.Compony" target="java.io.Serializable">
+              <point x="0.0" y="-13.0" />
+              <point x="177.5" y="51.0" />
+              <point x="181.0" y="51.0" />
+              <point x="32.5" y="13.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="137.0" y="90.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
