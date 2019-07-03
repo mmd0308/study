@@ -2,15 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="133a377c-0ac9-46a0-a4fa-535af17f98fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/hzqing/prototype/ListClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hzqing/prototype/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hzqing/prototype/deep/Compony.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hzqing/prototype/deep/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hzqing/prototype/deep/PersonClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hzqing/prototype/shallow/Compony.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hzqing/prototype/shallow/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hzqing/prototype/shallow/PersonClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/asm_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/cglib_3_2_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/asm-7.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/cglib-3.2.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hzqing/delegate/Boss.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hzqing/delegate/EmployeeA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hzqing/delegate/EmployeeB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hzqing/delegate/IEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hzqing/delegate/Leader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hzqing/delegate/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hzqing/proxy/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hzqing/proxy/dynamic/cglib/BuyHouseCglibProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hzqing/proxy/dynamic/cglib/BuyHouseImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hzqing/proxy/dynamic/cglib/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hzqing/proxy/dynamic/jdk/BuyHouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hzqing/proxy/dynamic/jdk/BuyHouseImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hzqing/proxy/dynamic/jdk/BuyHouseJdkProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hzqing/proxy/dynamic/jdk/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hzqing/proxy/s/BuyHouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hzqing/proxy/s/BuyHouseImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hzqing/proxy/s/BuyHousePorxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hzqing/proxy/s/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/log4j_to_slf4j_2_11_2.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns.iml" beforeDir="false" afterPath="$PROJECT_DIR$/design-patterns.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,131 +35,168 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="uml://JAVA/com.hzqing.prototype.deep.Compony">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement>com.hzqing.prototype.deep.Compony</OriginalElement>
-              <nodes>
-                <node x="0.0" y="76.0">java.lang.Cloneable</node>
-                <node x="82.765625" y="152.0">com.hzqing.prototype.deep.Person</node>
-                <node x="130.0" y="76.0">com.hzqing.prototype.deep.Compony</node>
-                <node x="95.1875" y="228.0">com.hzqing.prototype.deep.PersonClient</node>
-                <node x="83.5" y="0.0">java.io.Serializable</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="com.hzqing.prototype.deep.PersonClient" target="com.hzqing.prototype.deep.Compony">
-                  <point x="48.75" y="-13.0" />
-                  <point x="208.9375" y="203.0" />
-                  <point x="204.5234375" y="203.0" />
-                  <point x="204.5234375" y="127.0" />
-                  <point x="213.125" y="127.0" />
-                  <point x="35.625" y="13.0" />
-                </edge>
-                <edge source="com.hzqing.prototype.deep.Person" target="java.lang.Cloneable">
-                  <point x="-33.0" y="-13.0" />
-                  <point x="93.765625" y="127.0" />
-                  <point x="54.5" y="127.0" />
-                  <point x="0.0" y="13.0" />
-                </edge>
-                <edge source="com.hzqing.prototype.deep.PersonClient" target="com.hzqing.prototype.deep.Person">
-                  <point x="-16.25" y="-13.0" />
-                  <point x="143.9375" y="203.0" />
-                  <point x="148.765625" y="203.0" />
-                  <point x="22.0" y="13.0" />
-                </edge>
-                <edge source="com.hzqing.prototype.deep.Person" target="java.io.Serializable">
-                  <point x="-11.0" y="-13.0" />
-                  <point x="115.765625" y="127.0" />
-                  <point x="119.5" y="127.0" />
-                  <point x="119.5" y="51.0" />
-                  <point x="116.0" y="51.0" />
-                  <point x="-32.5" y="13.0" />
-                </edge>
-                <edge source="com.hzqing.prototype.deep.Person" target="com.hzqing.prototype.deep.Compony">
-                  <point x="11.0" y="-13.0" />
-                  <point x="137.765625" y="127.0" />
-                  <point x="141.875" y="127.0" />
-                  <point x="-35.625" y="13.0" />
-                </edge>
-                <edge source="com.hzqing.prototype.deep.Compony" target="java.io.Serializable">
-                  <point x="0.0" y="-13.0" />
-                  <point x="177.5" y="51.0" />
-                  <point x="181.0" y="51.0" />
-                  <point x="32.5" y="13.0" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="1.0" x="137.0" y="90.0" />
-              <SelectedNodes />
-              <Categories />
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/hzqing/delegate/IEmployee.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="9" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/hzqing/prototype/shallow/Compony.java">
+        <entry file="file://$PROJECT_DIR$/src/com/hzqing/delegate/EmployeeA.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="12" />
+              <folding>
+                <element signature="e#180#181#0" expanded="true" />
+                <element signature="e#233#234#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/hzqing/delegate/Leader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" selection-start-line="9" selection-end-line="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/hzqing/delegate/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/hzqing/delegate/Boss.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
               <caret line="6" selection-start-line="6" selection-end-line="17" />
+              <folding>
+                <element signature="e#217#218#0" expanded="true" />
+                <element signature="e#252#253#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="uml://JAVA/com.hzqing.delegate.Boss">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>com.hzqing.delegate.Boss</OriginalElement>
+              <nodes>
+                <node x="208.5" y="196.0">com.hzqing.delegate.Leader</node>
+                <node x="178.0" y="98.0">com.hzqing.delegate.EmployeeB</node>
+                <node x="0.0" y="98.0">com.hzqing.delegate.EmployeeA</node>
+                <node x="198.29166666666663" y="392.0">com.hzqing.delegate.Test</node>
+                <node x="111.16666666666666" y="294.0">com.hzqing.delegate.Boss</node>
+                <node x="220.16666666666666" y="0.0">com.hzqing.delegate.IEmployee</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="com.hzqing.delegate.Leader" target="com.hzqing.delegate.EmployeeA">
+                  <point x="-59.25" y="-24.0" />
+                  <point x="228.25" y="176.0" />
+                  <point x="79.0" y="176.0" />
+                  <point x="0.0" y="24.0" />
+                </edge>
+                <edge source="com.hzqing.delegate.Leader" target="com.hzqing.delegate.IEmployee">
+                  <point x="59.25" y="-24.0" />
+                  <point x="346.75" y="176.0" />
+                  <point x="357.5" y="176.0" />
+                  <point x="59.25" y="24.0" />
+                </edge>
+                <edge source="com.hzqing.delegate.Leader" target="com.hzqing.delegate.EmployeeB">
+                  <point x="-19.75" y="-24.0" />
+                  <point x="267.75" y="176.0" />
+                  <point x="257.0" y="176.0" />
+                  <point x="0.0" y="24.0" />
+                </edge>
+                <edge source="com.hzqing.delegate.Boss" target="com.hzqing.delegate.Leader">
+                  <point x="-2.8421709430404007E-14" y="-24.0" />
+                  <point x="219.66666666666663" y="269.0" />
+                  <point x="248.0" y="269.0" />
+                  <point x="-39.5" y="24.0" />
+                </edge>
+                <edge source="com.hzqing.delegate.EmployeeB" target="com.hzqing.delegate.IEmployee">
+                  <point x="0.0" y="-24.0" />
+                  <point x="257.0" y="73.0" />
+                  <point x="279.41666666666663" y="73.0" />
+                  <point x="-19.75" y="24.0" />
+                </edge>
+                <edge source="com.hzqing.delegate.EmployeeA" target="com.hzqing.delegate.IEmployee">
+                  <point x="0.0" y="-24.0" />
+                  <point x="79.0" y="73.0" />
+                  <point x="239.91666666666666" y="73.0" />
+                  <point x="-59.25" y="24.0" />
+                </edge>
+                <edge source="com.hzqing.delegate.Test" target="com.hzqing.delegate.Boss">
+                  <point x="0.0" y="-24.0" />
+                  <point x="279.29166666666663" y="367.0" />
+                  <point x="273.91666666666663" y="367.0" />
+                  <point x="54.24999999999997" y="24.0" />
+                </edge>
+                <edge source="com.hzqing.delegate.Test" target="com.hzqing.delegate.Leader">
+                  <point x="54.0" y="-24.0" />
+                  <point x="333.29166666666663" y="367.0" />
+                  <point x="338.66666666666663" y="367.0" />
+                  <point x="338.66666666666663" y="269.0" />
+                  <point x="327.0" y="269.0" />
+                  <point x="39.5" y="24.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="173.0" y="150.5" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Methods</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="uml://JAVA/com.hzqing.prototype.shallow.Compony">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement>com.hzqing.prototype.shallow.Compony</OriginalElement>
-              <nodes>
-                <node x="0.0" y="0.0">java.lang.Cloneable</node>
-                <node x="71.6909722222222" y="76.0">com.hzqing.prototype.shallow.Person</node>
-                <node x="129.0" y="0.0">com.hzqing.prototype.shallow.Compony</node>
-                <node x="99.875" y="152.0">com.hzqing.prototype.shallow.PersonClient</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="com.hzqing.prototype.shallow.Person" target="java.lang.Cloneable">
-                  <point x="-29.333333333333314" y="-13.0" />
-                  <point x="86.35763888888889" y="56.0" />
-                  <point x="54.5" y="56.0" />
-                  <point x="0.0" y="13.0" />
-                </edge>
-                <edge source="com.hzqing.prototype.shallow.Person" target="com.hzqing.prototype.shallow.Compony">
-                  <point x="1.4210854715202004E-14" y="-13.0" />
-                  <point x="115.69097222222221" y="46.0" />
-                  <point x="140.875" y="46.0" />
-                  <point x="-35.625" y="13.0" />
-                </edge>
-                <edge source="com.hzqing.prototype.shallow.PersonClient" target="com.hzqing.prototype.shallow.Person">
-                  <point x="-16.25" y="-13.0" />
-                  <point x="148.625" y="127.0" />
-                  <point x="137.69097222222223" y="127.0" />
-                  <point x="22.000000000000014" y="13.0" />
-                </edge>
-                <edge source="com.hzqing.prototype.shallow.PersonClient" target="com.hzqing.prototype.shallow.Compony">
-                  <point x="48.75" y="-13.0" />
-                  <point x="213.625" y="127.0" />
-                  <point x="203.83333333333331" y="127.0" />
-                  <point x="203.83333333333331" y="56.0" />
-                  <point x="212.125" y="56.0" />
-                  <point x="35.625" y="13.0" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="1.0" x="-400.0" y="13.5" />
-              <SelectedNodes />
-              <Categories />
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
+        <entry file="file://$PROJECT_DIR$/src/com/hzqing/delegate/EmployeeB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="12" />
+              <folding>
+                <element signature="e#180#181#0" expanded="true" />
+                <element signature="e#198#199#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -156,6 +209,7 @@
         <option value="Interface" />
         <option value="Kotlin Class" />
         <option value="Enum" />
+        <option value="Kotlin Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -172,26 +226,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/hzqing/factorymethod/BenzCar.java" />
-        <option value="$PROJECT_DIR$/src/com/hzqing/factorymethod/BenzCarFactory.java" />
-        <option value="$PROJECT_DIR$/src/com/hzqing/factorymethod/Customer.java" />
-        <option value="$PROJECT_DIR$/src/com/hzqing/abastractfactory/Phone.java" />
-        <option value="$PROJECT_DIR$/src/com/hzqing/abastractfactory/Iphone.java" />
-        <option value="$PROJECT_DIR$/src/com/hzqing/abastractfactory/Vivo.java" />
-        <option value="$PROJECT_DIR$/src/com/hzqing/abastractfactory/DesktopComputer.java" />
-        <option value="$PROJECT_DIR$/src/com/hzqing/abastractfactory/ThinkCentre.java" />
-        <option value="$PROJECT_DIR$/src/com/hzqing/abastractfactory/IMac.java" />
-        <option value="$PROJECT_DIR$/src/com/hzqing/abastractfactory/NoteBook.java" />
-        <option value="$PROJECT_DIR$/src/com/hzqing/abastractfactory/ThinkPad.java" />
-        <option value="$PROJECT_DIR$/src/com/hzqing/abastractfactory/Mac.java" />
-        <option value="$PROJECT_DIR$/src/com/hzqing/abastractfactory/ElFactory.java" />
-        <option value="$PROJECT_DIR$/src/com/hzqing/abastractfactory/ThinkFactory.java" />
-        <option value="$PROJECT_DIR$/src/com/hzqing/abastractfactory/VivoFactory.java" />
-        <option value="$PROJECT_DIR$/src/com/hzqing/abastractfactory/AppleFactory.java" />
-        <option value="$PROJECT_DIR$/src/com/hzqing/abastractfactory/Customer.java" />
-        <option value="$PROJECT_DIR$/src/com/hzqing/singleton/HungrySingleton.java" />
-        <option value="$PROJECT_DIR$/src/com/hzqing/singleton/HungryTest.java" />
-        <option value="$PROJECT_DIR$/src/com/hzqing/singleton/LazySingleton.java" />
         <option value="$PROJECT_DIR$/src/com/hzqing/singleton/LazyTest.java" />
         <option value="$PROJECT_DIR$/src/com/hzqing/singleton/DoubleCheckSingleton.java" />
         <option value="$PROJECT_DIR$/src/com/hzqing/singleton/DoubleCheckTest.java" />
@@ -223,8 +257,34 @@
         <option value="$PROJECT_DIR$/src/com/hzqing/prototype/deep/Compony.java" />
         <option value="$PROJECT_DIR$/src/com/hzqing/prototype/deep/Person.java" />
         <option value="$PROJECT_DIR$/src/com/hzqing/prototype/deep/PersonClient.java" />
+        <option value="$PROJECT_DIR$/src/com/hzqing/proxy/static/ByHouse.kt" />
+        <option value="$PROJECT_DIR$/src/com/hzqing/proxy/static/ByHouse.java.kt" />
+        <option value="$PROJECT_DIR$/src/com/hzqing/proxy/s/BuyHouse.java" />
+        <option value="$PROJECT_DIR$/src/com/hzqing/proxy/s/BuyHouseImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/hzqing/proxy/s/Test.java" />
+        <option value="$PROJECT_DIR$/src/com/hzqing/proxy/s/BuyHousePorxy.java" />
+        <option value="$PROJECT_DIR$/src/com/hzqing/proxy/dynamic/jdk/BuyHouse.java" />
+        <option value="$PROJECT_DIR$/src/com/hzqing/proxy/dynamic/jdk/BuyHouseJdkProxy.java" />
+        <option value="$PROJECT_DIR$/src/com/hzqing/proxy/dynamic/jdk/Test.java" />
+        <option value="$PROJECT_DIR$/src/com/hzqing/proxy/dynamic/cglib/BuyHouse.java" />
+        <option value="$PROJECT_DIR$/src/com/hzqing/proxy/dynamic/cglib/BuyHouseImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/hzqing/proxy/dynamic/cglib/Test.java" />
+        <option value="$PROJECT_DIR$/src/com/hzqing/proxy/dynamic/cglib/BuyHouseCglibProxy.java" />
+        <option value="$PROJECT_DIR$/src/com/hzqing/delegate/iEmployee.java" />
+        <option value="$PROJECT_DIR$/src/com/hzqing/delegate/IEmployee.java" />
+        <option value="$PROJECT_DIR$/src/com/hzqing/delegate/EmployeeA.java" />
+        <option value="$PROJECT_DIR$/src/com/hzqing/delegate/EmployeeB.java" />
+        <option value="$PROJECT_DIR$/src/com/hzqing/delegate/Boss.java" />
+        <option value="$PROJECT_DIR$/src/com/hzqing/delegate/Leader.java" />
+        <option value="$PROJECT_DIR$/src/com/hzqing/delegate/Test.java" />
       </list>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="1680" />
@@ -240,7 +300,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -261,21 +320,6 @@
             </path>
             <path>
               <item name="design-patterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design-patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="hzqing" type="462c0819:PsiDirectoryNode" />
-              <item name="prototype" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="design-patterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design-patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="hzqing" type="462c0819:PsiDirectoryNode" />
-              <item name="prototype" type="462c0819:PsiDirectoryNode" />
-              <item name="shallow" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="design-patterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
@@ -291,21 +335,24 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/hzqing/prototype/deep" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/com/hzqing/prototype/deep" />
       <recent name="$PROJECT_DIR$/lib" />
+      <recent name="$PROJECT_DIR$/src/com/hzqing/proxy/dynamic/cglib" />
+      <recent name="$PROJECT_DIR$/src/com/hzqing/proxy/dynamic/jdk" />
+      <recent name="$PROJECT_DIR$/src/com/hzqing/prototype/deep" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -320,20 +367,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PersonClient (1)">
-    <configuration name="ListClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hzqing.prototype.ListClient" />
-      <module name="design-patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hzqing.prototype.shallow.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Test (3)">
     <configuration name="PersonClient (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hzqing.prototype.deep.PersonClient" />
       <module name="design-patterns" />
@@ -347,12 +381,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hzqing.prototype.shallow.PersonClient" />
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hzqing.proxy.dynamic.jdk.Test" />
       <module name="design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hzqing.prototype.shallow.*" />
+          <option name="PATTERN" value="com.hzqing.proxy.dynamic.jdk.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -360,12 +394,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReflexTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hzqing.singletonenumdefense.ReflexTest" />
+    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hzqing.proxy.dynamic.cglib.Test" />
       <module name="design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hzqing.singletonenumdefense.*" />
+          <option name="PATTERN" value="com.hzqing.proxy.dynamic.cglib.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -373,12 +407,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SerializableTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hzqing.singletonenumdefense.SerializableTest" />
+    <configuration name="Test (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hzqing.delegate.Test" />
       <module name="design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hzqing.singletonenumdefense.*" />
+          <option name="PATTERN" value="com.hzqing.delegate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hzqing.proxy.s.Test" />
+      <module name="design-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hzqing.proxy.s.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -388,11 +435,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test (3)" />
+        <item itemvalue="Application.Test (2)" />
+        <item itemvalue="Application.Test (1)" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.PersonClient (1)" />
-        <item itemvalue="Application.PersonClient" />
-        <item itemvalue="Application.ListClient" />
-        <item itemvalue="Application.SerializableTest (1)" />
-        <item itemvalue="Application.ReflexTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -411,17 +458,18 @@
       <workItem from="1561852593676" duration="8079000" />
       <workItem from="1561939911818" duration="2377000" />
       <workItem from="1561947758820" duration="8849000" />
-      <workItem from="1562025147015" duration="7925000" />
+      <workItem from="1562025147015" duration="8313000" />
+      <workItem from="1562113175022" duration="5023000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33002000" />
+    <option name="totallyTimeSpent" value="38413000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1680" y="0" width="1920" height="1080" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17465389" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17625134" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -446,11 +494,11 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24973376" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24973376" />
-      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32960597" />
       <window_info anchor="right" id="PlantUML" order="4" weight="0.32960597" />
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32960597" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
@@ -550,221 +598,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/singleton/StaticInnerClassSingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/singleton/HungryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/singleton/EnumSingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/singleton/EnumTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="534" column="24" selection-start-line="534" selection-start-column="13" selection-end-line="534" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/singleton/ContainerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/singleton/ContainerSingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#328#344#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/singleton/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="195">
-            <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/singleton/LazyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="142" column="28" selection-start-line="142" selection-start-column="28" selection-end-line="142" selection-end-column="28" />
-          <folding>
-            <element signature="e#16363#16364#0" expanded="true" />
-            <element signature="e#16427#16428#0" expanded="true" />
-            <element signature="e#17047#17048#0" expanded="true" />
-            <element signature="e#17113#17114#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Runnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="55" column="19" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/singleton/StaticInnerClassTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/singleton/ThreadLocalSingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-          <folding>
-            <element signature="e#231#408#0" expanded="true" />
-            <element signature="e#407#408#0" expanded="true" />
-            <element signature="e#463#464#0" expanded="true" />
-            <element signature="e#503#504#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/ThreadLocal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2231">
-          <caret line="75" column="13" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
-          <folding>
-            <element signature="e#4359#4360#0" expanded="true" />
-            <element signature="e#4386#4387#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/singleton/ThreadLocalTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/singletonreflex/HungrySingleton.kt" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/System.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="140" column="28" selection-start-line="140" selection-start-column="28" selection-end-line="140" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/io/PrintStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="62" column="13" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/singletonreflex/ReflexTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/singletonreflex/HungrySingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-          <folding>
-            <element signature="e#276#277#0" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/singleton/LazySingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/io/FileOutputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="69" column="6" selection-start-line="69" selection-start-column="6" selection-end-line="69" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/io/ObjectOutputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="342" column="22" selection-start-line="342" selection-start-column="22" selection-end-line="342" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/reflect/Method.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="551" column="18" selection-start-line="551" selection-start-column="18" selection-end-line="551" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/singletonserializable/LazySingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#475#476#0" expanded="true" />
-            <element signature="e#506#507#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/hzqing/singletonserializable/SerializableTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -779,24 +612,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/design-patterns/com/hzqing/singletonenumdefense/ReflexTest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#784#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/design-patterns/com/hzqing/singletonenumdefense/EnumSingleton.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#229#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/design-patterns/com/hzqing/singletonenumdefense/ReflexTest.class" />
+    <entry file="file://$PROJECT_DIR$/out/production/design-patterns/com/hzqing/singletonenumdefense/EnumSingleton.class" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/reflect/Constructor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="457">
@@ -811,13 +628,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/design-patterns/com/hzqing/singletonenumdefense/EnumSingleton.jad">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="18" column="94" selection-start-line="18" selection-start-column="90" selection-end-line="18" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/design-patterns/com/hzqing/singletonenumdefense/EnumSingleton.jad" />
     <entry file="file://$PROJECT_DIR$/src/com/hzqing/singletonenumdefense/EnumSingleton.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -941,13 +752,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/prototype/shallow/Compony.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://JAVA/com.hzqing.prototype.shallow.Compony">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -988,7 +792,7 @@
               <point x="35.625" y="13.0" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-400.0" y="13.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-400.0" y="14.0" />
           <SelectedNodes />
           <Categories />
           <SCOPE>All</SCOPE>
@@ -1002,58 +806,444 @@
           <ID>JAVA</ID>
           <OriginalElement>com.hzqing.prototype.deep.Compony</OriginalElement>
           <nodes>
-            <node x="0.0" y="76.0">java.lang.Cloneable</node>
-            <node x="82.765625" y="152.0">com.hzqing.prototype.deep.Person</node>
-            <node x="130.0" y="76.0">com.hzqing.prototype.deep.Compony</node>
-            <node x="95.1875" y="228.0">com.hzqing.prototype.deep.PersonClient</node>
-            <node x="83.5" y="0.0">java.io.Serializable</node>
+            <node x="10.5" y="76.0">java.lang.Cloneable</node>
+            <node x="17.7109375" y="152.0">com.hzqing.prototype.deep.Person</node>
+            <node x="139.5" y="76.0">com.hzqing.prototype.deep.Compony</node>
+            <node x="72.6875" y="228.0">com.hzqing.prototype.deep.PersonClient</node>
+            <node x="30.859375" y="0.0">java.io.Serializable</node>
           </nodes>
           <notes />
           <edges>
             <edge source="com.hzqing.prototype.deep.PersonClient" target="com.hzqing.prototype.deep.Compony">
-              <point x="48.75" y="-13.0" />
-              <point x="208.9375" y="203.0" />
-              <point x="204.5234375" y="203.0" />
-              <point x="204.5234375" y="127.0" />
-              <point x="213.125" y="127.0" />
-              <point x="35.625" y="13.0" />
+              <point x="16.25" y="-13.0" />
+              <point x="153.9375" y="198.0" />
+              <point x="201.515625" y="198.0" />
+              <point x="201.515625" y="132.0" />
+              <point x="198.875" y="132.0" />
+              <point x="11.875" y="13.0" />
             </edge>
             <edge source="com.hzqing.prototype.deep.Person" target="java.lang.Cloneable">
-              <point x="-33.0" y="-13.0" />
-              <point x="93.765625" y="127.0" />
-              <point x="54.5" y="127.0" />
+              <point x="-11.0" y="-13.0" />
+              <point x="50.7109375" y="132.0" />
+              <point x="65.0" y="132.0" />
               <point x="0.0" y="13.0" />
             </edge>
             <edge source="com.hzqing.prototype.deep.PersonClient" target="com.hzqing.prototype.deep.Person">
-              <point x="-16.25" y="-13.0" />
-              <point x="143.9375" y="203.0" />
-              <point x="148.765625" y="203.0" />
-              <point x="22.0" y="13.0" />
+              <point x="-48.75" y="-13.0" />
+              <point x="88.9375" y="208.0" />
+              <point x="39.7109375" y="208.0" />
+              <point x="-22.0" y="13.0" />
             </edge>
             <edge source="com.hzqing.prototype.deep.Person" target="java.io.Serializable">
-              <point x="-11.0" y="-13.0" />
-              <point x="115.765625" y="127.0" />
-              <point x="119.5" y="127.0" />
-              <point x="119.5" y="51.0" />
-              <point x="116.0" y="51.0" />
+              <point x="-33.0" y="-13.0" />
+              <point x="28.7109375" y="132.0" />
+              <point x="0.0" y="132.0" />
+              <point x="0.0" y="51.0" />
+              <point x="63.359375" y="51.0" />
               <point x="-32.5" y="13.0" />
             </edge>
             <edge source="com.hzqing.prototype.deep.Person" target="com.hzqing.prototype.deep.Compony">
-              <point x="11.0" y="-13.0" />
-              <point x="137.765625" y="127.0" />
-              <point x="141.875" y="127.0" />
-              <point x="-35.625" y="13.0" />
+              <point x="33.0" y="-13.0" />
+              <point x="94.7109375" y="132.0" />
+              <point x="175.125" y="132.0" />
+              <point x="-11.875" y="13.0" />
             </edge>
             <edge source="com.hzqing.prototype.deep.Compony" target="java.io.Serializable">
               <point x="0.0" y="-13.0" />
-              <point x="177.5" y="51.0" />
-              <point x="181.0" y="51.0" />
+              <point x="187.0" y="51.0" />
+              <point x="128.359375" y="51.0" />
               <point x="32.5" y="13.0" />
             </edge>
           </edges>
           <settings layout="Hierarchic Group" zoom="1.0" x="137.0" y="90.0" />
           <SelectedNodes />
           <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/prototype/shallow/Compony.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/proxy/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/proxy/static/ByHouse.java.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/proxy/s/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/proxy/s/BuyHousePorxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="30" />
+          <folding>
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/proxy/s/BuyHouseImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="12" />
+          <folding>
+            <element signature="e#170#171#0" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.hzqing.proxy.s.BuyHouse">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.hzqing.proxy.s.BuyHouse</OriginalElement>
+          <nodes>
+            <node x="" y="">com.hzqing.proxy.s.BuyHouse</node>
+            <node x="" y="">com.hzqing.proxy.s.BuyHousePorxy</node>
+            <node x="" y="">com.hzqing.proxy.s.BuyHouseImpl</node>
+            <node x="" y="">com.hzqing.proxy.s.Test</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-390.0" y="13.5" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/proxy/s/BuyHouse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/reflect/Proxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="995" column="59" selection-start-line="995" selection-start-column="42" selection-end-line="995" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/proxy/dynamic/jdk/BuyHouseImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/proxy/dynamic/jdk/BuyHouseJdkProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#516#517#0" expanded="true" />
+            <element signature="e#560#561#0" expanded="true" />
+            <element signature="e#586#587#0" expanded="true" />
+            <element signature="e#622#623#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/proxy/dynamic/jdk/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.hzqing.proxy.dynamic.jdk.BuyHouse">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.hzqing.proxy.dynamic.jdk.BuyHouse</OriginalElement>
+          <nodes>
+            <node x="181.50000000000006" y="76.0">com.hzqing.proxy.dynamic.jdk.BuyHouseImpl</node>
+            <node x="3.500000000000057" y="76.0">com.hzqing.proxy.dynamic.jdk.BuyHouseJdkProxy</node>
+            <node x="239.22222222222226" y="0.0">com.hzqing.proxy.dynamic.jdk.BuyHouse</node>
+            <node x="0.0" y="0.0">java.lang.reflect.InvocationHandler</node>
+            <node x="211.50000000000006" y="180.0">com.hzqing.proxy.dynamic.jdk.Test</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.hzqing.proxy.dynamic.jdk.Test" target="com.hzqing.proxy.dynamic.jdk.BuyHouseImpl">
+              <point x="0.0" y="-13.0" />
+              <point x="0.0" y="13.0" />
+            </edge>
+            <edge source="com.hzqing.proxy.dynamic.jdk.BuyHouseJdkProxy" target="java.lang.reflect.InvocationHandler">
+              <point x="-2.8421709430404007E-14" y="-13.0" />
+              <point x="0.0" y="13.0" />
+            </edge>
+            <edge source="com.hzqing.proxy.dynamic.jdk.Test" target="com.hzqing.proxy.dynamic.jdk.BuyHouse">
+              <point x="24.666666666666657" y="-13.0" />
+              <point x="271.1666666666667" y="127.0" />
+              <point x="322.00000000000006" y="127.0" />
+              <point x="322.00000000000006" y="51.0" />
+              <point x="315.7222222222223" y="51.0" />
+              <point x="25.5" y="13.0" />
+            </edge>
+            <edge source="com.hzqing.proxy.dynamic.jdk.Test" target="com.hzqing.proxy.dynamic.jdk.BuyHouseJdkProxy">
+              <point x="-24.66666666666667" y="-13.0" />
+              <point x="221.83333333333337" y="127.0" />
+              <point x="82.50000000000006" y="127.0" />
+              <point x="0.0" y="13.0" />
+            </edge>
+            <edge source="com.hzqing.proxy.dynamic.jdk.BuyHouseImpl" target="com.hzqing.proxy.dynamic.jdk.BuyHouse">
+              <point x="0.0" y="-13.0" />
+              <point x="246.50000000000006" y="51.0" />
+              <point x="264.7222222222223" y="51.0" />
+              <point x="-25.5" y="13.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-185.0" y="124.5" />
+          <SelectedNodes>
+            <node>com.hzqing.proxy.dynamic.jdk.BuyHouse</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/proxy/dynamic/jdk/BuyHouse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/proxy/dynamic/cglib/BuyHouseJdkProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/cglib-3.2.12.jar!/net/sf/cglib/proxy/MethodInterceptor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/proxy/dynamic/cglib/BuyHouse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/proxy/dynamic/cglib/BuyHouseImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="11" />
+          <folding>
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/proxy/dynamic/cglib/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/proxy/dynamic/cglib/BuyHouseCglibProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" selection-start-line="12" selection-end-line="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#748#749#0" expanded="true" />
+            <element signature="e#784#785#0" expanded="true" />
+            <element signature="e#731#732#0" expanded="true" />
+            <element signature="e#767#768#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.hzqing.proxy.dynamic.cglib.BuyHouseCglibProxy">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.hzqing.proxy.dynamic.cglib.BuyHouseCglibProxy</OriginalElement>
+          <nodes>
+            <node x="" y="">net.sf.cglib.proxy.Callback</node>
+            <node x="" y="">net.sf.cglib.proxy.MethodInterceptor</node>
+            <node x="" y="">com.hzqing.proxy.dynamic.cglib.BuyHouseCglibProxy</node>
+            <node x="" y="">com.hzqing.proxy.dynamic.cglib.Test</node>
+            <node x="" y="">com.hzqing.proxy.dynamic.cglib.BuyHouseImpl</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-409.0" y="51.5" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/delegate/IEmployee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/delegate/EmployeeA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="12" />
+          <folding>
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/delegate/EmployeeB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="12" />
+          <folding>
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#198#199#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/delegate/Leader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/delegate/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/delegate/Boss.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="17" />
+          <folding>
+            <element signature="e#217#218#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.hzqing.delegate.Boss">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.hzqing.delegate.Boss</OriginalElement>
+          <nodes>
+            <node x="208.5" y="196.0">com.hzqing.delegate.Leader</node>
+            <node x="178.0" y="98.0">com.hzqing.delegate.EmployeeB</node>
+            <node x="0.0" y="98.0">com.hzqing.delegate.EmployeeA</node>
+            <node x="198.29166666666663" y="392.0">com.hzqing.delegate.Test</node>
+            <node x="111.16666666666666" y="294.0">com.hzqing.delegate.Boss</node>
+            <node x="220.16666666666666" y="0.0">com.hzqing.delegate.IEmployee</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.hzqing.delegate.Leader" target="com.hzqing.delegate.EmployeeA">
+              <point x="-59.25" y="-24.0" />
+              <point x="228.25" y="176.0" />
+              <point x="79.0" y="176.0" />
+              <point x="0.0" y="24.0" />
+            </edge>
+            <edge source="com.hzqing.delegate.Leader" target="com.hzqing.delegate.IEmployee">
+              <point x="59.25" y="-24.0" />
+              <point x="346.75" y="176.0" />
+              <point x="357.5" y="176.0" />
+              <point x="59.25" y="24.0" />
+            </edge>
+            <edge source="com.hzqing.delegate.Leader" target="com.hzqing.delegate.EmployeeB">
+              <point x="-19.75" y="-24.0" />
+              <point x="267.75" y="176.0" />
+              <point x="257.0" y="176.0" />
+              <point x="0.0" y="24.0" />
+            </edge>
+            <edge source="com.hzqing.delegate.Boss" target="com.hzqing.delegate.Leader">
+              <point x="-2.8421709430404007E-14" y="-24.0" />
+              <point x="219.66666666666663" y="269.0" />
+              <point x="248.0" y="269.0" />
+              <point x="-39.5" y="24.0" />
+            </edge>
+            <edge source="com.hzqing.delegate.EmployeeB" target="com.hzqing.delegate.IEmployee">
+              <point x="0.0" y="-24.0" />
+              <point x="257.0" y="73.0" />
+              <point x="279.41666666666663" y="73.0" />
+              <point x="-19.75" y="24.0" />
+            </edge>
+            <edge source="com.hzqing.delegate.EmployeeA" target="com.hzqing.delegate.IEmployee">
+              <point x="0.0" y="-24.0" />
+              <point x="79.0" y="73.0" />
+              <point x="239.91666666666666" y="73.0" />
+              <point x="-59.25" y="24.0" />
+            </edge>
+            <edge source="com.hzqing.delegate.Test" target="com.hzqing.delegate.Boss">
+              <point x="0.0" y="-24.0" />
+              <point x="279.29166666666663" y="367.0" />
+              <point x="273.91666666666663" y="367.0" />
+              <point x="54.24999999999997" y="24.0" />
+            </edge>
+            <edge source="com.hzqing.delegate.Test" target="com.hzqing.delegate.Leader">
+              <point x="54.0" y="-24.0" />
+              <point x="333.29166666666663" y="367.0" />
+              <point x="338.66666666666663" y="367.0" />
+              <point x="338.66666666666663" y="269.0" />
+              <point x="327.0" y="269.0" />
+              <point x="39.5" y="24.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="173.0" y="150.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+          </Categories>
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
         </state>
@@ -1121,7 +1311,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>log4j-to-slf4j-2.11.2</last-edited>
+          <last-edited>asm-7.1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
