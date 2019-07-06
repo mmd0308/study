@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="133a377c-0ac9-46a0-a4fa-535af17f98fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/hzqing/template/BookProjectDeploy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hzqing/template/DeployProject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hzqing/template/HzqWikiProjectDeploy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hzqing/template/Tests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hzqing/adapter/AC220.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hzqing/adapter/DC5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hzqing/adapter/PowerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hzqing/adapter/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -35,120 +35,69 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/hzqing/template/DeployProject.java">
+        <entry file="file://$PROJECT_DIR$/src/com/hzqing/adapter/AC220.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-              <folding>
-                <element signature="e#513#514#0" expanded="true" />
-                <element signature="e#562#563#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="14" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/hzqing/template/BookProjectDeploy.java">
+        <entry file="uml://JAVA/com.hzqing.adapter.AC220">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>com.hzqing.adapter.AC220</OriginalElement>
+              <nodes>
+                <node x="31.5" y="0.0">com.hzqing.adapter.DC5</node>
+                <node x="0.0" y="76.0">com.hzqing.adapter.PowerAdapter</node>
+                <node x="126.0" y="147.0">com.hzqing.adapter.Test</node>
+                <node x="0.0" y="147.0">com.hzqing.adapter.AC220</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="com.hzqing.adapter.PowerAdapter" target="com.hzqing.adapter.DC5">
+                  <point x="0.0" y="-13.0" />
+                  <point x="0.0" y="13.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="-430.5" y="13.5" />
+              <SelectedNodes />
+              <Categories />
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/hzqing/adapter/DC5.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/hzqing/adapter/PowerAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
               <folding>
-                <element signature="e#186#187#0" expanded="true" />
-                <element signature="e#222#223#0" expanded="true" />
-                <element signature="e#287#288#0" expanded="true" />
-                <element signature="e#305#306#0" expanded="true" />
-                <element signature="e#385#386#0" expanded="true" />
-                <element signature="e#402#403#0" expanded="true" />
+                <element signature="e#192#193#0" expanded="true" />
+                <element signature="e#226#227#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/hzqing/template/HzqWikiProjectDeploy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-              <folding>
-                <element signature="e#189#190#0" expanded="true" />
-                <element signature="e#225#226#0" expanded="true" />
-                <element signature="e#291#292#0" expanded="true" />
-                <element signature="e#309#310#0" expanded="true" />
-                <element signature="e#389#390#0" expanded="true" />
-                <element signature="e#407#408#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/hzqing/template/Tests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/hzqing/strategy/TestStrategy.java">
+        <entry file="file://$PROJECT_DIR$/src/com/hzqing/adapter/Test.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/hzqing/strategy/JDPay.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="17" />
-              <folding>
-                <element signature="e#161#162#0" expanded="true" />
-                <element signature="e#190#191#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/hzqing/strategy/PayStrategy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="9" selection-start-line="9" selection-end-line="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#460#461#0" expanded="true" />
-                <element signature="e#502#503#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/hzqing/strategy/Constant.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" selection-start-line="7" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/hzqing/strategy/WeChatPay.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/hzqing/strategy/PayRestult.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="29" />
+              <caret line="6" selection-start-line="6" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -178,10 +127,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/hzqing/singletonserializable/SerializableTest.java" />
-        <option value="$PROJECT_DIR$/src/com/hzqing/singletonserializable/LazySingleton.java" />
-        <option value="$PROJECT_DIR$/src/com/hzqing/singletonenumdefense/EnumSingleton.java" />
         <option value="$PROJECT_DIR$/src/com/hzqing/singletonenumdefense/ReflexTest.java" />
         <option value="$PROJECT_DIR$/src/com/hzqing/singletonenumdefense/SerializableTest.java" />
         <option value="$PROJECT_DIR$/src/com/hzqing/prototype/ListClient.java" />
@@ -229,6 +174,10 @@
         <option value="$PROJECT_DIR$/src/com/hzqing/template/BookProjectDeploy.java" />
         <option value="$PROJECT_DIR$/src/com/hzqing/template/Tests.java" />
         <option value="$PROJECT_DIR$/src/com/hzqing/template/HzqWikiProjectDeploy.java" />
+        <option value="$PROJECT_DIR$/src/com/hzqing/adapter/AC220.java" />
+        <option value="$PROJECT_DIR$/src/com/hzqing/adapter/DC5.java" />
+        <option value="$PROJECT_DIR$/src/com/hzqing/adapter/PowerAdapter.java" />
+        <option value="$PROJECT_DIR$/src/com/hzqing/adapter/Test.java" />
       </list>
     </option>
   </component>
@@ -274,7 +223,7 @@
               <item name="design-patterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="hzqing" type="462c0819:PsiDirectoryNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="adapter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="design-patterns" type="b2602c69:ProjectViewProjectNode" />
@@ -329,20 +278,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Tests">
-    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hzqing.proxy.dynamic.cglib.Test" />
-      <module name="design-patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hzqing.proxy.dynamic.cglib.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Test">
     <configuration name="Test (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hzqing.delegate.Test" />
       <module name="design-patterns" />
@@ -362,6 +298,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.hzqing.strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hzqing.adapter.Test" />
+      <module name="design-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hzqing.adapter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -397,11 +346,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Tests" />
         <item itemvalue="Application.Test (4)" />
         <item itemvalue="Application.TestStrategy" />
         <item itemvalue="Application.Test (3)" />
-        <item itemvalue="Application.Test (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -423,12 +372,12 @@
       <workItem from="1562025147015" duration="8313000" />
       <workItem from="1562113175022" duration="5176000" />
       <workItem from="1562198235322" duration="1999000" />
-      <workItem from="1562285186163" duration="619000" />
+      <workItem from="1562285186163" duration="2073000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41184000" />
+    <option name="totallyTimeSpent" value="42638000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1680" y="0" width="1920" height="1080" extended-state="0" />
@@ -443,7 +392,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32970297" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32970297" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3792079" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -563,63 +512,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/prototype/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/prototype/shallow/PersonClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/prototype/shallow/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-          <folding>
-            <element signature="e#473#474#0" expanded="true" />
-            <element signature="e#500#501#0" expanded="true" />
-            <element signature="e#541#542#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="167" column="5" lean-forward="true" selection-start-line="167" selection-start-column="5" selection-end-line="167" selection-end-column="5" />
-          <folding>
-            <element signature="e#6336#6337#0" expanded="true" />
-            <element signature="e#6404#6405#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/prototype/deep/PersonClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/prototype/deep/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="e#345#346#0" expanded="true" />
-            <element signature="e#384#385#0" expanded="true" />
-            <element signature="e#499#500#0" expanded="true" />
-            <element signature="e#529#530#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/hzqing/prototype/deep/Compony.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1246,7 +1138,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/hzqing/strategy/PayStrategy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
+        <state relative-caret-position="135">
           <caret line="9" selection-start-line="9" selection-end-line="25" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1277,17 +1169,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/template/BookProjectDeploy.java">
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/template/DeployProject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+        <state relative-caret-position="600">
+          <caret line="45" selection-start-line="6" selection-end-line="45" />
           <folding>
-            <element signature="e#186#187#0" expanded="true" />
-            <element signature="e#222#223#0" expanded="true" />
-            <element signature="e#287#288#0" expanded="true" />
-            <element signature="e#305#306#0" expanded="true" />
-            <element signature="e#385#386#0" expanded="true" />
-            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1299,21 +1187,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/template/DeployProject.java">
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/template/BookProjectDeploy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="22" />
           <folding>
-            <element signature="e#513#514#0" expanded="true" />
-            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.hzqing.template.BookProjectDeploy">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.hzqing.template.BookProjectDeploy</OriginalElement>
+          <nodes>
+            <node x="206.0" y="76.0">com.hzqing.template.BookProjectDeploy</node>
+            <node x="220.0" y="0.0">com.hzqing.template.DeployProject</node>
+            <node x="248.0" y="152.0">com.hzqing.template.Tests</node>
+            <node x="0.0" y="76.0">com.hzqing.template.HzqWikiProjectDeploy</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.hzqing.template.HzqWikiProjectDeploy" target="com.hzqing.template.DeployProject">
+              <point x="0.0" y="-13.0" />
+              <point x="93.0" y="51.0" />
+              <point x="242.83333333333334" y="51.0" />
+              <point x="-45.66666666666666" y="13.0" />
+            </edge>
+            <edge source="com.hzqing.template.Tests" target="com.hzqing.template.DeployProject">
+              <point x="27.000000000000004" y="-13.0" />
+              <point x="315.5" y="127.0" />
+              <point x="381.5" y="127.0" />
+              <point x="381.5" y="51.0" />
+              <point x="334.16666666666663" y="51.0" />
+              <point x="45.66666666666663" y="13.0" />
+            </edge>
+            <edge source="com.hzqing.template.Tests" target="com.hzqing.template.HzqWikiProjectDeploy">
+              <point x="-27.0" y="-13.0" />
+              <point x="261.5" y="127.0" />
+              <point x="93.0" y="127.0" />
+              <point x="0.0" y="13.0" />
+            </edge>
+            <edge source="com.hzqing.template.BookProjectDeploy" target="com.hzqing.template.DeployProject">
+              <point x="0.0" y="-13.0" />
+              <point x="0.0" y="13.0" />
+            </edge>
+            <edge source="com.hzqing.template.Tests" target="com.hzqing.template.BookProjectDeploy">
+              <point x="0.0" y="-13.0" />
+              <point x="0.0" y="13.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-345.0" y="13.5" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/hzqing/template/HzqWikiProjectDeploy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="22" />
           <folding>
             <element signature="e#189#190#0" expanded="true" />
             <element signature="e#225#226#0" expanded="true" />
@@ -1322,6 +1264,64 @@
             <element signature="e#389#390#0" expanded="true" />
             <element signature="e#407#408#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.hzqing.adapter.AC220">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.hzqing.adapter.AC220</OriginalElement>
+          <nodes>
+            <node x="31.5" y="0.0">com.hzqing.adapter.DC5</node>
+            <node x="0.0" y="76.0">com.hzqing.adapter.PowerAdapter</node>
+            <node x="126.0" y="147.0">com.hzqing.adapter.Test</node>
+            <node x="0.0" y="147.0">com.hzqing.adapter.AC220</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.hzqing.adapter.PowerAdapter" target="com.hzqing.adapter.DC5">
+              <point x="0.0" y="-13.0" />
+              <point x="0.0" y="13.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-430.5" y="13.5" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/adapter/AC220.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/adapter/DC5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/adapter/PowerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#192#193#0" expanded="true" />
+            <element signature="e#226#227#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/adapter/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="12" />
         </state>
       </provider>
     </entry>
