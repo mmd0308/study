@@ -19,12 +19,14 @@ public class App {
         SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
         // 获取一个sqlSession会话
         SqlSession sqlSession = sqlSessionFactory.openSession();
-        UserMapper mapper = sqlSession.getMapper(UserMapper.class);
-        List<User> userList = mapper.selectList();
-        for (User u:userList) {
-            System.out.println(u);
+        try {
+            UserMapper mapper = sqlSession.getMapper(UserMapper.class);
+            List<User> userList = mapper.selectList();
+            for (User u:userList) {
+                System.out.println(u);
+            }
+        } finally {
+            sqlSession.close();
         }
-
-        sqlSession.close();
     }
 }
