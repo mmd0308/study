@@ -92,6 +92,7 @@ public class XMLConfigBuilder extends BaseBuilder {
   }
 
   public Configuration parse() {
+    // xml文件只能解析一次
     if (parsed) {
       throw new BuilderException("Each XMLConfigBuilder can only be used once.");
     }
@@ -104,16 +105,25 @@ public class XMLConfigBuilder extends BaseBuilder {
   private void parseConfiguration(XNode root) {
     try {
       //issue #117 read properties first
+      // 解析propertis标签
       propertiesElement(root.evalNode("properties"));
+      // 加载settings标签，检查配置的key是否存在
       Properties settings = settingsAsProperties(root.evalNode("settings"));
+      // 加载vfsImpl
       loadCustomVfs(settings);
+      // 加载日志配置
       loadCustomLogImpl(settings);
+      // 解析typeAliases 定义的类型别名
       typeAliasesElement(root.evalNode("typeAliases"));
+
       pluginElement(root.evalNode("plugins"));
       objectFactoryElement(root.evalNode("objectFactory"));
       objectWrapperFactoryElement(root.evalNode("objectWrapperFactory"));
       reflectorFactoryElement(root.evalNode("reflectorFactory"));
+
+      // 加载其他的setting配置
       settingsElement(settings);
+
       // read it after objectFactory and objectWrapperFactory issue #631
       environmentsElement(root.evalNode("environments"));
       databaseIdProviderElement(root.evalNode("databaseIdProvider"));
@@ -125,12 +135,15 @@ public class XMLConfigBuilder extends BaseBuilder {
   }
 
   private Properties settingsAsProperties(XNode context) {
+    // 如果没有配置，直接返回一个新的Properties对象
     if (context == null) {
       return new Properties();
     }
+    // 获取settings中的setting标签
     Properties props = context.getChildrenAsProperties();
     // Check that all settings are known to the configuration class
     MetaClass metaConfig = MetaClass.forClass(Configuration.class, localReflectorFactory);
+    // 检查配置的key是否存在，如果都存在，返回一个properties对象
     for (Object key : props.keySet()) {
       if (!metaConfig.hasSetter(String.valueOf(key))) {
         throw new BuilderException("The setting " + key + " is not known.  Make sure you spelled it correctly (case sensitive).");
@@ -158,9 +171,14 @@ public class XMLConfigBuilder extends BaseBuilder {
     configuration.setLogImpl(logImpl);
   }
 
+  /**
+   * 解析别名配置
+   * @param parent
+   */
   private void typeAliasesElement(XNode parent) {
     if (parent != null) {
       for (XNode child : parent.getChildren()) {
+        // 根据包路径，直接加载包下面所有
         if ("package".equals(child.getName())) {
           String typeAliasPackage = child.getStringAttribute("name");
           configuration.getTypeAliasRegistry().registerAliases(typeAliasPackage);
@@ -222,22 +240,28 @@ public class XMLConfigBuilder extends BaseBuilder {
 
   private void propertiesElement(XNode context) throws Exception {
     if (context != null) {
+      // 1. 获取propertis标签内部的配置
       Properties defaults = context.getChildrenAsProperties();
       String resource = context.getStringAttribute("resource");
       String url = context.getStringAttribute("url");
       if (resource != null && url != null) {
         throw new BuilderException("The properties element cannot specify both a URL and a resource based property file reference.  Please specify one or the other.");
       }
+      // 根据resouce引入文件外部properties文件，加载配置
       if (resource != null) {
+        // 如果有相同的key，直接覆盖，所以resouce或者url引入的优先级高于properties内部的
         defaults.putAll(Resources.getResourceAsProperties(resource));
       } else if (url != null) {
         defaults.putAll(Resources.getUrlAsProperties(url));
       }
+      // 获取我们new SqlSessionFactoryBuilder().build(resourceAsReader,properties);通过参数已经配置的配置项
       Properties vars = configuration.getVariables();
       if (vars != null) {
+        // 相同指进行覆盖
         defaults.putAll(vars);
       }
       parser.setVariables(defaults);
+      // 将参数加载到configuration 对象中
       configuration.setVariables(defaults);
     }
   }

@@ -7,17 +7,24 @@ import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 import org.junit.jupiter.api.Test;
 
 import java.io.Reader;
+import java.util.Properties;
 
 /**
  * @author hzqing
  * @date 2019-07-07 18:04
  */
-public class Demo1 {
+public class Demo {
 
     @Test
-    public void test1() throws Exception {
+    public void test() throws Exception {
         Reader resourceAsReader = Resources.getResourceAsReader("com/hzqing/source/mybatis-config.xml");
-        SqlSessionFactory sqlSessionFactory =  new SqlSessionFactoryBuilder().build(resourceAsReader);
+        Properties properties = new Properties();
+        properties.setProperty("username","root");
+        properties.setProperty("password","root");
+        SqlSessionFactory sqlSessionFactory =  new SqlSessionFactoryBuilder().build(resourceAsReader,properties);
+
+        // 获取一个会话
         SqlSession sqlSession = sqlSessionFactory.openSession();
+
     }
 }

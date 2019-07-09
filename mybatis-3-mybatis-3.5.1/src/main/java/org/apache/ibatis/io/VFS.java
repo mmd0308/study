@@ -42,6 +42,9 @@ public abstract class VFS {
   public static final List<Class<? extends VFS>> USER_IMPLEMENTATIONS = new ArrayList<>();
 
   /** Singleton instance holder. */
+  /**
+   * 使用静态内部类，实例话vsf
+   */
   private static class VFSHolder {
     static final VFS INSTANCE = createVFS();
 
@@ -57,6 +60,7 @@ public abstract class VFS {
       for (int i = 0; vfs == null || !vfs.isValid(); i++) {
         Class<? extends VFS> impl = impls.get(i);
         try {
+          // 使用反射实例化
           vfs = impl.newInstance();
           if (vfs == null || !vfs.isValid()) {
             if (log.isDebugEnabled()) {

@@ -142,6 +142,7 @@ public class TypeAliasRegistry {
   public void registerAlias(Class<?> type) {
     String alias = type.getSimpleName();
     Alias aliasAnnotation = type.getAnnotation(Alias.class);
+    // 如果有注解，直接方式，直接覆盖原先的别名
     if (aliasAnnotation != null) {
       alias = aliasAnnotation.value();
     }
@@ -153,7 +154,9 @@ public class TypeAliasRegistry {
       throw new TypeException("The parameter alias cannot be null");
     }
     // issue #748
+    // 别名小写
     String key = alias.toLowerCase(Locale.ENGLISH);
+    // 判断别名是否使用
     if (typeAliases.containsKey(key) && typeAliases.get(key) != null && !typeAliases.get(key).equals(value)) {
       throw new TypeException("The alias '" + alias + "' is already mapped to the value '" + typeAliases.get(key).getName() + "'.");
     }
