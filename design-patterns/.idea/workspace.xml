@@ -2,19 +2,317 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="133a377c-0ac9-46a0-a4fa-535af17f98fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hzqing/decorator/BasePancake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hzqing/decorator/DecoratorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hzqing/decorator/Pancake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hzqing/decorator/PancakeDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hzqing/decorator/PancakeWithEgg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hzqing/decorator/PancakeWithSausage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/abastractfactory/AppleFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/abastractfactory/Customer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/abastractfactory/DesktopComputer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/abastractfactory/ElFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/abastractfactory/IMac.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/abastractfactory/Iphone.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/abastractfactory/Mac.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/abastractfactory/NoteBook.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/abastractfactory/Phone.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/abastractfactory/ThinkCentre.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/abastractfactory/ThinkFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/abastractfactory/ThinkPad.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/abastractfactory/Vivo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/abastractfactory/VivoFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/adapter/AC220.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/adapter/DC5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/adapter/PowerAdapter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/adapter/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/decorator/BasePancake.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/decorator/DecoratorTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/decorator/Pancake.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/decorator/PancakeDecorator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/decorator/PancakeWithEgg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/decorator/PancakeWithSausage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/delegate/Boss.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/delegate/EmployeeA.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/delegate/EmployeeB.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/delegate/IEmployee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/delegate/Leader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/delegate/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/factorymethod/AudiCar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/factorymethod/AudiCarFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/factorymethod/BenzCar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/factorymethod/BenzCarFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/factorymethod/BmwCar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/factorymethod/BmwCarFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/factorymethod/Car.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/factorymethod/CarFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/factorymethod/Customer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/observer/Observer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/observer/ObserverOne.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/observer/ObserverTwo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/observer/Subject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/observer/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/prototype/ListClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/prototype/deep/Compony.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/prototype/deep/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/prototype/deep/PersonClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/prototype/shallow/Compony.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/prototype/shallow/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/prototype/shallow/PersonClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/proxy/dynamic/cglib/BuyHouseCglibProxy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/proxy/dynamic/cglib/BuyHouseImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/proxy/dynamic/cglib/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/proxy/dynamic/jdk/BuyHouse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/proxy/dynamic/jdk/BuyHouseImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/proxy/dynamic/jdk/BuyHouseJdkProxy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/proxy/dynamic/jdk/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/proxy/s/BuyHouse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/proxy/s/BuyHouseImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/proxy/s/BuyHousePorxy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/proxy/s/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/simplefactory/AudiCar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/simplefactory/BenzCar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/simplefactory/BmwCar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/simplefactory/Car.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/simplefactory/CarFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/simplefactory/Customer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/singleton/ContainerSingleton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/singleton/ContainerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/singleton/DoubleCheckSingleton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/singleton/DoubleCheckTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/singleton/EnumSingleton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/singleton/EnumTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/singleton/HungrySingleton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/singleton/HungryTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/singleton/LazySingleton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/singleton/LazyTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/singleton/StaticInnerClassSingleton$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/singleton/StaticInnerClassSingleton$innerClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/singleton/StaticInnerClassSingleton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/singleton/StaticInnerClassTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/singleton/ThreadLocalSingleton$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/singleton/ThreadLocalSingleton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/singletonenumdefense/EnumSingleton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/singletonenumdefense/ReflexTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/singletonreflex/HungrySingleton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/singletonreflex/ReflexTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/singletonserializable/LazySingleton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/strategy/AliPay.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/strategy/JDPay.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/strategy/PayMent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/strategy/PayRestult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/strategy/PayStrategy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/strategy/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/strategy/TestStrategy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/strategy/WeChatPay.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/template/Tests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hzqing/study/observer/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hzqing/study/observer/ObserverOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hzqing/study/observer/ObserverTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hzqing/study/observer/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hzqing/study/observer/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hzqing/study/proxy/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-study-dynamic-compiler/src/HelloWorld.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-study-dynamic-compiler/src/Test2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-study-javassist/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-study-javassist/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-study-reflect/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-study-reflect/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatis-study-01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis-study-01/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnumSingleton.obj" beforeDir="false" afterPath="$PROJECT_DIR$/EnumSingleton.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LazySingleton.obj" beforeDir="false" afterPath="$PROJECT_DIR$/LazySingleton.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/abastractfactory/AppleFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/abastractfactory/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/abastractfactory/DesktopComputer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/abastractfactory/ElFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/abastractfactory/IMac.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/abastractfactory/Iphone.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/abastractfactory/Mac.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/abastractfactory/NoteBook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/abastractfactory/Phone.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/abastractfactory/ThinkCentre.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/abastractfactory/ThinkFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/abastractfactory/ThinkPad.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/abastractfactory/Vivo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/abastractfactory/VivoFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/adapter/AC220.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/adapter/DC5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/adapter/PowerAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/adapter/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/decorator/BasePancake.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/decorator/DecoratorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/decorator/Pancake.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/decorator/PancakeDecorator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/decorator/PancakeWithEgg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/decorator/PancakeWithSausage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/delegate/Boss.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/delegate/EmployeeA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/delegate/EmployeeB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/delegate/IEmployee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/delegate/Leader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/delegate/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/factorymethod/AudiCar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/factorymethod/AudiCarFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/factorymethod/BenzCar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/factorymethod/BenzCarFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/factorymethod/BmwCar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/factorymethod/BmwCarFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/factorymethod/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/factorymethod/CarFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/factorymethod/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/prototype/ListClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/prototype/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/prototype/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/prototype/deep/Compony.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/prototype/deep/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/prototype/deep/PersonClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/prototype/shallow/Compony.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/prototype/shallow/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/prototype/shallow/PersonClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/proxy/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/8/c864a0a9ae66ba64e9f8f6a10a4d25f92efb0278" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/proxy/dynamic/cglib/BuyHouseCglibProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/proxy/dynamic/cglib/BuyHouseImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/proxy/dynamic/cglib/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/proxy/dynamic/jdk/BuyHouse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/proxy/dynamic/jdk/BuyHouseImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/proxy/dynamic/jdk/BuyHouseJdkProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/proxy/dynamic/jdk/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/proxy/s/BuyHouse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/proxy/s/BuyHouseImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/proxy/s/BuyHousePorxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/proxy/s/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/simplefactory/AudiCar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/simplefactory/BenzCar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/simplefactory/BmwCar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/simplefactory/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/simplefactory/CarFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/simplefactory/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/singleton/ContainerSingleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/singleton/ContainerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/singleton/DoubleCheckSingleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/singleton/DoubleCheckTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/singleton/EnumSingleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/singleton/EnumTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/singleton/HungrySingleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/singleton/HungryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/singleton/LazySingleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/singleton/LazyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/singleton/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/singleton/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/singleton/StaticInnerClassSingleton$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/singleton/StaticInnerClassSingleton$innerClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/singleton/StaticInnerClassSingleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/singleton/StaticInnerClassTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/singleton/ThreadLocalSingleton$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/singleton/ThreadLocalSingleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/singleton/ThreadLocalTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/singleton/ThreadLocalTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/singletonenumdefense/EnumSingleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/singletonenumdefense/ReflexTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/singletonenumdefense/SerializableTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/singletonenumdefense/SerializableTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/singletonreflex/HungrySingleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/singletonreflex/ReflexTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/singletonserializable/LazySingleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/singletonserializable/SerializableTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/singletonserializable/SerializableTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/strategy/AliPay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/strategy/Constant.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/strategy/Constant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/strategy/JDPay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/strategy/PayMent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/strategy/PayRestult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/strategy/PayStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/strategy/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/strategy/TestStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/strategy/WeChatPay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/template/BookProjectDeploy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/template/BookProjectDeploy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/template/DeployProject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/template/DeployProject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/template/HzqWikiProjectDeploy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/template/HzqWikiProjectDeploy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/template/Tests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/abastractfactory/AppleFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/abastractfactory/AppleFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/abastractfactory/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/abastractfactory/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/abastractfactory/DesktopComputer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/abastractfactory/DesktopComputer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/abastractfactory/ElFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/abastractfactory/ElFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/abastractfactory/IMac.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/abastractfactory/IMac.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/abastractfactory/Iphone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/abastractfactory/Iphone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/abastractfactory/Mac.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/abastractfactory/Mac.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/abastractfactory/NoteBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/abastractfactory/NoteBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/abastractfactory/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/abastractfactory/Phone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/abastractfactory/ThinkCentre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/abastractfactory/ThinkCentre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/abastractfactory/ThinkFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/abastractfactory/ThinkFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/abastractfactory/ThinkPad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/abastractfactory/ThinkPad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/abastractfactory/Vivo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/abastractfactory/Vivo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/abastractfactory/VivoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/abastractfactory/VivoFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/adapter/AC220.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/adapter/AC220.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/adapter/DC5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/adapter/DC5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/adapter/PowerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/adapter/PowerAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/adapter/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/adapter/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/decorator/BasePancake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/decorator/BasePancake.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/decorator/DecoratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/decorator/DecoratorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/decorator/Pancake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/decorator/Pancake.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/decorator/PancakeDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/decorator/PancakeDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/decorator/PancakeWithEgg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/decorator/PancakeWithEgg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/decorator/PancakeWithSausage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/decorator/PancakeWithSausage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/delegate/Boss.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/delegate/Boss.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/delegate/EmployeeA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/delegate/EmployeeA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/delegate/EmployeeB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/delegate/EmployeeB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/delegate/IEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/delegate/IEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/delegate/Leader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/delegate/Leader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/delegate/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/delegate/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/factorymethod/AudiCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/factorymethod/AudiCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/factorymethod/AudiCarFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/factorymethod/AudiCarFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/factorymethod/BenzCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/factorymethod/BenzCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/factorymethod/BenzCarFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/factorymethod/BenzCarFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/factorymethod/BmwCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/factorymethod/BmwCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/factorymethod/BmwCarFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/factorymethod/BmwCarFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/factorymethod/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/factorymethod/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/factorymethod/CarFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/factorymethod/CarFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/factorymethod/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/factorymethod/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/prototype/ListClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/prototype/ListClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/prototype/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/prototype/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/prototype/deep/Compony.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/prototype/deep/Compony.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/prototype/deep/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/prototype/deep/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/prototype/deep/PersonClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/prototype/deep/PersonClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/prototype/shallow/Compony.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/prototype/shallow/Compony.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/prototype/shallow/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/prototype/shallow/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/prototype/shallow/PersonClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/prototype/shallow/PersonClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/proxy/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design-patterns/com/hzqing/study/proxy/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/proxy/dynamic/cglib/BuyHouseCglibProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/proxy/dynamic/cglib/BuyHouseCglibProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/proxy/dynamic/cglib/BuyHouseImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/proxy/dynamic/cglib/BuyHouseImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/proxy/dynamic/cglib/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/proxy/dynamic/cglib/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/proxy/dynamic/jdk/BuyHouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/proxy/dynamic/jdk/BuyHouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/proxy/dynamic/jdk/BuyHouseImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/proxy/dynamic/jdk/BuyHouseImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/proxy/dynamic/jdk/BuyHouseJdkProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/proxy/dynamic/jdk/BuyHouseJdkProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/proxy/dynamic/jdk/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/proxy/dynamic/jdk/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/proxy/s/BuyHouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/proxy/s/BuyHouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/proxy/s/BuyHouseImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/proxy/s/BuyHouseImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/proxy/s/BuyHousePorxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/proxy/s/BuyHousePorxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/proxy/s/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/proxy/s/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/simplefactory/AudiCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/simplefactory/AudiCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/simplefactory/BenzCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/simplefactory/BenzCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/simplefactory/BmwCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/simplefactory/BmwCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/simplefactory/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/simplefactory/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/simplefactory/CarFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/simplefactory/CarFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/simplefactory/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/simplefactory/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/singleton/ContainerSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/singleton/ContainerSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/singleton/ContainerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/singleton/ContainerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/singleton/DoubleCheckSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/singleton/DoubleCheckSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/singleton/DoubleCheckTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/singleton/DoubleCheckTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/singleton/EnumSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/singleton/EnumSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/singleton/EnumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/singleton/EnumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/singleton/HungrySingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/singleton/HungrySingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/singleton/HungryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/singleton/HungryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/singleton/LazySingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/singleton/LazySingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/singleton/LazyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/singleton/LazyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/singleton/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/singleton/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/singleton/StaticInnerClassSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/singleton/StaticInnerClassSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/singleton/StaticInnerClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/singleton/StaticInnerClassTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/singleton/ThreadLocalSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/singleton/ThreadLocalSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/singleton/ThreadLocalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/singleton/ThreadLocalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/singletonenumdefense/EnumSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/singletonenumdefense/EnumSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/singletonenumdefense/ReflexTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/singletonenumdefense/ReflexTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/singletonenumdefense/SerializableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/singletonenumdefense/SerializableTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/singletonreflex/HungrySingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/singletonreflex/HungrySingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/singletonreflex/ReflexTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/singletonreflex/ReflexTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/singletonserializable/LazySingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/singletonserializable/LazySingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/singletonserializable/SerializableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/singletonserializable/SerializableTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/strategy/AliPay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/strategy/AliPay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/strategy/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/strategy/Constant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/strategy/JDPay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/strategy/JDPay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/strategy/PayMent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/strategy/PayMent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/strategy/PayRestult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/strategy/PayRestult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/strategy/PayStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/strategy/PayStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/strategy/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/strategy/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/strategy/TestStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/strategy/TestStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/strategy/WeChatPay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/strategy/WeChatPay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/template/BookProjectDeploy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/template/BookProjectDeploy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/template/DeployProject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/template/DeployProject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/template/HzqWikiProjectDeploy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/template/HzqWikiProjectDeploy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzqing/template/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzqing/study/template/Tests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,77 +339,89 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/hzqing/decorator/Pancake.java">
+        <entry file="file://$PROJECT_DIR$/src/com/hzqing/study/decorator/PancakeDecorator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/hzqing/decorator/BasePancake.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="17" />
+            <state relative-caret-position="330">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
               <folding>
-                <element signature="e#170#171#0" expanded="true" />
-                <element signature="e#197#198#0" expanded="true" />
-                <element signature="e#240#241#0" expanded="true" />
-                <element signature="e#264#265#0" expanded="true" />
+                <element signature="e#319#320#0" expanded="true" />
+                <element signature="e#358#359#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="uml://JAVA/com.hzqing.decorator.BasePancake">
+        <entry file="file://$PROJECT_DIR$/src/com/hzqing/study/observer/Subject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="11" selection-start-line="11" selection-end-line="40" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#633#634#0" expanded="true" />
+                <element signature="e#674#675#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Set.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="112" column="47" selection-start-line="112" selection-start-column="47" selection-end-line="112" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/hzqing/study/observer/Observer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/com.hzqing.study.observer.Observer">
           <provider selected="true" editor-type-id="UmlEditorProvider">
             <state>
               <ID>JAVA</ID>
-              <OriginalElement>com.hzqing.decorator.BasePancake</OriginalElement>
+              <OriginalElement>com.hzqing.study.observer.Observer</OriginalElement>
               <nodes>
-                <node x="377.5" y="143.0">com.hzqing.decorator.BasePancake</node>
-                <node x="0.0" y="286.0">com.hzqing.decorator.PancakeWithSausage</node>
-                <node x="134.49999999999997" y="120.0">com.hzqing.decorator.PancakeDecorator</node>
-                <node x="263.0" y="286.0">com.hzqing.decorator.PancakeWithEgg</node>
-                <node x="276.0" y="0.0">com.hzqing.decorator.Pancake</node>
+                <node x="0.0" y="120.0">com.hzqing.study.observer.ObserverOne</node>
+                <node x="218.0" y="0.0">com.hzqing.study.observer.Observer</node>
+                <node x="149.0" y="120.0">com.hzqing.study.observer.ObserverTwo</node>
+                <node x="298.0" y="98.0">com.hzqing.study.observer.Subject</node>
               </nodes>
               <notes />
               <edges>
-                <edge source="com.hzqing.decorator.PancakeWithSausage" target="com.hzqing.decorator.PancakeDecorator">
-                  <point x="0.0" y="-46.5" />
-                  <point x="121.5" y="261.0" />
-                  <point x="190.24999999999997" y="261.0" />
-                  <point x="-55.75" y="58.0" />
+                <edge source="com.hzqing.study.observer.Subject" target="com.hzqing.study.observer.Observer">
+                  <point x="-53.5" y="-46.0" />
+                  <point x="351.5" y="78.0" />
+                  <point x="298.625" y="78.0" />
+                  <point x="16.125" y="24.0" />
                 </edge>
-                <edge source="com.hzqing.decorator.PancakeWithEgg" target="com.hzqing.decorator.PancakeDecorator">
-                  <point x="0.0" y="-46.5" />
-                  <point x="370.5" y="261.0" />
-                  <point x="301.75" y="261.0" />
-                  <point x="55.75000000000003" y="58.0" />
+                <edge source="com.hzqing.study.observer.ObserverTwo" target="com.hzqing.study.observer.Observer">
+                  <point x="0.0" y="-24.0" />
+                  <point x="213.5" y="78.0" />
+                  <point x="266.375" y="78.0" />
+                  <point x="-16.125" y="24.0" />
                 </edge>
-                <edge source="com.hzqing.decorator.PancakeDecorator" target="com.hzqing.decorator.Pancake">
-                  <point x="2.8421709430404007E-14" y="-58.0" />
-                  <point x="246.0" y="95.0" />
-                  <point x="311.75" y="95.0" />
-                  <point x="-35.75" y="35.0" />
-                </edge>
-                <edge source="com.hzqing.decorator.BasePancake" target="com.hzqing.decorator.Pancake">
-                  <point x="0.0" y="-35.0" />
-                  <point x="449.0" y="95.0" />
-                  <point x="383.25" y="95.0" />
-                  <point x="35.75" y="35.0" />
+                <edge source="com.hzqing.study.observer.ObserverOne" target="com.hzqing.study.observer.Observer">
+                  <point x="0.0" y="-24.0" />
+                  <point x="64.5" y="68.0" />
+                  <point x="234.125" y="68.0" />
+                  <point x="-48.375" y="24.0" />
                 </edge>
               </edges>
-              <settings layout="Hierarchic Group" zoom="1.0" x="-328.0" y="51.5" />
+              <settings layout="Hierarchic Group" zoom="1.0" x="-392.0" y="13.5" />
               <SelectedNodes />
               <Categories>
                 <Category>Methods</Category>
-                <Category>Constructors</Category>
-                <Category>Fields</Category>
               </Categories>
               <SCOPE>All</SCOPE>
               <VISIBILITY>private</VISIBILITY>
@@ -120,61 +430,54 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/hzqing/decorator/PancakeWithSausage.java">
+        <entry file="file://$PROJECT_DIR$/src/com/hzqing/study/observer/ObserverOne.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="16" />
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="12" />
               <folding>
-                <element signature="e#189#190#0" expanded="true" />
-                <element signature="e#219#220#0" expanded="true" />
-                <element signature="e#264#265#0" expanded="true" />
-                <element signature="e#301#302#0" expanded="true" />
-                <element signature="e#344#345#0" expanded="true" />
-                <element signature="e#383#384#0" expanded="true" />
+                <element signature="e#171#172#0" expanded="true" />
+                <element signature="e#227#228#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/hzqing/decorator/PancakeDecorator.java">
+        <entry file="file://$PROJECT_DIR$/src/com/hzqing/study/observer/ObserverTwo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="26" />
+              <caret line="6" selection-start-line="6" selection-end-line="12" selection-end-column="1" />
               <folding>
-                <element signature="e#215#216#0" expanded="true" />
-                <element signature="e#253#254#0" expanded="true" />
-                <element signature="e#319#320#0" expanded="true" />
-                <element signature="e#346#347#0" expanded="true" />
-                <element signature="e#389#390#0" expanded="true" />
-                <element signature="e#413#414#0" expanded="true" />
+                <element signature="e#175#176#0" expanded="true" />
+                <element signature="e#194#195#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/hzqing/decorator/PancakeWithEgg.java">
+        <entry file="file://$PROJECT_DIR$/src/com/hzqing/study/observer/Test.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="22" />
-              <folding>
-                <element signature="e#182#183#0" expanded="true" />
-                <element signature="e#212#213#0" expanded="true" />
-                <element signature="e#257#258#0" expanded="true" />
-                <element signature="e#304#305#0" expanded="true" />
-                <element signature="e#348#349#0" expanded="true" />
-                <element signature="e#391#392#0" expanded="true" />
-              </folding>
+              <caret line="6" selection-start-line="6" selection-end-line="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/hzqing/decorator/DecoratorTest.java">
+        <entry file="file://$PROJECT_DIR$/src/com/hzqing/study/decorator/DecoratorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="285">
+              <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/hzqing/study/abastractfactory/ThinkPad.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -204,13 +507,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/hzqing/prototype/shallow/PersonClient.java" />
-        <option value="$PROJECT_DIR$/src/com/hzqing/prototype/shallow/Person.java" />
-        <option value="$PROJECT_DIR$/src/com/hzqing/prototype/deep/Compony.java" />
-        <option value="$PROJECT_DIR$/src/com/hzqing/prototype/deep/Person.java" />
-        <option value="$PROJECT_DIR$/src/com/hzqing/prototype/deep/PersonClient.java" />
-        <option value="$PROJECT_DIR$/src/com/hzqing/proxy/static/ByHouse.kt" />
-        <option value="$PROJECT_DIR$/src/com/hzqing/proxy/static/ByHouse.java.kt" />
         <option value="$PROJECT_DIR$/src/com/hzqing/proxy/s/BuyHouse.java" />
         <option value="$PROJECT_DIR$/src/com/hzqing/proxy/s/BuyHouseImpl.java" />
         <option value="$PROJECT_DIR$/src/com/hzqing/proxy/s/Test.java" />
@@ -255,6 +551,13 @@
         <option value="$PROJECT_DIR$/src/com/hzqing/decorator/PancakeWithEgg.java" />
         <option value="$PROJECT_DIR$/src/com/hzqing/decorator/PancakeWithSausage.java" />
         <option value="$PROJECT_DIR$/src/com/hzqing/decorator/DecoratorTest.java" />
+        <option value="$PROJECT_DIR$/src/com/hzqing/study/decorator/DecoratorTest.java" />
+        <option value="$PROJECT_DIR$/src/com/hzqing/study/observer/ObserverAbstract.java" />
+        <option value="$PROJECT_DIR$/src/com/hzqing/study/observer/Observer.java" />
+        <option value="$PROJECT_DIR$/src/com/hzqing/study/observer/Subject.java" />
+        <option value="$PROJECT_DIR$/src/com/hzqing/study/observer/ObserverOne.java" />
+        <option value="$PROJECT_DIR$/src/com/hzqing/study/observer/ObserverTwo.java" />
+        <option value="$PROJECT_DIR$/src/com/hzqing/study/observer/Test.java" />
       </list>
     </option>
   </component>
@@ -277,7 +580,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -302,7 +604,15 @@
               <item name="design-patterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="hzqing" type="462c0819:PsiDirectoryNode" />
-              <item name="decorator" type="462c0819:PsiDirectoryNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design-patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design-patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="hzqing" type="462c0819:PsiDirectoryNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="observer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="design-patterns" type="b2602c69:ProjectViewProjectNode" />
@@ -321,6 +631,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -355,13 +666,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DecoratorTest">
+  <component name="RunManager" selected="Application.Test (1)">
     <configuration name="DecoratorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hzqing.decorator.DecoratorTest" />
+      <option name="MAIN_CLASS_NAME" value="com.hzqing.study.decorator.DecoratorTest" />
       <module name="design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hzqing.decorator.*" />
+          <option name="PATTERN" value="com.hzqing.study.decorator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -369,12 +680,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hzqing.strategy.Test" />
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hzqing.study.observer.Test" />
       <module name="design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hzqing.strategy.*" />
+          <option name="PATTERN" value="com.hzqing.study.observer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -383,11 +694,11 @@
       </method>
     </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hzqing.adapter.Test" />
+      <option name="MAIN_CLASS_NAME" value="com.hzqing.study.strategy.Test" />
       <module name="design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hzqing.adapter.*" />
+          <option name="PATTERN" value="com.hzqing.study.strategy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -395,12 +706,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestStrategy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hzqing.strategy.TestStrategy" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hzqing.study.adapter.Test" />
       <module name="design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hzqing.strategy.*" />
+          <option name="PATTERN" value="com.hzqing.study.adapter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -409,11 +720,11 @@
       </method>
     </configuration>
     <configuration name="Tests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hzqing.template.Tests" />
+      <option name="MAIN_CLASS_NAME" value="com.hzqing.study.template.Tests" />
       <module name="design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hzqing.template.*" />
+          <option name="PATTERN" value="com.hzqing.study.template.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -423,11 +734,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.DecoratorTest" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Tests" />
         <item itemvalue="Application.Test (4)" />
-        <item itemvalue="Application.TestStrategy" />
       </list>
     </recent_temporary>
   </component>
@@ -451,18 +762,18 @@
       <workItem from="1562198235322" duration="1999000" />
       <workItem from="1562285186163" duration="2073000" />
       <workItem from="1562375723135" duration="980000" />
-      <workItem from="1562566259973" duration="1400000" />
+      <workItem from="1562566259973" duration="3832000" />
+      <workItem from="1562629291115" duration="1569000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45018000" />
+    <option name="totallyTimeSpent" value="49019000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1680" y="0" width="1920" height="1080" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18370607" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18530351" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -470,14 +781,14 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32970297" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32970297" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32970297" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3792079" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.33267328" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.33267328" />
       <window_info anchor="bottom" id="Docker" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="SonarLint" order="11" />
@@ -503,7 +814,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/com/hzqing/simplefactory/Customer.java</url>
+          <url>file://$PROJECT_DIR$/src/com/hzqing/study/simplefactory/Customer.java</url>
           <line>9</line>
           <properties class="com.hzqing.simplefactory.Customer" method="main">
             <option name="EMULATED" value="true" />
@@ -511,7 +822,7 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/com/hzqing/singletonreflex/ReflexTest.java</url>
+          <url>file://$PROJECT_DIR$/src/com/hzqing/study/singletonreflex/ReflexTest.java</url>
           <line>10</line>
           <properties class="com.hzqing.singletonreflex.ReflexTest" method="main">
             <option name="EMULATED" value="true" />
@@ -519,7 +830,7 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/com/hzqing/singletonenumdefense/SerializableTest.java</url>
+          <url>file://$PROJECT_DIR$/src/com/hzqing/study/singletonenumdefense/SerializableTest.java</url>
           <line>9</line>
           <properties class="com.hzqing.singletonenumdefense.SerializableTest" method="main">
             <option name="EMULATED" value="true" />
@@ -527,7 +838,7 @@
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/com/hzqing/prototype/shallow/PersonClient.java</url>
+          <url>file://$PROJECT_DIR$/src/com/hzqing/study/prototype/shallow/PersonClient.java</url>
           <line>8</line>
           <properties class="com.hzqing.prototype.shallow.PersonClient" method="main">
             <option name="EMULATED" value="true" />
@@ -535,12 +846,20 @@
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/com/hzqing/decorator/DecoratorTest.java</url>
+          <url>file://$PROJECT_DIR$/src/com/hzqing/study/decorator/DecoratorTest.java</url>
           <line>7</line>
           <properties class="com.hzqing.decorator.DecoratorTest" method="main">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/hzqing/study/observer/Test.java</url>
+          <line>7</line>
+          <properties class="com.hzqing.study.observer.Test" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/io/ObjectInputStream.java</url>
@@ -549,7 +868,7 @@
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/hzqing/prototype/ListClient.java</url>
+          <url>file://$PROJECT_DIR$/src/com/hzqing/study/prototype/ListClient.java</url>
           <line>8</line>
           <properties />
           <option name="timeStamp" value="5" />
@@ -566,7 +885,7 @@
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/hzqing/prototype/deep/Person.java</url>
+          <url>file://$PROJECT_DIR$/src/com/hzqing/study/prototype/deep/Person.java</url>
           <line>35</line>
           <properties />
           <option name="timeStamp" value="10" />
@@ -599,168 +918,7 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/proxy/s/BuyHouseImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="12" />
-          <folding>
-            <element signature="e#170#171#0" expanded="true" />
-            <element signature="e#223#224#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/com.hzqing.proxy.s.BuyHouse">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.hzqing.proxy.s.BuyHouse</OriginalElement>
-          <nodes>
-            <node x="" y="">com.hzqing.proxy.s.BuyHouse</node>
-            <node x="" y="">com.hzqing.proxy.s.BuyHousePorxy</node>
-            <node x="" y="">com.hzqing.proxy.s.BuyHouseImpl</node>
-            <node x="" y="">com.hzqing.proxy.s.Test</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="-390.0" y="14.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/proxy/s/BuyHouse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/reflect/Proxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="995" column="59" selection-start-line="995" selection-start-column="42" selection-end-line="995" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/proxy/dynamic/jdk/BuyHouseImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/proxy/dynamic/jdk/BuyHouseJdkProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#516#517#0" expanded="true" />
-            <element signature="e#560#561#0" expanded="true" />
-            <element signature="e#586#587#0" expanded="true" />
-            <element signature="e#622#623#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/proxy/dynamic/jdk/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/com.hzqing.proxy.dynamic.jdk.BuyHouse">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.hzqing.proxy.dynamic.jdk.BuyHouse</OriginalElement>
-          <nodes>
-            <node x="181.50000000000006" y="76.0">com.hzqing.proxy.dynamic.jdk.BuyHouseImpl</node>
-            <node x="3.500000000000057" y="76.0">com.hzqing.proxy.dynamic.jdk.BuyHouseJdkProxy</node>
-            <node x="239.22222222222226" y="0.0">com.hzqing.proxy.dynamic.jdk.BuyHouse</node>
-            <node x="0.0" y="0.0">java.lang.reflect.InvocationHandler</node>
-            <node x="211.50000000000006" y="180.0">com.hzqing.proxy.dynamic.jdk.Test</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="com.hzqing.proxy.dynamic.jdk.Test" target="com.hzqing.proxy.dynamic.jdk.BuyHouseImpl">
-              <point x="0.0" y="-13.0" />
-              <point x="0.0" y="13.0" />
-            </edge>
-            <edge source="com.hzqing.proxy.dynamic.jdk.BuyHouseJdkProxy" target="java.lang.reflect.InvocationHandler">
-              <point x="-2.8421709430404007E-14" y="-13.0" />
-              <point x="0.0" y="13.0" />
-            </edge>
-            <edge source="com.hzqing.proxy.dynamic.jdk.Test" target="com.hzqing.proxy.dynamic.jdk.BuyHouse">
-              <point x="24.666666666666657" y="-13.0" />
-              <point x="271.1666666666667" y="127.0" />
-              <point x="322.00000000000006" y="127.0" />
-              <point x="322.00000000000006" y="51.0" />
-              <point x="315.7222222222223" y="51.0" />
-              <point x="25.5" y="13.0" />
-            </edge>
-            <edge source="com.hzqing.proxy.dynamic.jdk.Test" target="com.hzqing.proxy.dynamic.jdk.BuyHouseJdkProxy">
-              <point x="-24.66666666666667" y="-13.0" />
-              <point x="221.83333333333337" y="127.0" />
-              <point x="82.50000000000006" y="127.0" />
-              <point x="0.0" y="13.0" />
-            </edge>
-            <edge source="com.hzqing.proxy.dynamic.jdk.BuyHouseImpl" target="com.hzqing.proxy.dynamic.jdk.BuyHouse">
-              <point x="0.0" y="-13.0" />
-              <point x="246.50000000000006" y="51.0" />
-              <point x="264.7222222222223" y="51.0" />
-              <point x="-25.5" y="13.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-185.0" y="125.0" />
-          <SelectedNodes>
-            <node>com.hzqing.proxy.dynamic.jdk.BuyHouse</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/proxy/dynamic/jdk/BuyHouse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/proxy/dynamic/cglib/BuyHouseJdkProxy.java" />
-    <entry file="jar://$PROJECT_DIR$/lib/cglib-3.2.12.jar!/net/sf/cglib/proxy/MethodInterceptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/proxy/dynamic/cglib/BuyHouse.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/proxy/dynamic/cglib/BuyHouseImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="11" />
-          <folding>
-            <element signature="e#182#183#0" expanded="true" />
-            <element signature="e#235#236#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/proxy/dynamic/cglib/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/proxy/dynamic/cglib/BuyHouseCglibProxy.java">
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/study/proxy/dynamic/cglib/BuyHouseCglibProxy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="12" selection-start-line="12" selection-end-line="39" />
@@ -872,14 +1030,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/delegate/IEmployee.java">
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/study/delegate/IEmployee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/delegate/EmployeeA.java">
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/study/delegate/EmployeeA.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" selection-start-line="6" selection-end-line="12" />
@@ -890,7 +1048,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/delegate/Leader.java">
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/study/delegate/Leader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" selection-start-line="9" selection-end-line="26" />
@@ -900,14 +1058,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/delegate/Test.java">
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/study/delegate/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" selection-start-line="6" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/delegate/Boss.java">
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/study/delegate/Boss.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" selection-start-line="6" selection-end-line="17" />
@@ -918,7 +1076,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/delegate/EmployeeB.java">
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/study/delegate/EmployeeB.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" selection-start-line="6" selection-end-line="12" />
@@ -1018,14 +1176,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/strategy/PayMent.java">
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/study/strategy/PayMent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/strategy/AliPay.java">
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/study/strategy/AliPay.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" selection-start-line="6" selection-end-line="17" />
@@ -1036,21 +1194,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/strategy/Test.java">
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/study/strategy/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" selection-start-line="8" selection-end-line="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/strategy/TestStrategy.java">
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/study/strategy/TestStrategy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" selection-start-line="6" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/strategy/JDPay.java">
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/study/strategy/JDPay.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" selection-start-line="6" selection-end-line="17" />
@@ -1061,7 +1219,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/strategy/PayStrategy.java">
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/study/strategy/PayStrategy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" selection-start-line="9" selection-end-line="25" />
@@ -1073,28 +1231,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/strategy/Constant.java">
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/study/strategy/Constant.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" selection-start-line="7" selection-end-line="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/strategy/WeChatPay.java">
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/study/strategy/WeChatPay.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" selection-start-line="6" selection-end-line="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/strategy/PayRestult.java">
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/study/strategy/PayRestult.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" selection-start-line="6" selection-end-line="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/template/DeployProject.java">
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/study/template/DeployProject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="45" selection-start-line="6" selection-end-line="45" />
@@ -1105,14 +1263,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/template/Tests.java">
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/study/template/Tests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/template/BookProjectDeploy.java">
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/study/template/BookProjectDeploy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" selection-start-line="6" selection-end-line="22" />
@@ -1177,7 +1335,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/template/HzqWikiProjectDeploy.java">
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/study/template/HzqWikiProjectDeploy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" selection-start-line="6" selection-end-line="22" />
@@ -1218,28 +1376,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/adapter/AC220.java">
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/study/adapter/AC220.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" selection-start-line="6" selection-end-line="14" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/adapter/DC5.java">
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/study/adapter/DC5.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" selection-start-line="6" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/adapter/Test.java">
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/study/adapter/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/adapter/PowerAdapter.java">
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/study/adapter/PowerAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
@@ -1248,28 +1406,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/EnumSingleton.obj">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/decorator/PancakeWithSausage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="16" />
-          <folding>
-            <element signature="e#189#190#0" expanded="true" />
-            <element signature="e#219#220#0" expanded="true" />
-            <element signature="e#264#265#0" expanded="true" />
-            <element signature="e#301#302#0" expanded="true" />
-            <element signature="e#344#345#0" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/decorator/DecoratorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
     </entry>
     <entry file="uml://JAVA/com.hzqing.decorator.BasePancake">
       <provider selected="true" editor-type-id="UmlEditorProvider">
@@ -1310,26 +1446,26 @@
               <point x="35.75" y="35.0" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-328.0" y="51.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-328.0" y="52.0" />
           <SelectedNodes />
           <Categories>
-            <Category>Methods</Category>
-            <Category>Constructors</Category>
             <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
           </Categories>
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/decorator/Pancake.java">
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/study/decorator/Pancake.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/decorator/BasePancake.java">
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/study/decorator/BasePancake.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" selection-start-line="6" selection-end-line="17" />
@@ -1342,33 +1478,195 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/decorator/PancakeDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="26" />
-          <folding>
-            <element signature="e#215#216#0" expanded="true" />
-            <element signature="e#253#254#0" expanded="true" />
-            <element signature="e#319#320#0" expanded="true" />
-            <element signature="e#346#347#0" expanded="true" />
-            <element signature="e#389#390#0" expanded="true" />
-            <element signature="e#413#414#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hzqing/decorator/PancakeWithEgg.java">
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/study/decorator/PancakeWithSausage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" selection-start-line="6" selection-end-line="22" />
           <folding>
-            <element signature="e#182#183#0" expanded="true" />
-            <element signature="e#212#213#0" expanded="true" />
+            <element signature="e#189#190#0" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/study/decorator/PancakeWithEgg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="22" />
+          <folding>
             <element signature="e#257#258#0" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
             <element signature="e#348#349#0" expanded="true" />
             <element signature="e#391#392#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/study/abastractfactory/AppleFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/study/abastractfactory/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/study/abastractfactory/IMac.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/study/abastractfactory/Iphone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/study/abastractfactory/Phone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/study/abastractfactory/ThinkFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/study/abastractfactory/ThinkPad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/study/decorator/DecoratorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/study/decorator/PancakeDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Set.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="112" column="47" selection-start-line="112" selection-start-column="47" selection-end-line="112" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.hzqing.study.observer.Observer">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.hzqing.study.observer.Observer</OriginalElement>
+          <nodes>
+            <node x="0.0" y="120.0">com.hzqing.study.observer.ObserverOne</node>
+            <node x="218.0" y="0.0">com.hzqing.study.observer.Observer</node>
+            <node x="149.0" y="120.0">com.hzqing.study.observer.ObserverTwo</node>
+            <node x="298.0" y="98.0">com.hzqing.study.observer.Subject</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.hzqing.study.observer.Subject" target="com.hzqing.study.observer.Observer">
+              <point x="-53.5" y="-46.0" />
+              <point x="351.5" y="78.0" />
+              <point x="298.625" y="78.0" />
+              <point x="16.125" y="24.0" />
+            </edge>
+            <edge source="com.hzqing.study.observer.ObserverTwo" target="com.hzqing.study.observer.Observer">
+              <point x="0.0" y="-24.0" />
+              <point x="213.5" y="78.0" />
+              <point x="266.375" y="78.0" />
+              <point x="-16.125" y="24.0" />
+            </edge>
+            <edge source="com.hzqing.study.observer.ObserverOne" target="com.hzqing.study.observer.Observer">
+              <point x="0.0" y="-24.0" />
+              <point x="64.5" y="68.0" />
+              <point x="234.125" y="68.0" />
+              <point x="-48.375" y="24.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-392.0" y="13.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/study/observer/Observer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/study/observer/ObserverOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="12" />
+          <folding>
+            <element signature="e#171#172#0" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/study/observer/ObserverTwo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="e#175#176#0" expanded="true" />
+            <element signature="e#194#195#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/study/observer/Subject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="11" selection-start-line="11" selection-end-line="40" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#633#634#0" expanded="true" />
+            <element signature="e#674#675#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hzqing/study/observer/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="15" />
         </state>
       </provider>
     </entry>
