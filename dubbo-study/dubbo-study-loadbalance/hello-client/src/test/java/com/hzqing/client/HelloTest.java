@@ -1,6 +1,7 @@
 package com.hzqing.client;
 
 import com.hzqing.api.IHelloService;
+import org.apache.dubbo.config.annotation.Method;
 import org.apache.dubbo.config.annotation.Reference;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -17,15 +18,18 @@ import org.springframework.test.context.junit4.SpringRunner;
 @SpringBootTest
 public class HelloTest {
 
-    @Reference
+    //@Reference(loadbalance = "random")  // RandomLoadBalance 权重负载
+//    @Reference(methods = {
+//            @Method( name = "sayHello",loadbalance = "random")
+//    })
+    //@Reference(loadbalance = "consistenthash") // ConsistentHashLoadBalance 一致性哈希
+    // @Reference(loadbalance = "leastactive") // LeastActiveLoadBalance 最小活跃度
+    @Reference(loadbalance = "roundrobin") // RoundRobinLoadBalance 权重轮询
     private IHelloService helloService;
 
     @Test
     public void hello(){
-        for (int i = 0; i < 10; i++){
-            String res = helloService.sayHello();
-            System.out.println(res);
-
-        }
+        String res = helloService.sayHello();
+        System.out.println(res);
     }
 }
