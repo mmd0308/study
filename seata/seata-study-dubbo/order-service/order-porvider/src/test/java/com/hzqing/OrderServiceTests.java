@@ -1,9 +1,11 @@
 package com.hzqing;
 
+import com.hzqing.order.IOrderService;
 import com.hzqing.pay.IPayService;
 import org.apache.dubbo.config.annotation.Reference;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
@@ -13,14 +15,13 @@ import org.springframework.test.context.junit4.SpringRunner;
  */
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class PayServiceTests {
+public class OrderServiceTests {
 
-    @Reference
-    private IPayService payService;
+    @Autowired
+    private IOrderService orderService;
 
     @Test
     public void test(){
-        String pay = payService.pay("订单调用");
-        System.out.println(pay);
+        orderService.add(30);
     }
 }

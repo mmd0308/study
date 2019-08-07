@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hzqing.seata.hzqorder.mapper.OrderMapper">
+
+    <insert id="insert" parameterType="order" useGeneratedKeys="true" keyProperty="id">
+        insert into db_order
+            (order_code, create_time)
+        values
+            (#{orderCode},#{createTime})
+    </insert>
+
+</mapper>
