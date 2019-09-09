@@ -1,0 +1,1153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="edcbe8a5-d3ff-4b98-9a6a-51ee0964e86e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hzqing/demo1/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hzqing/demo1/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hzqing/demo1/application.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hzqing/demo2/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hzqing/demo2/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hzqing/demo2/application.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hzqing/demo3/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hzqing/demo3/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hzqing/demo3/application.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hzqing/demo4/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hzqing/demo4/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hzqing/demo4/UserStaticFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hzqing/demo4/application.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hzqing/demo5/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hzqing/demo5/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hzqing/demo5/UserFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hzqing/demo5/application.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hzqing/demo6/App-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hzqing/demo6/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hzqing/demo6/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hzqing/demo6/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hzqing/demo7/App-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hzqing/demo7/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hzqing/demo7/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hzqing/demo7/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hzqing/demo8/App-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hzqing/demo8/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hzqing/demo8/Benz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dubbo-study/dubbo-study-cluster/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../dubbo-study/dubbo-study-cluster/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dubbo-study/dubbo-study-config-annotation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../dubbo-study/dubbo-study-config-annotation/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dubbo-study/dubbo-study-spring-boot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../dubbo-study/dubbo-study-spring-boot/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-study-socket/src/com/hzqing/socket1/DemoClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java-study-socket/src/com/hzqing/socket1/DemoClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-study-socket/src/com/hzqing/socket1/DemoServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java-study-socket/src/com/hzqing/socket1/DemoServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/java-study-base/src/main/java/com/hzqing/demo1/Demo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/java-study-base/src/main/java/com/hzqing/demo1/Demo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/java-study-spi/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/java-study-spi/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/java-study-spi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/java-study-spi/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mybatis/mybatis-define-typehandler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../mybatis/mybatis-define-typehandler/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rpc-study/rpc-server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../rpc-study/rpc-server/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../seata/seata-study-dubbo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../seata/seata-study-dubbo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../seata/seata-study-dubbo/order-service/order-api/src/main/java/com/hzqing/order/IOrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../seata/seata-study-dubbo/order-service/order-api/src/main/java/com/hzqing/order/IOrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../seata/seata-study-dubbo/order-service/order-api/target/classes/com/hzqing/order/IOrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../seata/seata-study-dubbo/order-service/order-api/target/classes/com/hzqing/order/IOrderService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../seata/seata-study-dubbo/order-service/order-porvider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../seata/seata-study-dubbo/order-service/order-porvider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../seata/seata-study-dubbo/order-service/order-porvider/src/main/java/com/hzqing/OrderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../seata/seata-study-dubbo/order-service/order-porvider/src/main/java/com/hzqing/OrderApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../seata/seata-study-dubbo/order-service/order-porvider/src/main/java/com/hzqing/config/SeataConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../seata/seata-study-dubbo/order-service/order-porvider/src/main/java/com/hzqing/config/SeataConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../seata/seata-study-dubbo/order-service/order-porvider/src/main/java/com/hzqing/order/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../seata/seata-study-dubbo/order-service/order-porvider/src/main/java/com/hzqing/order/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../seata/seata-study-dubbo/order-service/order-porvider/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../seata/seata-study-dubbo/order-service/order-porvider/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../seata/seata-study-dubbo/order-service/order-porvider/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../seata/seata-study-dubbo/order-service/order-porvider/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../seata/seata-study-dubbo/order-service/order-porvider/target/classes/com/hzqing/OrderApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../seata/seata-study-dubbo/order-service/order-porvider/target/classes/com/hzqing/OrderApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../seata/seata-study-dubbo/order-service/order-porvider/target/classes/com/hzqing/order/OrderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../seata/seata-study-dubbo/order-service/order-porvider/target/classes/com/hzqing/order/OrderServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../seata/seata-study-dubbo/order-service/order-porvider/target/test-classes/com/hzqing/PayServiceTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../seata/seata-study-dubbo/pay-service/pay-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../seata/seata-study-dubbo/pay-service/pay-provider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../seata/seata-study-dubbo/pay-service/pay-provider/src/main/java/com/hzqing/PayProviderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../seata/seata-study-dubbo/pay-service/pay-provider/src/main/java/com/hzqing/PayProviderApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../seata/seata-study-dubbo/pay-service/pay-provider/src/main/java/com/hzqing/pay/PayServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../seata/seata-study-dubbo/pay-service/pay-provider/src/main/java/com/hzqing/pay/PayServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../seata/seata-study-dubbo/pay-service/pay-provider/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../seata/seata-study-dubbo/pay-service/pay-provider/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../seata/seata-study-dubbo/pay-service/pay-provider/src/test/java/com/hzqing/PayProviderApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../seata/seata-study-dubbo/pay-service/pay-provider/src/test/java/com/hzqing/PayProviderApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../seata/seata-study-eureka/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../seata/seata-study-eureka/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../seata/seate-springboot-dubbo/order-service/order-api/src/main/java/com/hzqing/seata/order/api/IOrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../seata/seate-springboot-dubbo/order-service/order-api/src/main/java/com/hzqing/seata/order/api/IOrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../seata/seate-springboot-dubbo/order-service/order-provider/src/main/java/com/hzqing/seata/order/orderprovider/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../seata/seate-springboot-dubbo/order-service/order-provider/src/main/java/com/hzqing/seata/order/orderprovider/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../seata/seate-springboot-dubbo/order-service/order-provider/src/main/java/com/hzqing/seata/order/orderprovider/config/SeataAutoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../seata/seate-springboot-dubbo/order-service/order-provider/src/main/java/com/hzqing/seata/order/orderprovider/config/SeataAutoConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../seata/seate-springboot-dubbo/order-service/order-provider/src/main/java/com/hzqing/seata/order/orderprovider/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../seata/seate-springboot-dubbo/order-service/order-provider/src/main/java/com/hzqing/seata/order/orderprovider/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../seata/seate-springboot-dubbo/order-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../seata/seate-springboot-dubbo/order-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../seata/seate-springboot-dubbo/pay-service/pay-api/src/main/java/com/hzqing/seata/pay/IPayServcie.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../seata/seate-springboot-dubbo/pay-service/pay-api/src/main/java/com/hzqing/seata/pay/IPayServcie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../seata/seate-springboot-dubbo/pay-service/pay-provider/src/main/java/com/hzqing/seata/pay/payprovider/PayServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../seata/seate-springboot-dubbo/pay-service/pay-provider/src/main/java/com/hzqing/seata/pay/payprovider/PayServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../seata/seate-springboot-dubbo/pay-service/pay-provider/src/main/java/com/hzqing/seata/pay/payprovider/config/SeataAutoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../seata/seate-springboot-dubbo/pay-service/pay-provider/src/main/java/com/hzqing/seata/pay/payprovider/config/SeataAutoConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../seata/seate-springboot-dubbo/pay-service/pay-provider/src/main/resources/registry.conf" beforeDir="false" afterPath="$PROJECT_DIR$/../../seata/seate-springboot-dubbo/pay-service/pay-provider/src/main/resources/registry.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../seata/seate-springboot-dubbo/pay-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../seata/seate-springboot-dubbo/pay-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security/spring-security-demo1/src/main/resources/applictionContest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-security/spring-security-demo1/src/main/resources/applictionContest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security/spring-security-demo1/src/main/resources/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-security/spring-security-demo1/src/main/resources/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security/spring-security-oauth2-jdbc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-security/spring-security-oauth2-jdbc/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security/spring-security-oauth2-jdbc/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-security/spring-security-oauth2-jdbc/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../thread-study/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../thread-study/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/demo8/Benz.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" selection-start-line="9" selection-end-line="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/demo8/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="15" column="14" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/demo8/App-context.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="15" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>applicationEventMulticaster</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/test/java/com/hzqing/demo1/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzqing/demo1/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzqing/demo1/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzqing/demo1/application.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzqing/demo2/application.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzqing/demo2/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzqing/demo2/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzqing/demo3/application.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzqing/demo3/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzqing/demo3/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzqing/demo4/UserStaticFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzqing/demo4/application.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzqing/demo4/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzqing/demo5/UserFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzqing/demo5/application.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzqing/demo5/App.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzqing/demo6/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzqing/demo6/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzqing/demo6/App-context.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzqing/demo7/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzqing/demo7/App-context.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzqing/demo8/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzqing/demo8/Benz.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzqing/demo8/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzqing/demo8/App-context.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$USER_HOME$/software/apache-maven-3.5.3" />
+        <option name="userSettingsFile" value="$USER_HOME$/software/apache-maven-3.5.3/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring-study" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring-study" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring-study" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="compiler" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring-study" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring-study" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.springframework:spring-test:5.1.9.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/dictionaries/hzq.xml" />
+        <option value="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="1680" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="CatdeaLogs" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="spring-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-study" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hzqing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hzqing" type="462c0819:PsiDirectoryNode" />
+              <item name="demo8" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/hzqing/demo8" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hzqing.demo1" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/hzqing/demo8" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/hzqing/demo7" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/hzqing" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/hzqing/demo6" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.App.test1 (1)">
+    <configuration name="App (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hzqing.demo8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hzqing.demo8" />
+      <option name="MAIN_CLASS_NAME" value="com.hzqing.demo8.App" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hzqing.demo6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hzqing.demo6" />
+      <option name="MAIN_CLASS_NAME" value="com.hzqing.demo6.App" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App.test1 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hzqing.demo8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hzqing.demo8" />
+      <option name="MAIN_CLASS_NAME" value="com.hzqing.demo8.App" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App.test1 (5)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hzqing.demo6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hzqing.demo6" />
+      <option name="MAIN_CLASS_NAME" value="com.hzqing.demo6.App" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hzqing.demo7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hzqing.demo7" />
+      <option name="MAIN_CLASS_NAME" value="com.hzqing.demo7.App" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.App.test1 (1)" />
+        <item itemvalue="JUnit.App (1)" />
+        <item itemvalue="JUnit.App.test1" />
+        <item itemvalue="JUnit.App.test1 (5)" />
+        <item itemvalue="JUnit.App" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="edcbe8a5-d3ff-4b98-9a6a-51ee0964e86e" name="Default Changelist" comment="" />
+      <created>1567988244176</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1567988244176</updated>
+      <workItem from="1567988245471" duration="1692000" />
+      <workItem from="1567990776940" duration="9624000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="App_test1_(5) - 2019.09.09 at 13h 42m 42s.xml">
+      <configuration name="App.test1 (5)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="App_test1_(5) - 2019.09.09 at 13h 43m 13s.xml">
+      <configuration name="App.test1 (5)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="App_test1_(5) - 2019.09.09 at 13h 43m 23s.xml">
+      <configuration name="App.test1 (5)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="App - 2019.09.09 at 13h 56m 30s.xml">
+      <configuration name="App" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="App_test1_(5) - 2019.09.09 at 14h 03m 51s.xml">
+      <configuration name="App.test1 (5)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="App_test1_(5) - 2019.09.09 at 14h 04m 25s.xml">
+      <configuration name="App.test1 (5)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="App_test1 - 2019.09.09 at 14h 17m 29s.xml">
+      <configuration name="App.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="App_test1_(1) - 2019.09.09 at 14h 55m 04s.xml">
+      <configuration name="App.test1 (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="App_(1) - 2019.09.09 at 14h 56m 50s.xml">
+      <configuration name="App (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="App_test1_(1) - 2019.09.09 at 15h 00m 11s.xml">
+      <configuration name="App.test1 (1)" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="11316000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1680" y="0" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973376" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32970297" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29108912" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32298738" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Statistic" order="12" />
+      <window_info anchor="bottom" id="SonarLint" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="bottom" id="Messages" order="16" weight="0.32772276" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3221512" />
+      <window_info anchor="right" id="PlantUML" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hzqing/demo5/App.java</url>
+          <line>14</line>
+          <properties class="com.hzqing.demo5.App" method="test1">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$USER_HOME$/software/apache-maven-3.5.3/repo/org/springframework/spring-beans/5.1.9.RELEASE/spring-beans-5.1.9.RELEASE-sources.jar!/org/springframework/beans/factory/HierarchicalBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="33" column="40" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/software/apache-maven-3.5.3/repo/org/springframework/spring-beans/5.1.9.RELEASE/spring-beans-5.1.9.RELEASE-sources.jar!/org/springframework/beans/factory/config/ConfigurableBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="50" column="40" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/software/apache-maven-3.5.3/repo/org/springframework/spring-beans/5.1.9.RELEASE/spring-beans-5.1.9.RELEASE-sources.jar!/org/springframework/beans/factory/config/AutowireCapableBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="61" column="43" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/software/apache-maven-3.5.3/repo/org/springframework/spring-beans/5.1.9.RELEASE/spring-beans-5.1.9.RELEASE-sources.jar!/org/springframework/beans/factory/config/SingletonBeanRegistry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="34" column="38" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/software/apache-maven-3.5.3/repo/org/springframework/spring-beans/5.1.9.RELEASE/spring-beans-5.1.9.RELEASE-sources.jar!/org/springframework/beans/factory/support/BeanDefinitionRegistry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="47" column="33" lean-forward="true" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/software/apache-maven-3.5.3/repo/org/springframework/spring-beans/5.1.9.RELEASE/spring-beans-5.1.9.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="89" column="55" selection-start-line="89" selection-start-column="55" selection-end-line="89" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/software/apache-maven-3.5.3/repo/org/springframework/spring-context/5.1.9.RELEASE/spring-context-5.1.9.RELEASE-sources.jar!/org/springframework/context/ApplicationEventPublisher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="31" column="3" lean-forward="true" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/software/apache-maven-3.5.3/repo/org/springframework/spring-context/5.1.9.RELEASE/spring-context-5.1.9.RELEASE-sources.jar!/org/springframework/context/ApplicationListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="36" column="36" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/software/apache-maven-3.5.3/repo/org/springframework/spring-context/5.1.9.RELEASE/spring-context-5.1.9.RELEASE-sources.jar!/org/springframework/context/event/ApplicationEventMulticaster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/software/apache-maven-3.5.3/repo/org/springframework/spring-context/5.1.9.RELEASE/spring-context-5.1.9.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="207" selection-start-line="207" selection-end-line="209" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/software/apache-maven-3.5.3/repo/org/springframework/spring-context/5.1.9.RELEASE/spring-context-5.1.9.RELEASE-sources.jar!/org/springframework/context/MessageSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="39" column="30" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/software/apache-maven-3.5.3/repo/org/springframework/spring-core/5.1.9.RELEASE/spring-core-5.1.9.RELEASE.jar!/org/springframework/core/io/support/ResourcePatternResolver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/software/apache-maven-3.5.3/repo/org/springframework/spring-core/5.1.9.RELEASE/spring-core-5.1.9.RELEASE.jar!/org/springframework/core/io/support/PathMatchingResourcePatternResolver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="45" column="48" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/software/apache-maven-3.5.3/repo/org/springframework/spring-context/5.1.9.RELEASE/spring-context-5.1.9.RELEASE-sources.jar!/org/springframework/context/Lifecycle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="49" column="26" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/software/apache-maven-3.5.3/repo/org/springframework/spring-context/5.1.9.RELEASE/spring-context-5.1.9.RELEASE-sources.jar!/org/springframework/context/ConfigurableApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="42" column="47" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/org.springframework.beans.factory.BeanFactory">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>org.springframework.beans.factory.BeanFactory</OriginalElement>
+          <nodes>
+            <node x="615.8926470588235" y="152.0">org.springframework.test.web.servlet.setup.StubWebApplicationContext</node>
+            <node x="643.8764705882353" y="304.0">org.springframework.web.context.support.GroovyWebApplicationContext</node>
+            <node x="262.0" y="228.0">org.springframework.web.context.support.StaticWebApplicationContext</node>
+            <node x="898.8764705882353" y="304.0">org.springframework.web.context.support.AnnotationConfigWebApplicationContext</node>
+            <node x="581.6426470588235" y="76.0">org.springframework.web.context.WebApplicationContext</node>
+            <node x="598.3764705882353" y="228.0">org.springframework.web.context.support.AbstractRefreshableWebApplicationContext</node>
+            <node x="297.6264705882353" y="0.0">org.springframework.context.ApplicationContext</node>
+            <node x="318.89264705882346" y="152.0">org.springframework.web.context.ConfigurableWebApplicationContext</node>
+            <node x="409.8764705882353" y="304.0">org.springframework.web.context.support.XmlWebApplicationContext</node>
+            <node x="0.0" y="228.0">org.springframework.web.context.support.GenericWebApplicationContext</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="org.springframework.web.context.support.StaticWebApplicationContext" target="org.springframework.web.context.ConfigurableWebApplicationContext">
+              <point x="58.75" y="-13.0" />
+              <point x="438.25" y="208.0" />
+              <point x="457.39264705882346" y="208.0" />
+              <point x="0.0" y="13.0" />
+            </edge>
+            <edge source="org.springframework.test.web.servlet.setup.StubWebApplicationContext" target="org.springframework.web.context.WebApplicationContext">
+              <point x="0.0" y="-13.0" />
+              <point x="48.25" y="13.0" />
+            </edge>
+            <edge source="org.springframework.web.context.support.XmlWebApplicationContext" target="org.springframework.web.context.support.AbstractRefreshableWebApplicationContext">
+              <point x="0.0" y="-13.0" />
+              <point x="516.8764705882353" y="279.0" />
+              <point x="652.7098039215686" y="279.0" />
+              <point x="-108.66666666666669" y="13.0" />
+            </edge>
+            <edge source="org.springframework.web.context.support.AbstractRefreshableWebApplicationContext" target="org.springframework.context.ApplicationContext">
+              <point x="81.50000000000003" y="-13.0" />
+              <point x="842.8764705882353" y="208.0" />
+              <point x="847.3926470588235" y="208.0" />
+              <point x="847.3926470588235" y="46.0" />
+              <point x="452.42647058823525" y="46.0" />
+              <point x="68.79999999999995" y="13.0" />
+            </edge>
+            <edge source="org.springframework.web.context.support.GroovyWebApplicationContext" target="org.springframework.web.context.support.AbstractRefreshableWebApplicationContext">
+              <point x="0.0" y="-13.0" />
+              <point x="0.0" y="13.0" />
+            </edge>
+            <edge source="org.springframework.web.context.ConfigurableWebApplicationContext" target="org.springframework.context.ApplicationContext">
+              <point x="-69.25" y="-13.0" />
+              <point x="388.14264705882346" y="56.0" />
+              <point x="383.6264705882353" y="56.0" />
+              <point x="0.0" y="13.0" />
+            </edge>
+            <edge source="org.springframework.web.context.WebApplicationContext" target="org.springframework.context.ApplicationContext">
+              <point x="0.0" y="-13.0" />
+              <point x="678.1426470588235" y="56.0" />
+              <point x="418.02647058823527" y="56.0" />
+              <point x="34.39999999999998" y="13.0" />
+            </edge>
+            <edge source="org.springframework.web.context.support.GenericWebApplicationContext" target="org.springframework.web.context.ConfigurableWebApplicationContext">
+              <point x="60.5" y="-13.0" />
+              <point x="181.5" y="208.0" />
+              <point x="365.05931372549014" y="208.0" />
+              <point x="-92.33333333333331" y="13.0" />
+            </edge>
+            <edge source="org.springframework.web.context.support.AnnotationConfigWebApplicationContext" target="org.springframework.web.context.support.AbstractRefreshableWebApplicationContext">
+              <point x="0.0" y="-13.0" />
+              <point x="1051.3764705882354" y="279.0" />
+              <point x="870.043137254902" y="279.0" />
+              <point x="108.66666666666674" y="13.0" />
+            </edge>
+            <edge source="org.springframework.web.context.support.StaticWebApplicationContext" target="org.springframework.context.ApplicationContext">
+              <point x="-58.75" y="-13.0" />
+              <point x="320.75" y="198.0" />
+              <point x="308.39264705882346" y="198.0" />
+              <point x="308.39264705882346" y="56.0" />
+              <point x="349.2264705882353" y="56.0" />
+              <point x="-34.39999999999998" y="13.0" />
+            </edge>
+            <edge source="org.springframework.web.context.ConfigurableWebApplicationContext" target="org.springframework.web.context.WebApplicationContext">
+              <point x="69.25" y="-13.0" />
+              <point x="526.6426470588235" y="127.0" />
+              <point x="629.8926470588235" y="127.0" />
+              <point x="-48.25" y="13.0" />
+            </edge>
+            <edge source="org.springframework.web.context.support.GenericWebApplicationContext" target="org.springframework.context.ApplicationContext">
+              <point x="-60.5" y="-13.0" />
+              <point x="60.5" y="46.0" />
+              <point x="314.8264705882352" y="46.0" />
+              <point x="-68.80000000000001" y="13.0" />
+            </edge>
+            <edge source="org.springframework.web.context.support.AbstractRefreshableWebApplicationContext" target="org.springframework.web.context.ConfigurableWebApplicationContext">
+              <point x="-81.5" y="-13.0" />
+              <point x="679.8764705882353" y="208.0" />
+              <point x="549.7259803921568" y="208.0" />
+              <point x="92.33333333333326" y="13.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-13.5" y="65.5" />
+          <SelectedNodes>
+            <node>org.springframework.web.context.support.GenericWebApplicationContext</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/software/apache-maven-3.5.3/repo/org/springframework/spring-beans/5.1.9.RELEASE/spring-beans-5.1.9.RELEASE-sources.jar!/org/springframework/beans/factory/BeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="116" selection-start-line="116" selection-end-line="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/demo2/application.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/demo2/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+          <folding>
+            <element signature="e#121#122#0" expanded="true" />
+            <element signature="e#167#168#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/demo2/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="244" column="18" selection-start-line="244" selection-start-column="18" selection-end-line="244" selection-end-column="18" />
+          <folding>
+            <element signature="e#10225#10226#0" expanded="true" />
+            <element signature="e#10308#10309#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/demo3/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/demo3/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+          <folding>
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/demo4/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/demo4/UserStaticFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/demo4/application.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/demo4/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="20" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/demo5/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="20" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/demo5/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/demo5/UserFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="12" />
+          <folding>
+            <element signature="e#154#155#0" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/demo5/application.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/demo3/application.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="10" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/demo1/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="92" selection-start-line="20" selection-start-column="92" selection-end-line="20" selection-end-column="92" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/demo6/application.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/demo6/UserFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-study.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/demo6/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/demo6/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="28" />
+          <folding>
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#442#443#0" expanded="true" />
+            <element signature="e#459#460#0" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
+            <element signature="e#405#406#0" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
+            <element signature="e#657#658#0" expanded="true" />
+            <element signature="e#687#688#0" expanded="true" />
+            <element signature="e#731#732#0" expanded="true" />
+            <element signature="e#765#766#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/demo6/App-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="47" column="8" lean-forward="true" selection-end-line="47" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/demo6/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/demo7/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/demo7/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="639">
+          <caret line="51" selection-start-line="8" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/demo7/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" selection-start-line="12" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/demo7/App-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/demo8/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/demo8/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/demo8/App-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="15" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/demo8/Benz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/demo8/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>spring-study</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: org.apiguardian:apiguardian-api:1.1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="car" class="com.hzqing.demo7.Car" />
+
+    <bean id="user" class="com.hzqing.demo7.User">
+        <!--   注入常量 根据索引注入    -->
+        <constructor-arg index="0" value="hzqing" />
+        <!--    根据参数名称注入    -->
+        <constructor-arg name="age" value="18" />
+        <!--    注入对象，根据类型注入   -->
+        <constructor-arg type="com.hzqing.demo7.Car" ref="car" />
+        <!--    注入list集合    -->
+        <constructor-arg name="list">
+            <list>
+                <value>list1</value>
+                <value>list2</value>
+            </list>
+        </constructor-arg>
+        <!--    注入set集合    -->
+        <constructor-arg name="set">
+            <set>
+                <value>11</value>
+                <value>22</value>
+            </set>
+        </constructor-arg>
+        <!--    注入array数组    -->
+        <constructor-arg name="array">
+            <array>
+                <value>1.0</value>
+                <value>5.6</value>
+            </array>
+        </constructor-arg>
+        <!--    注入properties    -->
+        <constructor-arg type="java.util.Properties">
+            <props>
+                <prop key="pro">pop1</prop>
+            </props>
+        </constructor-arg>
+        <!--   注入map    -->
+        <constructor-arg type="java.util.Map">
+            <map>
+                <entry value="val1" key="key1"/>
+            </map>
+        </constructor-arg>
+    </bean>
+
+</beans>

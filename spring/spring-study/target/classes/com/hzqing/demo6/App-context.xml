@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="car" class="com.hzqing.demo6.Car" />
+
+    <bean id="user" class="com.hzqing.demo6.User">
+        <!--   注入常量    -->
+        <property name="age" value="18"/>
+        <property name="username" value="hzqing"/>
+        <!--    注入对象    -->
+        <property name="car" ref="car" />
+        <!--    注入list集合    -->
+        <property name="list">
+            <list>
+                <value>list1</value>
+                <value>list2</value>
+            </list>
+        </property>
+        <!--    注入set集合    -->
+        <property name="set">
+            <set>
+                <value>1</value>
+                <value>2</value>
+            </set>
+        </property>
+        <!--    注入array数组    -->
+        <property name="array">
+            <array>
+                <value>1.1</value>
+            </array>
+        </property>
+        <!--    注入properties    -->
+        <property name="properties">
+            <props>
+                <prop key="a">b</prop>
+            </props>
+        </property>
+        <!--   注入map    -->
+        <property name="map">
+            <map>
+                <entry key="key1" value="val2" />
+            </map>
+        </property>
+    </bean>
+
+</beans>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="user1" class="com.hzqing.demo3.User"/>
+
+    <bean id="user2" class="com.hzqing.demo3.User">
+        <constructor-arg name="username" value="hzqing"/>
+    </bean>
+</beans>

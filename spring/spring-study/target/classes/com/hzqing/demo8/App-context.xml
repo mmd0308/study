@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean name="benz" class="com.hzqing.demo8.Benz" abstract="true" >
+        <property name="brand" value="A 160"/>
+        <property name="price" value="238000" />
+    </bean>
+
+    <bean name="benz1" parent="benz" >
+        <property name="color" value="银色" />
+    </bean>
+    <bean name="benz2" parent="benz">
+        <property name="color" value="木星红" />
+    </bean>
+
+<!--    <bean name="benz1" class="com.hzqing.demo8.Benz" >-->
+<!--        <property name="brand" value="A 160"/>-->
+<!--        <property name="price" value="238000" />-->
+<!--        <property name="color" value="银色" />-->
+<!--    </bean>-->
+<!--    <bean name="benz2" class="com.hzqing.demo8.Benz" >-->
+<!--        <property name="brand" value="A 160"/>-->
+<!--        <property name="price" value="238000" />-->
+<!--        <property name="color" value="木星红" />-->
+<!--    </bean>-->
+</beans>
