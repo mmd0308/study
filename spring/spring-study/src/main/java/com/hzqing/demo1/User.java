@@ -6,6 +6,10 @@ package com.hzqing.demo1;
  */
 public class User {
 
+    public User() {
+        System.out.println("User.User");
+    }
+
     public void say(){
         System.out.println("User.say");
     }

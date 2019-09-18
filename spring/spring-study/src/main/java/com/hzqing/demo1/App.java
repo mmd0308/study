@@ -21,9 +21,10 @@ public class App {
         Resource resource = resourcePatternResolver.getResource("classpath:com/hzqing/demo1/application.xml");
         DefaultListableBeanFactory beanFactory = new DefaultListableBeanFactory();
         XmlBeanDefinitionReader reader = new XmlBeanDefinitionReader(beanFactory);
+
         // 加载资源
         reader.loadBeanDefinitions(resource);
-
+        System.out.println("-----------");
         User user = (User) beanFactory.getBean("user");
         user.say();
     }
