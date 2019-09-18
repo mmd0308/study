@@ -3,9 +3,9 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="target" class="com.hzqing.aop.demo1.impl.UserServiceImpl" />
+    <bean id="target" class="com.hzqing.aop.demo2.impl.UserServiceImpl" />
 
-    <bean id="userService" class="com.hzqing.aop.demo1.UserServiceProxy">
+    <bean id="performanceJDKProxy"  class="com.hzqing.aop.demo2.PerformanceJDKProxy">
         <constructor-arg name="target" ref="target" />
     </bean>
 </beans>
