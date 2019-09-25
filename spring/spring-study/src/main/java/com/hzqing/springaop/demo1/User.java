@@ -1,4 +1,4 @@
-package com.hzqing.aop.demo1;
+package com.hzqing.springaop.demo1;
 
 import lombok.Data;
 

@@ -1,9 +1,7 @@
-package com.hzqing.springaop.demo1;
+package com.hzqing.aspectj.demo1;
 
-import com.hzqing.springaop.demo1.advice.HzqBeforeAdvice;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.springframework.aop.framework.ProxyFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 

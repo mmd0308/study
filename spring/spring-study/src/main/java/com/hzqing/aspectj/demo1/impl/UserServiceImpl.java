@@ -1,8 +1,8 @@
-package com.hzqing.aop.demo4.impl;
+package com.hzqing.aspectj.demo1.impl;
 
 
-import com.hzqing.aop.demo4.IUserService;
-import com.hzqing.aop.demo4.User;
+import com.hzqing.aspectj.demo1.IUserService;
+import com.hzqing.aspectj.demo1.User;
 
 /**
  * @author hzqing

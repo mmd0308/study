@@ -1,4 +1,4 @@
-package com.hzqing.aop.demo1;
+package com.hzqing.aop.demo4;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

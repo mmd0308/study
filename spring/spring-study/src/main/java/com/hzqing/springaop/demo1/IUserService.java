@@ -1,4 +1,5 @@
-package com.hzqing.aop.demo1;
+package com.hzqing.springaop.demo1;
+
 
 /**
  * @author hzqing
@@ -7,8 +8,4 @@ package com.hzqing.aop.demo1;
 public interface IUserService {
 
     void insert(User user);
-
-    void update(User user);
-
-    User get (String id);
 }

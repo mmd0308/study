@@ -1,4 +1,4 @@
-package com.hzqing.aop.demo4;
+package com.hzqing.aspectj.demo1;
 
 import lombok.Data;
 
