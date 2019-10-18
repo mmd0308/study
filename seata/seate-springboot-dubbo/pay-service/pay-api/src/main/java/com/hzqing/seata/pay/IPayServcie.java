@@ -1,4 +1,4 @@
-package com.hzqing.seata.service;
+package com.hzqing.seata.pay;
 
 /**
  * @author hzqing

@@ -10,7 +10,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 public class PayProviderApplicationTests {
 
     @Test
-    public void contextLoads() {
+    public synchronized void contextLoads() {
     }
 
 }

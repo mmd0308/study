@@ -1,3 +1,5 @@
+package com.hzqing.seata.order.api;
+
 /**
  * @author hzqing
  * @date 2019-08-06 20:13

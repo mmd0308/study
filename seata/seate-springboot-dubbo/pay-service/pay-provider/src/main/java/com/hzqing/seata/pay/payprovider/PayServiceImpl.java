@@ -1,9 +1,10 @@
-package com.hzqing.seata.service.impl;
+package com.hzqing.seata.pay.payprovider;
 
-import com.hzqing.seata.service.IPayServcie;
+import com.hzqing.seata.pay.IPayServcie;
 import org.apache.dubbo.config.annotation.Service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
+
 
 /**
  * @author hzqing

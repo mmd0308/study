@@ -1,6 +1,8 @@
 package com.hzqing.pay;
 
 import org.apache.dubbo.config.annotation.Service;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.JdbcTemplate;
 
 /**
  * @author hzqing
@@ -8,9 +10,14 @@ import org.apache.dubbo.config.annotation.Service;
  */
 @Service
 public class PayServiceImpl implements IPayService {
+
+
+    @Autowired
+    private JdbcTemplate jdbcTemplate;
+
     @Override
     public String pay(String num) {
-        System.out.println("支付服务接口被调用...");
+        jdbcTemplate.execute("insert into db_seata (msg) values ('调用支付接口,支付：" + num+ " 元')");
         return "支付：" + num;
     }
 }

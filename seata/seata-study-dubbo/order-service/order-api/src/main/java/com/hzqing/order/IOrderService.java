@@ -6,6 +6,6 @@ package com.hzqing.order;
  */
 public interface IOrderService {
 
-    String add(String orderId);
+    String add(int orderId);
 
 }

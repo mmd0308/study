@@ -1,7 +1,8 @@
-package com.hzqing.seata.service.impl;
+package com.hzqing.seata.order.orderprovider;
 
-import com.hzqing.seata.service.IOrderService;
-import com.hzqing.seata.service.IPayServcie;
+import com.hzqing.seata.order.api.IOrderService;
+import com.hzqing.seata.pay.IPayServcie;
+import io.seata.spring.annotation.GlobalTransactional;
 import org.apache.dubbo.config.annotation.Reference;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
@@ -23,7 +24,8 @@ public class OrderServiceImpl implements IOrderService {
     IPayServcie payServcie;
 
     @Override
-    @Transactional
+   // @Transactional
+    @GlobalTransactional(timeoutMills = 300000, name = "dubbo-gts-order")
     public void create(int num) {
         jdbcTemplate.execute("insert into db_seata (msg) values ('生成订单，订单id是："+ num +" ')");
         payServcie.Pay(num);
