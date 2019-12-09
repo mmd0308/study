@@ -1,13 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ec77c655-19f6-4002-9fed-088c2c2a2beb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hzqing/netty/bio/BIOClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hzqing/netty/bio/BIOServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dubbo-study/dubbo-study-cluster/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../dubbo-study/dubbo-study-cluster/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dubbo-study/dubbo-study-config-annotation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../dubbo-study/dubbo-study-config-annotation/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dubbo-study/dubbo-study-spring-boot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../dubbo-study/dubbo-study-spring-boot/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-study-socket/src/com/hzqing/socket1/DemoClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java-study-socket/src/com/hzqing/socket1/DemoClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-study-socket/src/com/hzqing/socket1/DemoServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java-study-socket/src/com/hzqing/socket1/DemoServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/java-study-base/src/main/java/com/hzqing/demo1/Demo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/java-study-base/src/main/java/com/hzqing/demo1/Demo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/java-study-base/src/main/java/com/hzqing/thread/pool/demo1/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/java-study-base/src/main/java/com/hzqing/thread/pool/demo1/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/java-study-base/src/main/java/com/hzqing/thread/pool/demo2/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/java-study-base/src/main/java/com/hzqing/thread/pool/demo2/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/java-study-base/src/main/java/com/hzqing/thread/pool/demo3/Demo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/java-study-base/src/main/java/com/hzqing/thread/pool/demo3/Demo3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/java-study-base/src/main/java/com/hzqing/thread/pool/demo4/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/java-study-base/src/main/java/com/hzqing/thread/pool/demo4/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/java-study-spi/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/java-study-spi/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/java-study-spi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/java-study-spi/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/java_jvm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/java_jvm/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/java_jvm/src/main/java/com/hzqing/jvm/demo2/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/java_jvm/src/main/java/com/hzqing/jvm/demo2/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/java_jvm/target/classes/com/hzqing/jvm/demo2/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/java_jvm/target/classes/com/hzqing/jvm/demo2/Demo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mybatis-3-mybatis-3.5.1/src/main/java/org/apache/ibatis/session/defaults/DefaultSqlSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../mybatis-3-mybatis-3.5.1/src/main/java/org/apache/ibatis/session/defaults/DefaultSqlSession.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mybatis-3-mybatis-3.5.1/src/main/java/org/apache/ibatis/session/defaults/DefaultSqlSessionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../mybatis-3-mybatis-3.5.1/src/main/java/org/apache/ibatis/session/defaults/DefaultSqlSessionFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mybatis-3-mybatis-3.5.1/src/test/java/com/hzqing/source/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../mybatis-3-mybatis-3.5.1/src/test/java/com/hzqing/source/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mybatis/mybatis-define-typehandler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../mybatis/mybatis-define-typehandler/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/netty-io.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hzqing/netty/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rpc-study/rpc-server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../rpc-study/rpc-server/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security/spring-security-demo1/src/main/resources/applictionContest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-security/spring-security-demo1/src/main/resources/applictionContest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security/spring-security-demo1/src/main/resources/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-security/spring-security-demo1/src/main/resources/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security/spring-security-oauth2-jdbc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-security/spring-security-oauth2-jdbc/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security/spring-security-oauth2-jdbc/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-security/spring-security-oauth2-jdbc/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring/spring-study/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring/spring-study/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring/spring-study/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring/spring-study/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../thread-study/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../thread-study/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="GradleLocalSettings">
-    <option name="projectSyncType">
-      <map>
-        <entry key="$PROJECT_DIR$/../../spring/spring-framework-5.1.9.RELEASE" value="PREVIEW" />
-      </map>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/hzqing/netty/bio/BIOServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzqing/netty/bio/BIOClient.java" />
+      </list>
     </option>
   </component>
   <component name="MavenImportPreferences">
@@ -17,12 +77,67 @@
         <option name="userSettingsFile" value="$USER_HOME$/software/apache-maven-3.5.3/conf/settings.xml" />
       </MavenGeneralSettings>
     </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1680" />
     <option name="height" value="1050" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="netty-io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty-io" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty-io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty-io" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty-io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty-io" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty-io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty-io" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty-io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty-io" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="CatdeaLogs" />
+      <pane id="Scope" />
+    </panes>
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -31,6 +146,137 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.BIOClient">
+    <configuration name="BIOClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hzqing.netty.bio.BIOClient" />
+      <module name="netty-io" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hzqing.netty.bio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BIOServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hzqing.netty.bio.BIOServer" />
+      <module name="netty-io" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hzqing.netty.bio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BIOClient" />
+        <item itemvalue="Application.BIOServer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ec77c655-19f6-4002-9fed-088c2c2a2beb" name="Default Changelist" comment="" />
+      <created>1575421512988</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575421512988</updated>
+      <workItem from="1575421514398" duration="1154000" />
+      <workItem from="1575849763574" duration="1710000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2864000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.45612246" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.22277227" />
+      <window_info active="true" anchor="bottom" id="Docker" order="9" visible="true" weight="0.32959184" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Statistic" order="11" />
+      <window_info anchor="bottom" id="SonarLint" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Messages" order="15" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/netty/App.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/netty/bio/BIOClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="53" lean-forward="true" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/netty/bio/BIOServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
