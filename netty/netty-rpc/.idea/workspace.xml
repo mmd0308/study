@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="804aa9f3-2cc7-4e25-bcac-c2eefb15ce6b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../netty-io/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../netty-io/src/main/java/com/hzqing/netty/bio/tomcat/TomcatApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hzqing/netty/rpc/api/IHelloService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hzqing/netty/rpc/consumer/ConsumerHander.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hzqing/netty/rpc/consumer/HelloConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hzqing/netty/rpc/consumer/HelloProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hzqing/netty/rpc/protocol/InvokerProtocol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hzqing/netty/rpc/provider/HelloServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hzqing/netty/rpc/registry/RegistryHander.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hzqing/netty/rpc/registry/RpcRegistry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dubbo-study/dubbo-study-cluster/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../dubbo-study/dubbo-study-cluster/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dubbo-study/dubbo-study-config-annotation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../dubbo-study/dubbo-study-config-annotation/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dubbo-study/dubbo-study-spring-boot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../dubbo-study/dubbo-study-spring-boot/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-study-socket/src/com/hzqing/socket1/DemoClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java-study-socket/src/com/hzqing/socket1/DemoClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-study-socket/src/com/hzqing/socket1/DemoServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java-study-socket/src/com/hzqing/socket1/DemoServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/java-study-base/src/main/java/com/hzqing/demo1/Demo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/java-study-base/src/main/java/com/hzqing/demo1/Demo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/java-study-base/src/main/java/com/hzqing/thread/pool/demo1/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/java-study-base/src/main/java/com/hzqing/thread/pool/demo1/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/java-study-base/src/main/java/com/hzqing/thread/pool/demo2/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/java-study-base/src/main/java/com/hzqing/thread/pool/demo2/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/java-study-base/src/main/java/com/hzqing/thread/pool/demo3/Demo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/java-study-base/src/main/java/com/hzqing/thread/pool/demo3/Demo3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/java-study-base/src/main/java/com/hzqing/thread/pool/demo4/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/java-study-base/src/main/java/com/hzqing/thread/pool/demo4/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/java-study-spi/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/java-study-spi/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/java-study-spi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/java-study-spi/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/java_jvm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/java_jvm/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/java_jvm/src/main/java/com/hzqing/jvm/demo2/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/java_jvm/src/main/java/com/hzqing/jvm/demo2/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/java_jvm/target/classes/com/hzqing/jvm/demo2/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/java_jvm/target/classes/com/hzqing/jvm/demo2/Demo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mybatis-3-mybatis-3.5.1/src/main/java/org/apache/ibatis/session/defaults/DefaultSqlSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../mybatis-3-mybatis-3.5.1/src/main/java/org/apache/ibatis/session/defaults/DefaultSqlSession.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mybatis-3-mybatis-3.5.1/src/main/java/org/apache/ibatis/session/defaults/DefaultSqlSessionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../mybatis-3-mybatis-3.5.1/src/main/java/org/apache/ibatis/session/defaults/DefaultSqlSessionFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mybatis-3-mybatis-3.5.1/src/test/java/com/hzqing/source/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../mybatis-3-mybatis-3.5.1/src/test/java/com/hzqing/source/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mybatis/mybatis-define-typehandler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../mybatis/mybatis-define-typehandler/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-io/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../netty-io/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-io/src/main/java/com/hzqing/netty/bio/BIOClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../netty-io/src/main/java/com/hzqing/netty/bio/demo1/BIOClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-io/src/main/java/com/hzqing/netty/bio/BIOServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../netty-io/src/main/java/com/hzqing/netty/bio/demo1/BIOServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rpc-study/rpc-server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../rpc-study/rpc-server/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security/spring-security-demo1/src/main/resources/applictionContest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-security/spring-security-demo1/src/main/resources/applictionContest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security/spring-security-demo1/src/main/resources/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-security/spring-security-demo1/src/main/resources/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security/spring-security-oauth2-jdbc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-security/spring-security-oauth2-jdbc/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security/spring-security-oauth2-jdbc/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-security/spring-security-oauth2-jdbc/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring/spring-study/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring/spring-study/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring/spring-study/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring/spring-study/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../thread-study/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../thread-study/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="354">
+              <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/netty/rpc/protocol/InvokerProtocol.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+              <folding>
+                <element signature="e#337#338#0" expanded="true" />
+                <element signature="e#370#371#0" expanded="true" />
+                <element signature="e#422#423#0" expanded="true" />
+                <element signature="e#466#467#0" expanded="true" />
+                <element signature="e#535#536#0" expanded="true" />
+                <element signature="e#647#648#0" expanded="true" />
+                <element signature="e#676#677#0" expanded="true" />
+                <element signature="e#722#723#0" expanded="true" />
+                <element signature="e#758#759#0" expanded="true" />
+                <element signature="e#248#249#0" expanded="true" />
+                <element signature="e#280#281#0" expanded="true" />
+                <element signature="e#330#331#0" expanded="true" />
+                <element signature="e#372#373#0" expanded="true" />
+                <element signature="e#889#890#0" expanded="true" />
+                <element signature="e#925#926#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/netty/rpc/api/IHelloService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/netty/rpc/provider/HelloServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/netty/rpc/consumer/HelloConsumer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/netty/rpc/consumer/HelloProxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="100" column="48" selection-start-line="100" selection-start-column="48" selection-end-line="100" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#857#881#0" expanded="true" />
+                <element signature="e#662#663#0" expanded="true" />
+                <element signature="e#704#705#0" expanded="true" />
+                <element signature="e#2370#3498#0" expanded="true" />
+                <element signature="e#3497#3498#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/netty/rpc/consumer/ConsumerHander.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+              <folding>
+                <element signature="e#712#713#0" expanded="true" />
+                <element signature="e#743#744#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/netty/rpc/registry/RpcRegistry.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="990">
+              <caret line="66" column="35" selection-start-line="66" selection-start-column="35" selection-end-line="66" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#174#175#0" expanded="true" />
+                <element signature="e#206#207#0" expanded="true" />
+                <element signature="e#258#259#0" expanded="true" />
+                <element signature="e#279#280#0" expanded="true" />
+                <element signature="e#1340#2624#0" expanded="true" />
+                <element signature="e#2623#2624#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/netty/rpc/registry/RegistryHander.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="90" column="9" selection-start-line="90" selection-start-column="9" selection-end-line="90" selection-end-column="9" />
+              <folding>
+                <element signature="e#407#415#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/lang/Class.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="1780" column="18" selection-start-line="1780" selection-start-column="18" selection-end-line="1780" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/hzqing/netty/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzqing/netty/rpc/api/IHelloService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzqing/netty/rpc/provider/HelloServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzqing/netty/rpc/registry/Registry.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzqing/netty/rpc/registry/RpcRegistry.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzqing/netty/rpc/consumer/HelloController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzqing/netty/rpc/consumer/HelloConsumer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzqing/netty/rpc/consumer/HelloProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzqing/netty/rpc/consumer/ConsumerHander.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzqing/netty/rpc/registry/RegistryHander.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzqing/netty/rpc/protocol/InvokerProtocol.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$USER_HOME$/software/apache-maven-3.5.3" />
+        <option name="userSettingsFile" value="$USER_HOME$/software/apache-maven-3.5.3/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="netty-rpc" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="netty-rpc" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="netty-rpc" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
+        <option value="$PROJECT_DIR$/.idea/dictionaries/hzq.xml" />
+        <option value="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="1680" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="CatdeaLogs" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="netty-rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty-rpc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty-rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty-rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty-rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty-rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty-rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty-rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.hzqing.netty.rpc.consumer" />
+      <recent name="com.hzqing.netty.rpc.registry" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.HelloConsumer">
+    <configuration name="HelloConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hzqing.netty.rpc.consumer.HelloConsumer" />
+      <module name="netty-rpc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hzqing.netty.rpc.consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RpcRegistry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hzqing.netty.rpc.registry.RpcRegistry" />
+      <module name="netty-rpc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hzqing.netty.rpc.registry.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HelloConsumer" />
+        <item itemvalue="Application.RpcRegistry" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="804aa9f3-2cc7-4e25-bcac-c2eefb15ce6b" name="Default Changelist" comment="" />
+      <created>1576458345174</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576458345174</updated>
+      <workItem from="1576458346466" duration="6604000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="6604000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1680" y="0" width="1920" height="1080" extended-state="0" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21778488" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Docker" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Statistic" />
+      <window_info anchor="bottom" id="SonarLint" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Messages" weight="0.32970297" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2841584" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" weight="0.32960597" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/netty/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="e#170#171#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/netty/rpc/api/IHelloService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/netty/rpc/provider/HelloServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="1780" column="18" selection-start-line="1780" selection-start-column="18" selection-end-line="1780" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/netty/rpc/consumer/HelloProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="100" column="48" selection-start-line="100" selection-start-column="48" selection-end-line="100" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#857#881#0" expanded="true" />
+            <element signature="e#662#663#0" expanded="true" />
+            <element signature="e#704#705#0" expanded="true" />
+            <element signature="e#2370#3498#0" expanded="true" />
+            <element signature="e#3497#3498#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/netty/rpc/consumer/ConsumerHander.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+          <folding>
+            <element signature="e#712#713#0" expanded="true" />
+            <element signature="e#743#744#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/netty/rpc/protocol/InvokerProtocol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+          <folding>
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+            <element signature="e#647#648#0" expanded="true" />
+            <element signature="e#676#677#0" expanded="true" />
+            <element signature="e#722#723#0" expanded="true" />
+            <element signature="e#758#759#0" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#889#890#0" expanded="true" />
+            <element signature="e#925#926#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/netty/rpc/registry/RegistryHander.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="90" column="9" selection-start-line="90" selection-start-column="9" selection-end-line="90" selection-end-column="9" />
+          <folding>
+            <element signature="e#407#415#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/netty/rpc/registry/RpcRegistry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="66" column="35" selection-start-line="66" selection-start-column="35" selection-end-line="66" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#174#175#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#1340#2624#0" expanded="true" />
+            <element signature="e#2623#2624#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/netty/rpc/consumer/HelloConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>netty-rpc</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: io.netty:netty-all:4.1.43.Final</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
