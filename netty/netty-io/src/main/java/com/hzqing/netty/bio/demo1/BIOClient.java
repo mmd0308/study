@@ -1,4 +1,4 @@
-package com.hzqing.netty.bio;
+package com.hzqing.netty.bio.demo1;
 
 import java.io.IOException;
 import java.io.OutputStream;

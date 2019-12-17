@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec77c655-19f6-4002-9fed-088c2c2a2beb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hzqing/netty/bio/BIOClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hzqing/netty/bio/BIOServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hzqing/netty/bio/tomcat/TomcatApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../dubbo-study/dubbo-study-cluster/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../dubbo-study/dubbo-study-cluster/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../dubbo-study/dubbo-study-config-annotation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../dubbo-study/dubbo-study-config-annotation/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../dubbo-study/dubbo-study-spring-boot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../dubbo-study/dubbo-study-spring-boot/.idea/workspace.xml" afterDir="false" />
@@ -25,10 +23,9 @@
       <change beforePath="$PROJECT_DIR$/../../mybatis-3-mybatis-3.5.1/src/main/java/org/apache/ibatis/session/defaults/DefaultSqlSessionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../mybatis-3-mybatis-3.5.1/src/main/java/org/apache/ibatis/session/defaults/DefaultSqlSessionFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../mybatis-3-mybatis-3.5.1/src/test/java/com/hzqing/source/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../mybatis-3-mybatis-3.5.1/src/test/java/com/hzqing/source/Demo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../mybatis/mybatis-define-typehandler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../mybatis/mybatis-define-typehandler/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty-io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/netty-io.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hzqing/netty/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hzqing/netty/bio/BIOClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hzqing/netty/bio/demo1/BIOClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hzqing/netty/bio/BIOServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hzqing/netty/bio/demo1/BIOServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../rpc-study/rpc-server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../rpc-study/rpc-server/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../spring-security/spring-security-demo1/src/main/resources/applictionContest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-security/spring-security-demo1/src/main/resources/applictionContest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../spring-security/spring-security-demo1/src/main/resources/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-security/spring-security-demo1/src/main/resources/springmvc.xml" afterDir="false" />
@@ -50,7 +47,50 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/nio/channels/SelectionKey.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="102" selection-start-line="102" selection-end-line="102" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/netty/bio/demo1/BIOClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/netty/bio/demo1/BIOServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/netty/bio/tomcat/TomcatApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -67,6 +107,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/hzqing/netty/bio/BIOServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hzqing/netty/bio/BIOClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzqing/netty/bio/demo1/BIOClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzqing/netty/bio/tomcat/TomcatApplication.java" />
       </list>
     </option>
   </component>
@@ -93,6 +135,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="CatdeaLogs" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -126,12 +169,30 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="netty" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="netty-io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty-io" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="bio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty-io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty-io" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="bio" type="462c0819:PsiDirectoryNode" />
+              <item name="tomcat" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="CatdeaLogs" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -161,11 +222,11 @@
   </component>
   <component name="RunManager" selected="Application.BIOClient">
     <configuration name="BIOClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hzqing.netty.bio.BIOClient" />
+      <option name="MAIN_CLASS_NAME" value="com.hzqing.netty.bio.demo1.BIOClient" />
       <module name="netty-io" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hzqing.netty.bio.*" />
+          <option name="PATTERN" value="com.hzqing.netty.bio.demo1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,11 +235,11 @@
       </method>
     </configuration>
     <configuration name="BIOServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hzqing.netty.bio.BIOServer" />
+      <option name="MAIN_CLASS_NAME" value="com.hzqing.netty.bio.demo1.BIOServer" />
       <module name="netty-io" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hzqing.netty.bio.*" />
+          <option name="PATTERN" value="com.hzqing.netty.bio.demo1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -204,17 +265,20 @@
       <option name="presentableId" value="Default" />
       <updated>1575421512988</updated>
       <workItem from="1575421514398" duration="1154000" />
-      <workItem from="1575849763574" duration="1710000" />
+      <workItem from="1575849763574" duration="3564000" />
+      <workItem from="1576139197681" duration="156000" />
+      <workItem from="1576195268525" duration="266000" />
+      <workItem from="1576454811521" duration="899000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2864000" />
+    <option name="totallyTimeSpent" value="6039000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22771673" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -229,8 +293,8 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.22277227" />
-      <window_info active="true" anchor="bottom" id="Docker" order="9" visible="true" weight="0.32959184" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.29897958" />
+      <window_info anchor="bottom" id="Docker" order="9" weight="0.32959184" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Statistic" order="11" />
       <window_info anchor="bottom" id="SonarLint" order="12" />
@@ -257,23 +321,37 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/netty/App.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/netty/bio/BIOClient.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/nio/channels/SelectionKey.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="53" lean-forward="true" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+        <state relative-caret-position="30">
+          <caret line="102" selection-start-line="102" selection-end-line="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/netty/bio/demo1/BIOClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/netty/bio/BIOServer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/netty/bio/demo1/BIOServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        <state relative-caret-position="165">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/netty/bio/tomcat/TomcatApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
