@@ -16,6 +16,7 @@ public class BIOServer {
 
         while (true){
             // 等待客户端的连接，阻塞IO
+            // Socket 是数据发送者个服务端的引用
             Socket accept = serverSocket.accept();
 
             // 读取客户端发送的数据
