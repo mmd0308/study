@@ -9,23 +9,15 @@ import java.util.concurrent.TimeUnit;
  * @date 2019-09-17 11:00
  */
 @SuppressWarnings("all")
-public class Demo implements Runnable{
+public class Demo3 implements Runnable{
 
     static long start = 0;
 
     public static void main(String[] args) {
-        ScheduledExecutorService service = null;
-        try {
-            service = Executors.newScheduledThreadPool(1);
-            start = System.currentTimeMillis();
-            System.out.println(start);
-            service.scheduleAtFixedRate(new Demo(),0,10, TimeUnit.SECONDS);
-        }finally {
-            if (service != null) service.shutdown();
-        }
-
+        ScheduledExecutorService service  = Executors.newScheduledThreadPool(1);
+        start = System.currentTimeMillis();
+        service.scheduleAtFixedRate(new Demo3(),1,10, TimeUnit.SECONDS);
     }
-
     public void run() {
         try {
             System.out.println("任务调度前等待时间：" + (System.currentTimeMillis() - start));
@@ -33,7 +25,7 @@ public class Demo implements Runnable{
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        System.out.println("Demo.run");
+        System.out.println("Demo3.run");
         System.out.println("任务调度完成时间：" + (System.currentTimeMillis() - start));
     }
 }
