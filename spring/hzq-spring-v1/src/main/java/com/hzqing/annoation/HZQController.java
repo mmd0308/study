@@ -10,6 +10,5 @@ import java.lang.annotation.*;
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
 public @interface HZQController {
-
     String value() default "";
 }
