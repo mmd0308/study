@@ -7,6 +7,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44a522ef-18c1-4a8a-8349-747b86cf5db7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../hzq-spring-v2/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hzq-spring-v2/.idea/dictionaries/hzq.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hzq-spring-v2/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hzq-spring-v2/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hzq-spring-v2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hzq-spring-v2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hzq-spring-v2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hzq-spring-v2/hzq-spring-v2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hzq-spring-v2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hzq-spring-v2/src/main/java/com/hzqing/annoation/HZQAutowired.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hzq-spring-v2/src/main/java/com/hzqing/annoation/HZQController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hzq-spring-v2/src/main/java/com/hzqing/annoation/HZQRequestMapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hzq-spring-v2/src/main/java/com/hzqing/annoation/HZQRequestParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hzq-spring-v2/src/main/java/com/hzqing/annoation/HZQService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hzq-spring-v2/src/main/java/com/hzqing/servlet/HZQDispatchServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hzq-spring-v2/src/main/java/com/hzqing/user/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hzq-spring-v2/src/main/java/com/hzqing/user/service/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hzq-spring-v2/src/main/java/com/hzqing/user/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hzq-spring-v2/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../dubbo-study/dubbo-study-cluster/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../dubbo-study/dubbo-study-cluster/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../dubbo-study/dubbo-study-config-annotation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../dubbo-study/dubbo-study-config-annotation/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../dubbo-study/dubbo-study-spring-boot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../dubbo-study/dubbo-study-spring-boot/.idea/workspace.xml" afterDir="false" />
@@ -35,13 +54,8 @@
       <change beforePath="$PROJECT_DIR$/../../spring-security/spring-security-demo1/src/main/resources/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-security/spring-security-demo1/src/main/resources/springmvc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../spring-security/spring-security-oauth2-jdbc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-security/spring-security-oauth2-jdbc/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../spring-security/spring-security-oauth2-jdbc/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-security/spring-security-oauth2-jdbc/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hzqing/annoation/HZQAutowired.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hzqing/annoation/HZQAutowired.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hzqing/annoation/HZQController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hzqing/annoation/HZQController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hzqing/annoation/HZQRequestMapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hzqing/annoation/HZQRequestMapping.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hzqing/annoation/HZQService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hzqing/annoation/HZQService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hzqing/user/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hzqing/user/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring-study/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-study/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring-study/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-study/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../thread-study/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../thread-study/.idea/workspace.xml" afterDir="false" />
@@ -71,27 +85,27 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="21" />
+            <state relative-caret-position="195">
+              <caret line="13" column="55" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="55" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
               <caret line="25" selection-start-line="25" selection-end-line="29" selection-end-column="17" />
             </state>
           </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/servlet/HzqDispatchServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="574">
-              <caret line="72" column="24" selection-start-line="72" selection-start-column="24" selection-end-line="72" selection-end-column="24" />
+            <state relative-caret-position="304">
+              <caret line="88" column="41" lean-forward="true" selection-start-line="88" selection-start-column="41" selection-end-line="88" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -208,16 +222,6 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
-        <option value="$PROJECT_DIR$/.idea/dictionaries/hzq.xml" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="1680" />
     <option name="width" value="1920" />
@@ -231,6 +235,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -348,9 +353,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="CatdeaLogs" />
       <pane id="PackagesPane" />
+      <pane id="CatdeaLogs" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -387,53 +391,6 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="hzq-spring-v1" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="hzq-spring-v1" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Tomcat 8.5.34" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.34" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="11.0" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -592,18 +549,19 @@
       <updated>1578110872843</updated>
       <workItem from="1578110874294" duration="2928000" />
       <workItem from="1578120517311" duration="4529000" />
-      <workItem from="1578125086306" duration="2037000" />
+      <workItem from="1578125086306" duration="2341000" />
+      <workItem from="1578185438022" duration="2170000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9494000" />
+    <option name="totallyTimeSpent" value="11968000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1680" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14589989" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14749734" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -695,9 +653,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/annoation/HZQController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -712,12 +668,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/annoation/HZQAutowired.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="14" />
+        <state relative-caret-position="375">
+          <caret line="25" selection-start-line="25" selection-end-line="29" selection-end-column="17" />
         </state>
       </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/annoation/HZQRequestParam.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -733,13 +690,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/user/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" selection-start-line="9" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/user/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -747,10 +697,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/user/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" selection-start-line="9" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/user/service/IUserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" selection-start-line="6" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/annoation/HZQAutowired.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="14" />
         </state>
       </provider>
     </entry>
@@ -763,23 +727,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" selection-start-line="25" selection-end-line="29" selection-end-column="17" />
+        <state relative-caret-position="195">
+          <caret line="13" column="55" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="55" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/servlet/HzqDispatchServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="72" column="24" selection-start-line="72" selection-start-column="24" selection-end-line="72" selection-end-column="24" />
+        <state relative-caret-position="304">
+          <caret line="88" column="41" lean-forward="true" selection-start-line="88" selection-start-column="41" selection-end-line="88" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
