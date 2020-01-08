@@ -37,6 +37,9 @@ public class HZQApplicationContext extends HZQDefaultListableBeanFactory impleme
 
     public HZQApplicationContext(String configLocations) {
         this.configLocation = configLocations;
+
+        // 初始化
+        refresh();
     }
 
     @Override
@@ -108,7 +111,7 @@ public class HZQApplicationContext extends HZQDefaultListableBeanFactory impleme
             HZQAutowired autowired = field.getAnnotation(HZQAutowired.class);
             String autowiredBeanName = autowired.value();
             if ("".equals(autowiredBeanName)){
-                autowiredBeanName = field.getType().getName();
+                autowiredBeanName = field.getName();
             }
             field.setAccessible(true);
 
@@ -117,11 +120,7 @@ public class HZQApplicationContext extends HZQDefaultListableBeanFactory impleme
             } catch (IllegalAccessException e) {
                 e.printStackTrace();
             }
-
-
         }
-
-
     }
 
     private Object initializeBean(HZQBeanDefinition definition) {
@@ -145,5 +144,17 @@ public class HZQApplicationContext extends HZQDefaultListableBeanFactory impleme
     @Override
     public Object getBean(Class<?> beanClass) {
         return null;
+    }
+
+    /**
+     * 将首字母小写
+     * @param simpleName
+     * @return
+     */
+    private String toLowerFirstCase(String simpleName) {
+        char[] chars = simpleName.toCharArray();
+        // 首字母小写
+        chars[0] += 32;
+        return String.copyValueOf(chars);
     }
 }

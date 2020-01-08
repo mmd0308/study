@@ -45,11 +45,11 @@ public class HZQBeanDefinitionReader {
             }
         }
         // 扫描包，获取所有的class文件
-        doScanner(SCAN_PACKAGE);
+        doScanner(configContext.getProperty(SCAN_PACKAGE));
     }
 
     private void doScanner(String scanPackage) {
-        URL url = this.getClass().getClassLoader().getResource("/" + scanPackage.replaceAll("\\.","/"));
+        URL url = this.getClass().getResource("/" + scanPackage.replaceAll("\\.","/"));
         File classPath = new File(url.getFile());
         for (File file : classPath.listFiles()) {
             if (file.isDirectory()) {doScanner(scanPackage + "." + file.getName());}
