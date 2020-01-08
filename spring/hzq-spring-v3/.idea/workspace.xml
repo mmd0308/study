@@ -1,0 +1,845 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="hzq-spring-v3:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="328b90b7-3407-40f1-b468-ce9b774108d2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hzqing/demo/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hzqing/formework/annotation/HZQAutowired.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hzqing/formework/annotation/HZQController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hzqing/formework/annotation/HZQRequestMapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hzqing/formework/annotation/HZQRequestParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hzqing/formework/annotation/HZQService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hzqing/formework/beans/HZQBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hzqing/formework/beans/HZQBeanWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hzqing/formework/beans/HZQFactoryBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hzqing/formework/beans/config/HZQBeanDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hzqing/formework/beans/support/HZQBeanDefinitionReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hzqing/formework/beans/support/HZQDefaultListableBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hzqing/formework/context/HZQApplicationContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hzqing/formework/context/HZQApplicationContextAware.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hzqing/formework/context/support/HZQAbstractApplicationContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hzqing/formework/webmvc/servlet/HZQDispatcherServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dubbo-study/dubbo-study-cluster/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../dubbo-study/dubbo-study-cluster/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dubbo-study/dubbo-study-config-annotation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../dubbo-study/dubbo-study-config-annotation/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dubbo-study/dubbo-study-spring-boot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../dubbo-study/dubbo-study-spring-boot/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-study-socket/src/com/hzqing/socket1/DemoClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java-study-socket/src/com/hzqing/socket1/DemoClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-study-socket/src/com/hzqing/socket1/DemoServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java-study-socket/src/com/hzqing/socket1/DemoServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/java-study-base/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/java-study-base/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/java-study-spi/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/java-study-spi/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/java-study-spi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/java-study-spi/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/java_jvm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/java_jvm/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/java_jvm/src/main/java/com/hzqing/jvm/demo2/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/java_jvm/src/main/java/com/hzqing/jvm/demo2/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/java_jvm/target/classes/com/hzqing/jvm/demo2/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/java_jvm/target/classes/com/hzqing/jvm/demo2/Demo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mybatis-3-mybatis-3.5.1/src/main/java/org/apache/ibatis/session/defaults/DefaultSqlSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../mybatis-3-mybatis-3.5.1/src/main/java/org/apache/ibatis/session/defaults/DefaultSqlSession.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mybatis-3-mybatis-3.5.1/src/main/java/org/apache/ibatis/session/defaults/DefaultSqlSessionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../mybatis-3-mybatis-3.5.1/src/main/java/org/apache/ibatis/session/defaults/DefaultSqlSessionFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mybatis-3-mybatis-3.5.1/src/test/java/com/hzqing/source/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../mybatis-3-mybatis-3.5.1/src/test/java/com/hzqing/source/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mybatis/mybatis-define-typehandler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../mybatis/mybatis-define-typehandler/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../netty/netty-io/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../../netty/netty-io/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../netty/netty-io/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../netty/netty-io/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../netty/netty-rpc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../netty/netty-rpc/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../netty/netty-rpc/src/main/java/com/hzqing/netty/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../netty/netty-rpc/src/main/java/com/hzqing/netty/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../netty/netty-rpc/src/main/java/com/hzqing/netty/rpc/registry/RpcRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../netty/netty-rpc/src/main/java/com/hzqing/netty/rpc/registry/RpcRegistry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../netty/netty-rpc/target/classes/com/hzqing/netty/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../netty/netty-rpc/target/classes/com/hzqing/netty/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../netty/netty-rpc/target/classes/com/hzqing/netty/rpc/registry/RpcRegistry$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../netty/netty-rpc/target/classes/com/hzqing/netty/rpc/registry/RpcRegistry$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../netty/netty-rpc/target/classes/com/hzqing/netty/rpc/registry/RpcRegistry.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../netty/netty-rpc/target/classes/com/hzqing/netty/rpc/registry/RpcRegistry.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rpc-study/rpc-server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../rpc-study/rpc-server/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security/spring-security-demo1/src/main/resources/applictionContest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-security/spring-security-demo1/src/main/resources/applictionContest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security/spring-security-demo1/src/main/resources/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-security/spring-security-demo1/src/main/resources/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security/spring-security-oauth2-jdbc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-security/spring-security-oauth2-jdbc/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security/spring-security-oauth2-jdbc/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-security/spring-security-oauth2-jdbc/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hzq-spring-v1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hzq-spring-v1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hzq-spring-v2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hzq-spring-v2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-study/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-study/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-study/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-study/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../thread-study/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../thread-study/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/formework/beans/HZQBeanFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Map.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="328">
+              <caret line="242" column="6" selection-start-line="242" selection-start-column="6" selection-end-line="242" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/formework/beans/support/HZQDefaultListableBeanFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="11" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/formework/beans/support/HZQBeanDefinitionReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="303">
+              <caret line="73" column="20" lean-forward="true" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/formework/context/HZQApplicationContextAware.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/formework/context/HZQApplicationContext.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="114" column="17" lean-forward="true" selection-start-line="114" selection-start-column="17" selection-end-line="114" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#4460#4461#0" expanded="true" />
+                <element signature="e#4487#4488#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/formework/context/support/HZQAbstractApplicationContext.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/formework/beans/HZQBeanWrapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+              <folding>
+                <element signature="e#242#243#0" expanded="true" />
+                <element signature="e#296#297#0" expanded="true" />
+                <element signature="e#224#225#0" expanded="true" />
+                <element signature="e#251#252#0" expanded="true" />
+                <element signature="e#283#284#0" expanded="true" />
+                <element signature="e#310#311#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/formework/beans/config/HZQBeanDefinition.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="34" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzqing/servlet/HZQDispatcherServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzqing/mvc/servlet/HZQDispatcherServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzqing/annotation/HZQService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzqing/annotation/HZQAutowired.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzqing/annotation/HZQController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzqing/annotation/HZQRequestMapping.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzqing/annotation/HZQRequestParam.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzqing/core/HZQFactoryBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzqing/core/HZQBeanFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzqing/beans/HZQBeanDefinition.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzqing/formework/beans/HZQFactoryBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzqing/formework/context/HZQAbstractApplicationContext.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzqing/formework/context/support/HZQAbstractApplicationContext.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzqing/formework/beans/config/HZQBeanDefinition.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzqing/formework/context/HZQApplicationContextAware.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzqing/formework/beans/support/HZQBeanDefinitionReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzqing/formework/beans/support/HZQDefaultListableBeanFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzqing/formework/beans/HZQBeanFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzqing/formework/beans/HZQBeanWrapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzqing/formework/context/HZQApplicationContext.java" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$USER_HOME$/software/apache-maven-3.5.3" />
+        <option name="userSettingsFile" value="$USER_HOME$/software/apache-maven-3.5.3/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
+        <option value="$PROJECT_DIR$/.idea/dictionaries/hzq.xml" />
+        <option value="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="1680" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="CatdeaLogs" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="hzq-spring-v3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hzq-spring-v3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hzq-spring-v3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hzq-spring-v3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hzq-spring-v3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hzq-spring-v3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hzq-spring-v3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hzq-spring-v3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hzq-spring-v3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hzq-spring-v3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hzqing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hzq-spring-v3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hzq-spring-v3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hzqing" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hzq-spring-v3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hzq-spring-v3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hzqing" type="462c0819:PsiDirectoryNode" />
+              <item name="formework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hzq-spring-v3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hzq-spring-v3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hzqing" type="462c0819:PsiDirectoryNode" />
+              <item name="formework" type="462c0819:PsiDirectoryNode" />
+              <item name="beans" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hzq-spring-v3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hzq-spring-v3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hzqing" type="462c0819:PsiDirectoryNode" />
+              <item name="formework" type="462c0819:PsiDirectoryNode" />
+              <item name="beans" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hzq-spring-v3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hzq-spring-v3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hzqing" type="462c0819:PsiDirectoryNode" />
+              <item name="formework" type="462c0819:PsiDirectoryNode" />
+              <item name="beans" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hzq-spring-v3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hzq-spring-v3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hzqing" type="462c0819:PsiDirectoryNode" />
+              <item name="formework" type="462c0819:PsiDirectoryNode" />
+              <item name="context" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hzq-spring-v3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hzq-spring-v3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hzqing" type="462c0819:PsiDirectoryNode" />
+              <item name="formework" type="462c0819:PsiDirectoryNode" />
+              <item name="context" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hzq-spring-v3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hzq-spring-v3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hzq-spring-v3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hzq-spring-v3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hzq-spring-v3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hzq-spring-v3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hzqing.annotation" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 8" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.34" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/hzq" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="hzq-spring-v3:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/hzq" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_hzq-spring-v3" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="65292" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="hzq-spring-v3:war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="328b90b7-3407-40f1-b468-ce9b774108d2" name="Default Changelist" comment="" />
+      <created>1578451654952</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578451654952</updated>
+      <workItem from="1578451656283" duration="2668000" />
+      <workItem from="1578465926191" duration="6887000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="9555000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1680" y="0" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25239617" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2940594" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
+      <window_info anchor="bottom" id="Application Servers" order="8" weight="0.32970297" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Statistic" order="12" />
+      <window_info anchor="bottom" id="SonarLint" order="13" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="bottom" id="Database Changes" order="15" />
+      <window_info anchor="bottom" id="Version Control" order="16" />
+      <window_info anchor="bottom" id="Messages" order="17" weight="0.32970297" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/formework/webmvc/servlet/HZQDispatcherServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/formework/annotation/HZQService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/formework/annotation/HZQController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/formework/annotation/HZQAutowired.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/formework/annotation/HZQRequestMapping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/formework/annotation/HZQRequestParam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/formework/beans/HZQFactoryBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.rmi/java/rmi/server/RMIClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1215">
+          <caret line="109" column="13" selection-start-line="109" selection-start-column="13" selection-end-line="109" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/demo/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/formework/beans/config/HZQBeanDefinition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/formework/beans/support/HZQBeanDefinitionReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="73" column="20" lean-forward="true" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/formework/context/HZQApplicationContextAware.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/formework/beans/support/HZQDefaultListableBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/formework/beans/HZQBeanWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding>
+            <element signature="e#242#243#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="242" column="6" selection-start-line="242" selection-start-column="6" selection-end-line="242" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/formework/context/support/HZQAbstractApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/formework/beans/HZQBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzqing/formework/context/HZQApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="114" column="17" lean-forward="true" selection-start-line="114" selection-start-column="17" selection-end-line="114" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4460#4461#0" expanded="true" />
+            <element signature="e#4487#4488#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>hzq-spring-v3:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>hzq-spring-v3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: junit:junit:4.11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
