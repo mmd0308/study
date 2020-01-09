@@ -50,4 +50,8 @@ public class UserController {
         }
         return null;
     }
+
+    public void say() {
+        System.out.println("UserController.say");
+    }
 }

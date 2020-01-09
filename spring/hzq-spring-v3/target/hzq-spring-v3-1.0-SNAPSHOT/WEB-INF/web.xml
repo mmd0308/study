@@ -7,7 +7,7 @@
 
   <servlet>
     <servlet-name>hzqmvc</servlet-name>
-    <servlet-class>com.hzqing.formework.mvc.servlet.HZQDispatcherServlet</servlet-class>
+    <servlet-class>com.hzqing.formework.webmvc.servlet.HZQDispatcherServlet</servlet-class>
     <init-param>
       <param-name>contextConfigLoaction</param-name>
       <param-value>application.properties</param-value>

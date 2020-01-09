@@ -10,7 +10,7 @@ import com.hzqing.formework.context.HZQApplicationContext;
 public class App {
     public static void main(String[] args) {
         HZQApplicationContext applicationContext = new HZQApplicationContext("application.properties");
-//        UserController userController = (UserController) applicationContext.getBean("userController");
-//        userController.add();
+        UserController userController = (UserController) applicationContext.getBean("userController");
+        userController.say();
     }
 }

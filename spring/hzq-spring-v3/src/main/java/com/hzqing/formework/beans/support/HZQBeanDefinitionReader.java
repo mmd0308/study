@@ -57,6 +57,7 @@ public class HZQBeanDefinitionReader {
                 if (!file.getName().endsWith(".class")){continue;}
                 // 保存所有的class文件名称
                 String className = scanPackage + "." + file.getName().replace(".class","");
+
                 registryBeanclassNames.add(className);
             }
 
@@ -76,6 +77,7 @@ public class HZQBeanDefinitionReader {
         List<HZQBeanDefinition> definitions = new ArrayList<>();
         for (String beanclassName : registryBeanclassNames) {
             HZQBeanDefinition definition = doCreateBeanDefinition(beanclassName);
+
             if (null == definition) { continue; }
             definitions.add(definition);
         }
@@ -112,5 +114,9 @@ public class HZQBeanDefinitionReader {
         // 首字母小写
         chars[0] += 32;
         return String.copyValueOf(chars);
+    }
+
+    public Properties getConfigContext() {
+        return configContext;
     }
 }

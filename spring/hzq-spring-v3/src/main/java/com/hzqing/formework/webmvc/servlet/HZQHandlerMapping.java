@@ -1,4 +1,4 @@
-package com.hzqing.formework.webmvc;
+package com.hzqing.formework.webmvc.servlet;
 
 import lombok.Data;
 

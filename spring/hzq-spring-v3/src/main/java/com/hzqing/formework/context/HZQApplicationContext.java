@@ -3,7 +3,8 @@ package com.hzqing.formework.context;
 import com.hzqing.formework.annotation.HZQAutowired;
 import com.hzqing.formework.annotation.HZQController;
 import com.hzqing.formework.annotation.HZQService;
-import com.hzqing.formework.beans.*;
+import com.hzqing.formework.beans.HZQBeanFactory;
+import com.hzqing.formework.beans.HZQBeanWrapper;
 import com.hzqing.formework.beans.config.HZQBeanDefinition;
 import com.hzqing.formework.beans.support.HZQBeanDefinitionReader;
 import com.hzqing.formework.beans.support.HZQDefaultListableBeanFactory;
@@ -11,6 +12,7 @@ import com.hzqing.formework.beans.support.HZQDefaultListableBeanFactory;
 import java.lang.reflect.Field;
 import java.util.List;
 import java.util.Map;
+import java.util.Properties;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
@@ -26,18 +28,23 @@ public class HZQApplicationContext extends HZQDefaultListableBeanFactory impleme
 
     /**
      * 单例的IOC容器缓存
+     * org.springframework.beans.factory.support.DefaultSingletonBeanRegistry
      */
     private Map<String,Object> singletonObjects = new ConcurrentHashMap<>();
 
     /**
      * 用来存储所有被代理过的对象
+     * org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory
      */
-    private Map<String,HZQBeanWrapper> beanWrapperMap = new ConcurrentHashMap<>();
+    private Map<String,HZQBeanWrapper> factoryBeanInstanceCache = new ConcurrentHashMap<>();
 
+    /**
+     * 加载class文件等信息
+     */
+    HZQBeanDefinitionReader reader;
 
     public HZQApplicationContext(String configLocations) {
         this.configLocation = configLocations;
-
         // 初始化
         refresh();
     }
@@ -45,7 +52,7 @@ public class HZQApplicationContext extends HZQDefaultListableBeanFactory impleme
     @Override
     protected void refresh() {
         // 1、定位配置文件
-        HZQBeanDefinitionReader reader = new HZQBeanDefinitionReader(this.configLocation);
+        reader = new HZQBeanDefinitionReader(this.configLocation);
 
         // 2、加载配置文件，扫描相关的类，把它们封装成BeanDefinition
         List<HZQBeanDefinition> definitions =  reader.loadBeanDefinitions();
@@ -72,6 +79,7 @@ public class HZQApplicationContext extends HZQDefaultListableBeanFactory impleme
     private void doRegisterBeanDefinition(List<HZQBeanDefinition> definitions) {
         for (HZQBeanDefinition definition : definitions) {
             super.beanDefinitionMap.put(definition.getFactoryBeanName(),definition);
+            super.beanDefinitionMap.put(definition.getBeanClassName(),definition);
         }
     }
 
@@ -86,13 +94,13 @@ public class HZQApplicationContext extends HZQDefaultListableBeanFactory impleme
         Object instance = initializeBean(definition);
 
         HZQBeanWrapper beanWrapper = new HZQBeanWrapper(instance);
-        this.beanWrapperMap.put(beanName,beanWrapper);
+        // 将BeanWrapper存储到Ioc容器中
+        this.factoryBeanInstanceCache.put(beanName,beanWrapper);
 
         // 2、注入
         populateBean(beanName,instance);
 
-
-        return this.beanWrapperMap.get(beanName).getWrappedInstance();
+        return this.factoryBeanInstanceCache.get(beanName).getWrappedInstance();
     }
 
     /**
@@ -109,14 +117,17 @@ public class HZQApplicationContext extends HZQDefaultListableBeanFactory impleme
             if (!field.isAnnotationPresent(HZQAutowired.class)){continue;}
 
             HZQAutowired autowired = field.getAnnotation(HZQAutowired.class);
-            String autowiredBeanName = autowired.value();
+            String autowiredBeanName = autowired.value().trim();
             if ("".equals(autowiredBeanName)){
                 autowiredBeanName = field.getName();
             }
             field.setAccessible(true);
 
             try {
-                field.set(instance,this.beanWrapperMap.get(autowiredBeanName).getWrappedInstance());
+                if (null == this.factoryBeanInstanceCache.get(autowiredBeanName)){
+                    continue;
+                }
+                field.set(instance,this.factoryBeanInstanceCache.get(autowiredBeanName).getWrappedInstance());
             } catch (IllegalAccessException e) {
                 e.printStackTrace();
             }
@@ -134,6 +145,7 @@ public class HZQApplicationContext extends HZQDefaultListableBeanFactory impleme
                 object = clazz.getConstructor().newInstance();
                 // 将实例化的对象，存储到Ioc容器中
                 this.singletonObjects.put(definition.getFactoryBeanName(),object);
+                this.singletonObjects.put(definition.getBeanClassName(),object);
             } catch (Exception e) {
                 e.printStackTrace();
             }
@@ -143,7 +155,7 @@ public class HZQApplicationContext extends HZQDefaultListableBeanFactory impleme
 
     @Override
     public Object getBean(Class<?> beanClass) {
-        return null;
+        return getBean(beanClass.getName());
     }
 
     /**
@@ -156,5 +168,13 @@ public class HZQApplicationContext extends HZQDefaultListableBeanFactory impleme
         // 首字母小写
         chars[0] += 32;
         return String.copyValueOf(chars);
+    }
+
+    /**
+     * 获取配置文件中的信息
+     * @return
+     */
+    public Properties getConfig(){
+        return this.reader.getConfigContext();
     }
 }

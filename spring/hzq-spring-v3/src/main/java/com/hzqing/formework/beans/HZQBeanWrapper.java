@@ -18,7 +18,7 @@ public class HZQBeanWrapper {
     }
 
     Class<?> getWrappedClass(){
-        return null;
+        return this.wrappedInstance.getClass();
     }
 
 }
